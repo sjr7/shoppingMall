@@ -10,8 +10,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>taotaoCommon</artifactId>
+    <packaging>jar</packaging>
 
     <!-- jar包的依赖 -->
+    <!-- 依赖工具类的jar包 -->
     <dependencies>
         <!-- 时间操作组件 -->
         <dependency>
@@ -41,11 +43,15 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
+        <!-- quartz任务调度框架 -->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+        </dependency>
         <!-- 单元测试 -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <scope>test</scope>
         </dependency>
         <!-- 日志处理 -->
         <dependency>

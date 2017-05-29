@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisGenerator" />
         <module name="taotaoCommon" />
+        <module name="taotaoManagerDao" />
+        <module name="taotaoManagerInterface" />
         <module name="taotaoManagerMapper" />
         <module name="taotaoManagerPojo" />
         <module name="taotaoManagerService" />
@@ -16,13 +18,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatisGenerator" target="1.5" />
-      <module name="taotaoCommon" target="1.8" />
-      <module name="taotaoManager" target="1.8" />
-      <module name="taotaoManagerMapper" target="1.8" />
-      <module name="taotaoManagerPojo" target="1.8" />
-      <module name="taotaoManagerService" target="1.8" />
-      <module name="taotaoManagerWeb" target="1.8" />
-      <module name="taotaoParent" target="1.8" />
+      <module name="taotaoCommon" target="1.7" />
+      <module name="taotaoManager" target="1.7" />
+      <module name="taotaoManagerDao" target="1.7" />
+      <module name="taotaoManagerInterface" target="1.7" />
+      <module name="taotaoManagerMapper" target="1.7" />
+      <module name="taotaoManagerPojo" target="1.7" />
+      <module name="taotaoManagerService" target="1.7" />
+      <module name="taotaoManagerWeb" target="1.7" />
+      <module name="taotaoParent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

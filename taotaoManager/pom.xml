@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--聚合工程,所以是pom-->
     <parent>
         <artifactId>taotao-parent</artifactId>
         <groupId>com.suny.taotao</groupId>
@@ -13,9 +14,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>taotaoManagerPojo</module>
-        <module>taotaoManagerMapper</module>
         <module>taotaoManagerService</module>
-        <module>taotaoManagerWeb</module>
+        <module>taotaoManagerInterface</module>
+        <module>taotaoManagerDao</module>
     </modules>
 
     <build>
