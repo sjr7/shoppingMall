@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatisGenerator" />
         <module name="taotaoCommon" />
         <module name="taotaoManagerMapper" />
         <module name="taotaoManagerPojo" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatisGenerator" target="1.5" />
       <module name="taotaoCommon" target="1.8" />
       <module name="taotaoManager" target="1.8" />
       <module name="taotaoManagerMapper" target="1.8" />

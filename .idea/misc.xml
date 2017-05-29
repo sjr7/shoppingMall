@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/taotaoParent/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoCommon/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoManager/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisGenerator/pom.xml" />
       </list>
     </option>
   </component>
