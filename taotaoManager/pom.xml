@@ -19,6 +19,14 @@
         <module>taotaoManagerDao</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.suny.taotao</groupId>
+            <artifactId>taotaoCommon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

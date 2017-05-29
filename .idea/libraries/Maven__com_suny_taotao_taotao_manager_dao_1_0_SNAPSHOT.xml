@@ -1,6 +1,8 @@
 <component name="libraryTable">
   <library name="Maven: com.suny.taotao:taotao-manager-dao:1.0-SNAPSHOT">
-    <CLASSES />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-manager-dao/1.0-SNAPSHOT/taotao-manager-dao-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-manager-dao/1.0-SNAPSHOT/taotao-manager-dao-1.0-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
