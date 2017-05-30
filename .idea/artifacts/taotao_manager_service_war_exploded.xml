@@ -1,24 +1,23 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="taotaoManagerService:war exploded">
+  <artifact type="exploded-war" name="taotao-manager-service:war exploded">
     <output-path>$PROJECT_DIR$/taotaoManager/taotaoManagerService/target/taotao-manager-service</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="taotaoManagerService" />
+          <element id="module-output" name="taotao-manager-service" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="taotao-manager-dao-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="taotaoManagerDao" />
+            <element id="module-output" name="taotao-manager-dao" />
           </element>
           <element id="archive" name="taotao-manager-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="taotaoManagerPojo" />
+            <element id="module-output" name="taotao-manager-pojo" />
           </element>
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.4.2-fix" />
-          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
@@ -59,7 +58,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/taotaoManager/taotaoManagerService/target/taotao-manager-service/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="taotaoManagerService/web/Web" />
+      <element id="javaee-facet-resources" facet="taotao-manager-service/web/Web" />
     </root>
   </artifact>
 </component>

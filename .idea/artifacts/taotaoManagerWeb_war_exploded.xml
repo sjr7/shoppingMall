@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="taotaoManagerWeb:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/taotaoManagerWeb_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -8,8 +8,14 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.8.RELEASE" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="taotaoManagerWeb/web/Web" />
     </root>
