@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomBeanRegistry">
+    <option name="map">
+      <map>
+        <entry key="&lt;dubbo:application xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; name=&quot;taotao-manager&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="taotao-manager" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.ApplicationConfig" />
+                <option name="idAttribute" value="name" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="policies">
+      <map>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://code.alibabatech.com/schema/dubbo" />
+              <option name="localName" value="application" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="com.alibaba.dubbo.config.ApplicationConfig" />
+              <option name="idAttribute" value="name" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
