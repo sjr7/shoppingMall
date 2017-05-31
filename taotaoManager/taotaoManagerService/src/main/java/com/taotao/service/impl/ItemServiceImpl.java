@@ -4,10 +4,12 @@ import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.TbItem;
 import com.taotao.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * Created by 孙建荣 on 17-5-30.下午9:59
  */
+@Service
 public class ItemServiceImpl implements ItemService {
 
     @Autowired

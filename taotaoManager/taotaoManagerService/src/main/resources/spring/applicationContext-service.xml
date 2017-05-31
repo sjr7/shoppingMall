@@ -11,7 +11,7 @@
     <context:component-scan base-package="com.taotao.service.*"/>
 
     <!--发布dubbo服务-->
-    提供应用方信息,用于计算依赖关系
+    <!--提供应用方信息,用于计算依赖关系-->
     <dubbo:application name="taotao-manager"/>
     <!--注册中心的地址-->
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>

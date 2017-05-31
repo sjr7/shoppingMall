@@ -1,11 +1,9 @@
 package com.taotao.mapper;
 
-
 import com.taotao.pojo.TbItemDesc;
 import com.taotao.pojo.TbItemDescExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbItemDescMapper {
     int countByExample(TbItemDescExample example);

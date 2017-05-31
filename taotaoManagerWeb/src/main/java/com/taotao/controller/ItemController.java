@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ItemController {
     @Autowired
-    private ItemService itemService;
+    private ItemService itemServiceImpl;
 
     @RequestMapping("/item/{itemId}")
     @ResponseBody
     public TbItem getItemById(@PathVariable Long itemId) {
-        return itemService.getItemById(itemId);
+        return itemServiceImpl.getItemById(itemId);
     }
 
 }

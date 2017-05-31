@@ -1,11 +1,9 @@
 package com.taotao.mapper;
 
-
 import com.taotao.pojo.TbOrderShipping;
 import com.taotao.pojo.TbOrderShippingExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbOrderShippingMapper {
     int countByExample(TbOrderShippingExample example);
