@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>淘淘Service</title>
 </head>
 <body>
 <h1>hello淘淘service</h1>

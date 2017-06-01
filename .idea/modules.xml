@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" filepath="$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelper-fix/pagehelper-fix.iml" filepath="$PROJECT_DIR$/pagehelper-fix/pagehelper-fix.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotao-manager.iml" filepath="$PROJECT_DIR$/taotaoManager/taotao-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManagerDao/taotao-manager-dao.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManagerDao/taotao-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/taotao-manager-interface.iml" />

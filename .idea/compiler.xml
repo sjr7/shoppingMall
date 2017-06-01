@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisGenerator" />
+        <module name="pagehelper-fix" />
         <module name="taotao-manager-dao" />
         <module name="taotao-manager-interface" />
         <module name="taotao-manager-pojo" />
@@ -17,11 +18,11 @@
         <module name="taotaoManagerMapper" />
         <module name="taotaoManagerPojo" />
         <module name="taotaoManagerService" />
-        <module name="taotaoManagerWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatisGenerator" target="1.5" />
+      <module name="pagehelper-fix" target="1.7" />
       <module name="taotao-manager" target="1.7" />
       <module name="taotao-manager-dao" target="1.7" />
       <module name="taotao-manager-interface" target="1.7" />
