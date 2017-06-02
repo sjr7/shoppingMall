@@ -1,33 +1,29 @@
 package com.taotao.common.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by 孙建荣 on 17-6-1.下午8:14
  */
-public class EasyUIDataGridResult {
-    private Integer total;
+public class EasyUIDataGridResult implements Serializable {
+    private long total;
 
     private List<?> rows;
 
     public EasyUIDataGridResult() {
     }
 
-    public EasyUIDataGridResult(Integer total, List<?> rows) {
+    public EasyUIDataGridResult(long total, List<?> rows) {
         this.total = total;
         this.rows = rows;
     }
 
-    public EasyUIDataGridResult(Long total, List<?> rows) {
-        this.total = total.intValue();
-        this.rows = rows;
-    }
-
-    public Integer getTotal() {
+    public long getTotal() {
         return total;
     }
 
-    public void setTotal(Integer total) {
+    public void setTotal(long total) {
         this.total = total;
     }
 

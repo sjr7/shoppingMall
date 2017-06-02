@@ -10,8 +10,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by 孙建荣 on 17-6-1.下午10:45
  */

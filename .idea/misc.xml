@@ -6,6 +6,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManagerWeb" />
   </component>
   <component name="MavenProjectsManager">
@@ -16,10 +17,11 @@
         <option value="$PROJECT_DIR$/taotaoManager/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisGenerator/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" />
+        <option value="$USER_HOME$/Desktop/taotaoManagerService/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
