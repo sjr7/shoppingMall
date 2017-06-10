@@ -109,6 +109,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--FastDfs文件服务器依赖-->
+        <dependency>
+            <groupId>fastdfs-client</groupId>
+            <artifactId>fastdfs-client</artifactId>
+        </dependency>
     </dependencies>
 
 

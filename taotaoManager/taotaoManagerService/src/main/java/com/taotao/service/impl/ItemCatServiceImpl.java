@@ -6,6 +6,7 @@ import com.taotao.pojo.TbItemCat;
 import com.taotao.pojo.TbItemCatExample;
 import com.taotao.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +14,7 @@ import java.util.List;
 /**
  * Created by 孙建荣 on 17-6-6.下午11:04
  */
+@Service
 public class ItemCatServiceImpl implements ItemCatService {
     @Autowired
     private TbItemCatMapper tbItemCatMapper;
