@@ -111,9 +111,11 @@
         </dependency>
         <!--FastDfs文件服务器依赖-->
         <dependency>
-            <groupId>fastdfs-client</groupId>
-            <artifactId>fastdfs-client</artifactId>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>RELEASE</version>
         </dependency>
+
     </dependencies>
 
 
