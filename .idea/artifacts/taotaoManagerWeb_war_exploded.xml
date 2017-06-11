@@ -8,6 +8,7 @@
           <element id="module-output" name="taotao-manager-service" />
           <element id="module-output" name="taotao-manager-dao" />
           <element id="module-output" name="pagehelper-fix" />
+          <element id="module-output" name="taotaoPortalWeb" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="taotao-manager-interface-1.0-SNAPSHOT.jar">

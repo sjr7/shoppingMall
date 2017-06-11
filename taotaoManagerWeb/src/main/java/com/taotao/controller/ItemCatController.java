@@ -16,8 +16,12 @@ import java.util.List;
  */
 @Controller
 public class ItemCatController {
+    private final ItemCatService itemCatService;
+
     @Autowired
-    private ItemCatService itemCatService;
+    public ItemCatController(ItemCatService itemCatService) {
+        this.itemCatService = itemCatService;
+    }
 
     @RequestMapping("/item/cat/list")
     @ResponseBody
