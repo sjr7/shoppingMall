@@ -9,6 +9,8 @@
           http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
+    <!--加载配置文件-->
+    <context:property-placeholder location="classpath:resource/resource.properties"/>
     <!--扫描包-->
     <context:component-scan base-package="com.taotao.controller"/>
 
@@ -28,6 +30,13 @@
     <!--<mvc:resources mapping="/js/**" location="/js"/>-->
     <mvc:default-servlet-handler/>
 
+    <!--配置文件上传-->
+    <bean id="commonsMultipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!--设置默认的编码-->
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!--设置文件上传的最大值-->
+        <property name="maxUploadSize" value="5242880"/>
+    </bean>
     <!--引用dubbo服务-->
     <dubbo:application name="taotao-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>

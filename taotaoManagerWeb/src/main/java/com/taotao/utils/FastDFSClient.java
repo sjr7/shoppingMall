@@ -58,7 +58,7 @@ public class FastDFSClient {
         return null;
     }
 
-    public String uploadFIle(String fileName) {
+    public String uploadFile(String fileName) {
         return uploadFile(fileName, null, null);
     }
 
