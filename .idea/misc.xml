@@ -5,6 +5,7 @@
     <groovy codeStyle="LEGACY" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotaoContent/taotaoContentService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManagerWeb" />
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/mybatisGenerator/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" />
         <option value="$USER_HOME$/Desktop/taotaoManagerService/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaoContent/pom.xml" />
       </list>
     </option>
   </component>

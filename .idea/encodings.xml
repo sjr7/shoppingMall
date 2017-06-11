@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/pagehelper-fix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotaoCommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaoContent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaoContent/taotaoContentInterface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotaoContent/taotaoContentService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotaoManager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerDao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerInterface" charset="UTF-8" />

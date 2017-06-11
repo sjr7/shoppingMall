@@ -14,10 +14,67 @@
             </list>
           </value>
         </entry>
+        <entry key="&lt;dubbo:protocol xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; name=&quot;dubbo&quot; port=&quot;20880&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="dubbo" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.ProtocolConfig" />
+                <option name="idAttribute" value="name" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;dubbo:reference xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; interface=&quot;com.taotao.service.ItemService&quot; id=&quot;itemService&quot; timeout=&quot;0&quot; async=&quot;false&quot; version=&quot;0.0.0&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="itemService" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ReferenceBean" />
+                <option name="idAttribute" value="id" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;dubbo:registry xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; protocol=&quot;zookeeper&quot; address=&quot;127.0.0.1:2181&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="com.alibaba.dubbo.config.RegistryConfig" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.RegistryConfig" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;dubbo:service xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; interface=&quot;com.taotao.service.ItemService&quot; ref=&quot;itemServiceImpl&quot; timeout=&quot;300000&quot; async=&quot;false&quot; version=&quot;0.0.0&quot; delay=&quot;0&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="com.taotao.service.ItemService" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ServiceBean" />
+                <option name="idAttribute" value="interface" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="policies">
       <map>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://code.alibabatech.com/schema/dubbo" />
+              <option name="localName" value="reference" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ReferenceBean" />
+              <option name="idAttribute" value="id" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
         <entry>
           <key>
             <MyQName>
@@ -28,6 +85,34 @@
           <value>
             <CustomBeanInfo>
               <option name="beanClassName" value="com.alibaba.dubbo.config.ApplicationConfig" />
+              <option name="idAttribute" value="name" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://code.alibabatech.com/schema/dubbo" />
+              <option name="localName" value="service" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ServiceBean" />
+              <option name="idAttribute" value="interface" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://code.alibabatech.com/schema/dubbo" />
+              <option name="localName" value="protocol" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="com.alibaba.dubbo.config.ProtocolConfig" />
               <option name="idAttribute" value="name" />
             </CustomBeanInfo>
           </value>
