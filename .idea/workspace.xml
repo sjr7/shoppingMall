@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoContentService_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoContentService_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/src/main/java/com/taotao/content/service/ContentCategoryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentCategoryServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/mybatis/MyBatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-trans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoManagerWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoManagerWeb_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/customSpringBeans.xml" afterPath="$PROJECT_DIR$/.idea/customSpringBeans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
@@ -1427,7 +1402,7 @@
       <workItem from="1496758471805" duration="2880000" />
       <workItem from="1497056340796" duration="6819000" />
       <workItem from="1497102934751" duration="599000" />
-      <workItem from="1497143119957" duration="22290000" />
+      <workItem from="1497143119957" duration="22329000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1492,7 +1467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497171146792</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="整合出新模块taotao-content,做cms系统">
+      <created>1497193128596</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497193128596</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1507,7 +1489,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103694000" />
+    <option name="totallyTimeSpent" value="103733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1621,7 +1603,8 @@
     <MESSAGE value="完成使用FastDFS图片上传功能" />
     <MESSAGE value="完成商品添加功能各层的编写" />
     <MESSAGE value="完成商城用户页面模块的编写，并进行测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成商城用户页面模块的编写，并进行测试" />
+    <MESSAGE value="整合出新模块taotao-content,做cms系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合出新模块taotao-content,做cms系统" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
