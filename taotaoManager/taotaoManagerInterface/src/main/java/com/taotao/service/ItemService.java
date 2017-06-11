@@ -1,6 +1,7 @@
 package com.taotao.service;
 
 import com.taotao.common.pojo.EasyUIDataGridResult;
+import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.pojo.TbItem;
 
 /**
@@ -24,4 +25,13 @@ public interface ItemService {
      * @return easyui需要的一个封装数据
      */
     EasyUIDataGridResult getItemList(int page, int rows);
+
+    /**
+     * 添加商品操作
+     *
+     * @param tbItem 商品信息
+     * @param desc   解释
+     * @return 响应结果
+     */
+    TaotaoResult addItem(TbItem tbItem, String desc);
 }

@@ -1,6 +1,7 @@
 package com.taotao.controller;
 
 import com.taotao.common.pojo.EasyUIDataGridResult;
+import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.pojo.TbItem;
 import com.taotao.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +16,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ItemController {
 
+    private final ItemService itemServiceImpl;
+
     @Autowired
-    private ItemService itemServiceImpl;
+    public ItemController(ItemService itemServiceImpl) {
+        this.itemServiceImpl = itemServiceImpl;
+    }
 
     @RequestMapping("/item-add")
     public String itemAdd() {
@@ -32,12 +37,26 @@ public class ItemController {
     @RequestMapping(value = "/item-list")
     @ResponseBody
     public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
-        EasyUIDataGridResult itemList = itemServiceImpl.getItemList(page, rows);
-        return itemList;
+        return itemServiceImpl.getItemList(page, rows);
+    }
+
+    public TaotaoResult addItem(TbItem tbItem, String desc) {
+        return itemServiceImpl.addItem(tbItem, desc);
     }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
