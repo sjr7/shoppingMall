@@ -14,7 +14,6 @@ import java.util.List;
  * 内容管理Controller
  * Created by 孙建荣 on 17-6-11.下午9:50
  */
-@RequestMapping("/content/category")
 @Controller
 public class ContentCategoryController {
 
@@ -26,10 +25,15 @@ public class ContentCategoryController {
     }
 
 
-    @RequestMapping(value = "/list")
+    @RequestMapping(value = "/content/category/list")
     @ResponseBody
     public List<EasyUITreeNode> getContentCatList(@RequestParam(value = "id", defaultValue = "0") long parentId) {
         return contentCategoryService.getContentCategroyList(parentId);
+    }
+
+    @RequestMapping("/content-category")
+    public String contentCategory() {
+        return "content-category";
     }
 
 
