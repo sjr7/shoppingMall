@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/target/tomcat/logs/access_log.2017-06-11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/logs/access_log.2017-06-11" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoManagerWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoManagerWeb_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoCommon/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/taotaoCommon/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/target/classes/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/target/classes/spring/applicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java" afterPath="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/classes/spring/applicationContext-Mvc.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/classes/spring/applicationContext-Mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/classes/spring/applicationContext-Mvc.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/classes/spring/applicationContext-Mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/classes/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/WEB-INF/classes/spring/applicationContext-trans.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -48,45 +75,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ContentCategoryController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContentCategoryController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="191">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentCategoryServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentCategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-service.xml">
+        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="600">
+              <caret line="20" column="113" lean-forward="false" selection-start-line="20" selection-start-column="113" selection-end-line="20" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-Mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -130,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/src/main/java/com/taotao/pojo/TbItemDesc.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/src/main/java/com/taotao/pojo/TbItemParam.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/src/main/java/com/taotao/pojo/TbItemParamItem.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/src/main/java/com/taotao/pojo/TbOrder.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/src/main/java/com/taotao/pojo/TbOrderItem.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/src/main/java/com/taotao/pojo/TbOrderShipping.java" />
@@ -151,14 +163,12 @@
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/PageController.java" />
         <option value="$PROJECT_DIR$/taotaoCommon/src/main/java/com/taotao/common/pojo/EasyUITreeNode.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/src/main/java/com/taotao/service/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/resource/client.conf" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/test/java/FastDFSTest.java" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/test/java/com/taotao/utils/FastDFSClientTest.java" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/resource/resource.properties" />
-        <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
         <option value="$PROJECT_DIR$/taotaoCommon/src/main/java/com/taotao/common/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/PictureController.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/src/main/java/com/taotao/service/ItemService.java" />
@@ -175,12 +185,17 @@
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/src/main/java/com/taotao/content/service/ContentCategoryService.java" />
-        <option value="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/taotaoManagerWeb/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
       </list>
     </option>
   </component>
@@ -243,6 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -267,29 +283,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,66 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,253 +419,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoManagerService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContentService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContentService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContentService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContentService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContentService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoContentInterface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1402,7 +1091,8 @@
       <workItem from="1496758471805" duration="2880000" />
       <workItem from="1497056340796" duration="6819000" />
       <workItem from="1497102934751" duration="599000" />
-      <workItem from="1497143119957" duration="22329000" />
+      <workItem from="1497143119957" duration="23221000" />
+      <workItem from="1497242205936" duration="8769000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1489,7 +1179,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103733000" />
+    <option name="totallyTimeSpent" value="113394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1510,28 +1200,27 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18429486" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4732906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5167785" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5947996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8028169" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31419286" sideWeight="0.49785638" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6944745" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5124594" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24732906" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21420941" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19893049" sideWeight="0.50840336" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3427283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1540,6 +1229,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1617,24 +1307,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemServiceImpl.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemServiceImpl.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemServiceImpl.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/PictureController.java</url>
           <line>31</line>
           <properties />
@@ -1659,7 +1331,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1672,126 +1344,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.25.3-RELEASE/fastdfs-client-1.25.3-RELEASE.jar!/com/github/tobato/fastdfs/conn/FdfsConnectionPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagehelper-fix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/fastdfs-client/fastdfs-client/unknown/fastdfs-client-unknown.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/jsp/content-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar!/org/apache/commons/fileupload/FileItemFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoCommon/src/main/java/com/taotao/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#606#654#1" expanded="true" />
-            <element signature="e#1023#1066#1" expanded="true" />
-            <element signature="e#1451#1541#1" expanded="true" />
-            <element signature="e#1471#1494#0" expanded="true" />
-            <element signature="e#1568#1620#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/test/java/com/taotao/utils/FastDFSClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/PictureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#887#0" expanded="true" />
-            <element signature="e#842#887#0" expanded="true" />
-            <element signature="e#1014#1073#1" expanded="true" />
-            <element signature="e#1040#1072#0" expanded="true" />
-            <element signature="e#1086#1169#1" expanded="true" />
-            <element signature="e#1103#1168#0" expanded="true" />
-            <element signature="e#1103#1168#0" expanded="true" />
-            <element signature="e#1214#1296#1" expanded="true" />
-            <element signature="e#1331#1402#1" expanded="true" />
-            <element signature="e#1370#1391#0" expanded="true" />
-            <element signature="e#1444#1481#1" expanded="true" />
-            <element signature="e#1515#1544#1" expanded="true" />
-            <element signature="e#1557#1579#0" expanded="true" />
-            <element signature="e#1557#1579#0" expanded="true" />
-            <element signature="e#1557#1579#0" expanded="true" />
-            <element signature="e#1593#1615#0" expanded="true" />
-            <element signature="e#1593#1615#0" expanded="true" />
-            <element signature="e#1593#1615#0" expanded="true" />
-            <element signature="e#1801#1830#1" expanded="true" />
-            <element signature="e#1843#1865#0" expanded="true" />
-            <element signature="e#1843#1865#0" expanded="true" />
-            <element signature="e#1843#1865#0" expanded="true" />
-            <element signature="e#1879#1910#0" expanded="true" />
-            <element signature="e#1879#1910#0" expanded="true" />
-            <element signature="e#1879#1910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/resource/client.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,12 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="240" column="60" lean-forward="false" selection-start-line="240" selection-start-column="60" selection-end-line="240" selection-end-column="60" />
-          <folding>
-            <marker date="1472987561000" expanded="true" signature="1425:1435" ph="..." />
-            <marker date="1472987561000" expanded="true" signature="1847:1887" ph="..." />
-            <marker date="1472987561000" expanded="true" signature="3186:3203" ph="..." />
-            <marker date="1472987561000" expanded="true" signature="3273:3290" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1812,7 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1820,7 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1836,38 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1069">
-          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1963#1997#1" expanded="true" />
-            <element signature="e#2027#2047#0" expanded="true" />
-            <element signature="e#2027#2047#0" expanded="true" />
-            <element signature="e#2093#2119#0" expanded="true" />
-            <element signature="e#2110#2118#0" expanded="true" />
-            <element signature="e#2093#2119#0" expanded="true" />
-            <element signature="e#2129#2158#0" expanded="true" />
-            <element signature="e#2129#2158#0" expanded="true" />
-            <element signature="e#2168#2197#0" expanded="true" />
-            <element signature="e#2168#2197#0" expanded="true" />
-            <element signature="e#2232#2273#1" expanded="true" />
-            <element signature="e#2282#2310#0" expanded="true" />
-            <element signature="e#2282#2310#0" expanded="true" />
-            <element signature="e#2320#2348#0" expanded="true" />
-            <element signature="e#2320#2348#0" expanded="true" />
-            <element signature="e#2358#2387#0" expanded="true" />
-            <element signature="e#2358#2387#0" expanded="true" />
-            <element signature="e#2397#2426#0" expanded="true" />
-            <element signature="e#2397#2426#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1883,9 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="93" column="58" lean-forward="false" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1893,15 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/resources/spring/applicationContext-Mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="33" column="73" lean-forward="false" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1909,11 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1921,9 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1473145157000" expanded="true" signature="8248:8324" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1931,7 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1947,15 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="83" column="21" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="83" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1963,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1980,7 +1465,7 @@
         <state relative-caret-position="330">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1989,9 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1999,24 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="116" column="12" lean-forward="false" selection-start-line="105" selection-start-column="3" selection-end-line="116" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentInterface/src/main/java/com/taotao/content/service/ContentCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -2029,19 +1493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2061,15 +1516,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-dao.xml">
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentInterface/src/main/java/com/taotao/content/service/ContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/com/taotao/content/service/impl/ContentCategoryServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#1893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#847#861#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2079,85 +1623,1384 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2509">
-          <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentInterface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="3" column="63" lean-forward="true" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoContent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentInterface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="870">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.suny.taotao:taotao-content-service:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.suny.taotao:taotao-content-service:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="888.3465443388524">com.suny.taotao:taotao-content-service:1.0-SNAPSHOT</node>
+            <node x="312.0" y="459.09654433885237">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT</node>
+            <node x="604.0" y="641.8465443388524">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT</node>
+            <node x="908.0" y="359.09654433885237">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8</node>
+            <node x="624.0" y="495.09654433885237">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.2</node>
+            <node x="612.0" y="423.09654433885237">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15</node>
+            <node x="640.0" y="260.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix</node>
+            <node x="896.0" y="252.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9</node>
+            <node x="1152.0" y="252.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12</node>
+            <node x="1376.0" y="252.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="600.0" y="569.8465443388524">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.32</node>
+            <node x="660.0" y="144.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9</node>
+            <node x="904.0" y="108.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="916.0" y="180.0">com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0</node>
+            <node x="288.0" y="659.0965443388524">com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT</node>
+            <node x="880.0" y="1153.002604944913">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="1132.0" y="1197.4192716115797">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="1384.0" y="1162.9028490028493">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="1616.0" y="1194.9558942482017">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="1816.0" y="1194.9558942482017">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1104.0" y="1040.001333851334">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="1380.0" y="1254.1361823361826">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="332.0" y="1185.5556501902656">org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
+            <node x="640.0" y="1193.4192716115797">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="892.0" y="1369.7227272727273">org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="1136.0" y="1351.2227272727273">org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="328.0" y="0.0">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="628.0" y="0.0">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="344.0" y="1260.5558942482019">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="616.0" y="1284.0227272727273">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="592.0" y="1107.9558942482017">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="364.0" y="72.0">com.alibaba:dubbo:jar:2.5.3</node>
+            <node x="644.0" y="72.0">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
+            <node x="644.0" y="875.0965443388524">org.apache.zookeeper:zookeeper:jar:3.4.7</node>
+            <node x="900.0" y="786.8465443388524">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="1120.0" y="880.501333851334">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="916.0" y="915.001333851334">org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16</node>
+            <node x="916.0" y="987.001333851334">org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94</node>
+            <node x="916.0" y="714.8465443388524">org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="352.0" y="888.3465443388524">com.github.sgroschupf:zkclient:jar:0.1</node>
+            <node x="888.0" y="615.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT</node>
+            <node x="1136.0" y="723.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5</node>
+            <node x="1120.0" y="363.09654433885237">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="1132.0" y="435.09654433885237">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2</node>
+            <node x="1128.0" y="579.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3</node>
+            <node x="1108.0" y="651.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="1352.0" y="615.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="1380.0" y="687.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="1132.0" y="507.09654433885237">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="1396.0" y="543.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="1376.0" y="471.09654433885237">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
+            <node x="1148.0" y="795.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2</node>
+            <node x="1412.0" y="795.0965443388524">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="88.0" y="6.0" />
+              <point x="512.0" y="481.09654433885237" />
+              <point x="592.0" y="559.3465443388524" />
+              <point x="800.0" y="559.3465443388524" />
+              <point x="-64.0" y="-12.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16">
+              <point x="52.0" y="6.399999999999977" />
+              <point x="800.0" y="897.4965443388523" />
+              <point x="880.0" y="931.001333851334" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.3">
+              <point x="104.0" y="-12.307692307692264" />
+              <point x="288.0" y="88.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2">
+              <point x="56.0" y="8.0" />
+              <point x="1272.0" y="531.0965443388524" />
+              <point x="1352.0" y="559.0965443388524" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-8.0" />
+              <point x="512.0" y="1268.5558942482019" />
+              <point x="592.0" y="1250.9192716115797" />
+              <point x="1024.0" y="1250.9192716115797" />
+              <point x="1104.0" y="1224.0859382782464" />
+              <point x="-56.0" y="10.666666666666742" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0">
+              <point x="80.0" y="-8.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
+              <point x="84.0" y="-8.0" />
+              <point x="800.0" y="431.09654433885237" />
+              <point x="880.0" y="385.763211005519" />
+              <point x="-44.0" y="10.666666666666686" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
+              <point x="60.0" y="-0.0" />
+              <point x="1104.0" y="1375.2227272727273" />
+              <point x="-52.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
+              <point x="72.0" y="-12.0" />
+              <point x="-84.0" y="8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="8.0" />
+              <point x="800.0" y="684.3465443388524" />
+              <point x="-64.0" y="4.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="80.0" y="10.666666666666742" />
+              <point x="800.0" y="1310.689393939394" />
+              <point x="880.0" y="1340.7227272727273" />
+              <point x="1536.0" y="1340.7227272727273" />
+              <point x="-60.0" y="5.818181818181756" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="64.0" y="-0.0" />
+              <point x="1536.0" y="1270.1361823361826" />
+              <point x="-60.0" y="2.9090909090909918" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="56.0" y="13.333333333333258" />
+              <point x="512.0" y="1289.8892275815351" />
+              <point x="592.0" y="1412.2227272727273" />
+              <point x="1536.0" y="1412.2227272727273" />
+              <point x="-60.0" y="14.545454545454504" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE">
+              <point x="104.0" y="7.384615384615358" />
+              <point x="288.0" y="1201.5556501902656" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-2.6666666666667425" />
+              <point x="1272.0" y="1273.5227272727273" />
+              <point x="-64.0" y="1.599999999999909" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="80.0" y="-0.0" />
+              <point x="1272.0" y="1300.0227272727273" />
+              <point x="1352.0" y="1274.9361823361826" />
+              <point x="-64.0" y="4.7999999999999545" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="104.0" y="-2.461538461538453" />
+              <point x="288.0" y="877.8465443388524" />
+              <point x="512.0" y="877.8465443388524" />
+              <point x="592.0" y="883.0965443388524" />
+              <point x="-52.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="84.0" y="-0.0" />
+              <point x="1536.0" y="1056.001333851334" />
+              <point x="-60.0" y="-11.63636363636374" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="60.0" y="-10.666666666666742" />
+              <point x="1104.0" y="1329.7227272727273" />
+              <point x="1272.0" y="1329.7227272727273" />
+              <point x="1352.0" y="1281.3361823361827" />
+              <point x="-64.0" y="11.200000000000045" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix">
+              <point x="88.0" y="-10.0" />
+              <point x="512.0" y="465.09654433885237" />
+              <point x="592.0" y="276.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final">
+              <point x="52.0" y="-12.799999999999955" />
+              <point x="800.0" y="878.2965443388524" />
+              <point x="880.0" y="730.8465443388524" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="64.0" y="14.0" />
+              <point x="1104.0" y="888.501333851334" />
+              <point x="-68.0" y="-8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT">
+              <point x="104.0" y="-9.846153846153811" />
+              <point x="288.0" y="475.09654433885237" />
+              <point x="-88.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6">
+              <point x="56.0" y="-8.0" />
+              <point x="1272.0" y="515.0965443388524" />
+              <point x="1352.0" y="487.09654433885237" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aspects:jar:4.2.4.RELEASE" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7">
+              <point x="72.0" y="-0.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="60.0" y="-0.0" />
+              <point x="-76.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9">
+              <point x="88.0" y="-14.0" />
+              <point x="512.0" y="461.09654433885237" />
+              <point x="592.0" y="160.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="104.0" y="-0.0" />
+              <point x="1272.0" y="1125.0727272727272" />
+              <point x="1352.0" y="1255.7361823361825" />
+              <point x="-64.0" y="-14.400000000000091" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5">
+              <point x="64.0" y="6.0" />
+              <point x="1104.0" y="739.0965443388524" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE">
+              <point x="56.0" y="2.6666666666667425" />
+              <point x="512.0" y="1279.2225609148686" />
+              <point x="592.0" y="1300.0227272727273" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="92.0" y="-0.0" />
+              <point x="-64.0" y="-4.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT">
+              <point x="104.0" y="-7.384615384615358" />
+              <point x="-112.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="52.0" y="8.0" />
+              <point x="1536.0" y="1375.2227272727273" />
+              <point x="-60.0" y="8.727272727272748" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5">
+              <point x="64.0" y="-6.0" />
+              <point x="1104.0" y="523.0965443388524" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15">
+              <point x="88.0" y="-2.0" />
+              <point x="512.0" y="473.09654433885237" />
+              <point x="592.0" y="439.09654433885237" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.2">
+              <point x="88.0" y="2.0" />
+              <point x="512.0" y="477.09654433885237" />
+              <point x="592.0" y="511.09654433885237" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
+              <point x="56.0" y="8.0" />
+              <point x="800.0" y="284.0" />
+              <point x="880.0" y="364.42987767218574" />
+              <point x="-44.0" y="-10.666666666666686" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2">
+              <point x="64.0" y="2.0" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="com.github.sgroschupf:zkclient:jar:0.1">
+              <point x="104.0" y="-0.0" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
+              <point x="56.0" y="8.0" />
+              <point x="512.0" y="1284.5558942482019" />
+              <point x="592.0" y="1359.2227272727273" />
+              <point x="-52.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="56.0" y="-0.0" />
+              <point x="1272.0" y="1213.4192716115797" />
+              <point x="1352.0" y="1178.9028490028493" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="56.0" y="4.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
+              <point x="88.0" y="-6.0" />
+              <point x="512.0" y="469.09654433885237" />
+              <point x="592.0" y="375.09654433885237" />
+              <point x="-44.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="104.0" y="12.307692307692264" />
+              <point x="288.0" y="1326.5227272727273" />
+              <point x="1272.0" y="1326.5227272727273" />
+              <point x="1352.0" y="1278.1361823361826" />
+              <point x="-64.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="104.0" y="10.666666666666742" />
+              <point x="-72.0" y="-13.333333333333258" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA">
+              <point x="36.0" y="-0.0" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="72.0" y="4.0" />
+              <point x="1272.0" y="1173.002604944913" />
+              <point x="1352.0" y="1258.9361823361826" />
+              <point x="-64.0" y="-11.200000000000045" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="104.0" y="4.923076923076906" />
+              <point x="288.0" y="1150.4558942482017" />
+              <point x="800.0" y="1150.4558942482017" />
+              <point x="-72.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
+              <point x="68.0" y="-6.400000000000091" />
+              <point x="512.0" y="1195.1556501902655" />
+              <point x="592.0" y="1048.001333851334" />
+              <point x="-84.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-4.0" />
+              <point x="1024.0" y="1205.4192716115797" />
+              <point x="1104.0" y="1088.3195156695158" />
+              <point x="1536.0" y="1088.3195156695158" />
+              <point x="-60.0" y="-2.9090909090909918" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT">
+              <point x="88.0" y="14.0" />
+              <point x="512.0" y="489.09654433885237" />
+              <point x="-92.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-10.666666666666742" />
+              <point x="1272.0" y="1202.752604944913" />
+              <point x="1352.0" y="1152.4028490028493" />
+              <point x="1536.0" y="1152.4028490028493" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com.github.sgroschupf:zkclient:jar:0.1" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="48.0" y="-0.0" />
+              <point x="512.0" y="904.3465443388524" />
+              <point x="592.0" y="899.0965443388524" />
+              <point x="-52.0" y="8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.2.4.RELEASE">
+              <point x="104.0" y="2.461538461538453" />
+              <point x="288.0" y="1123.9558942482017" />
+              <point x="-104.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0">
+              <point x="36.0" y="8.0" />
+              <point x="800.0" y="168.0" />
+              <point x="880.0" y="196.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="68.0" y="12.799999999999955" />
+              <point x="512.0" y="1214.3556501902654" />
+              <point x="592.0" y="1261.9192716115797" />
+              <point x="1272.0" y="1261.9192716115797" />
+              <point x="1352.0" y="1268.5361823361827" />
+              <point x="-64.0" y="-1.599999999999909" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12">
+              <point x="56.0" y="-0.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="104.0" y="-10.666666666666742" />
+              <point x="880.0" y="1082.501333851334" />
+              <point x="1536.0" y="1082.501333851334" />
+              <point x="-60.0" y="-8.727272727272748" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="56.0" y="12.0" />
+              <point x="800.0" y="1221.4192716115797" />
+              <point x="880.0" y="1239.9192716115797" />
+              <point x="1272.0" y="1239.9192716115797" />
+              <point x="1352.0" y="1265.3361823361827" />
+              <point x="-64.0" y="-4.7999999999999545" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="64.0" y="-14.0" />
+              <point x="1104.0" y="379.09654433885237" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="56.0" y="10.666666666666742" />
+              <point x="1272.0" y="1224.0859382782464" />
+              <point x="1352.0" y="1262.1361823361826" />
+              <point x="-64.0" y="-8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="-8.0" />
+              <point x="-92.0" y="8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.2.4.RELEASE">
+              <point x="104.0" y="9.846153846153811" />
+              <point x="288.0" y="1276.5558942482019" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1">
+              <point x="40.0" y="-0.0" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="52.0" y="-6.399999999999977" />
+              <point x="800.0" y="884.6965443388524" />
+              <point x="880.0" y="802.8465443388524" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="72.0" y="-4.0" />
+              <point x="1104.0" y="1085.410424760425" />
+              <point x="1536.0" y="1085.410424760425" />
+              <point x="-60.0" y="-5.818181818181756" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE">
+              <point x="104.0" y="-14.769230769230717" />
+              <point x="288.0" y="16.0" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="52.0" y="-0.0" />
+              <point x="800.0" y="891.0965443388524" />
+              <point x="880.0" y="904.501333851334" />
+              <point x="-68.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="68.0" y="-12.799999999999955" />
+              <point x="512.0" y="1188.7556501902654" />
+              <point x="592.0" y="1029.501333851334" />
+              <point x="1536.0" y="1029.501333851334" />
+              <point x="-60.0" y="-14.545454545454504" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="52.0" y="-8.0" />
+              <point x="1272.0" y="1359.2227272727273" />
+              <point x="1352.0" y="1284.5361823361827" />
+              <point x="-64.0" y="14.400000000000091" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2">
+              <point x="64.0" y="10.0" />
+              <point x="1104.0" y="811.0965443388524" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2">
+              <point x="80.0" y="8.0" />
+              <point x="1352.0" y="703.0965443388524" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2">
+              <point x="64.0" y="-10.0" />
+              <point x="1104.0" y="451.09654433885237" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="80.0" y="-10.666666666666742" />
+              <point x="800.0" y="1289.3560606060605" />
+              <point x="-72.0" y="13.333333333333258" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-12.0" />
+              <point x="800.0" y="1197.4192716115797" />
+              <point x="-72.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="72.0" y="12.0" />
+              <point x="1104.0" y="1202.752604944913" />
+              <point x="-56.0" y="-10.666666666666742" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-13.333333333333258" />
+              <point x="512.0" y="1263.2225609148686" />
+              <point x="592.0" y="1182.252604944913" />
+              <point x="800.0" y="1182.252604944913" />
+              <point x="-72.0" y="2.6666666666667425" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.32">
+              <point x="88.0" y="10.0" />
+              <point x="512.0" y="485.09654433885237" />
+              <point x="-96.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="68.0" y="-0.0" />
+              <point x="512.0" y="1201.5556501902656" />
+              <point x="592.0" y="1175.8024385870542" />
+              <point x="800.0" y="1175.8024385870542" />
+              <point x="-72.0" y="-2.6666666666667425" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE">
+              <point x="104.0" y="14.769230769230717" />
+              <point x="288.0" y="1385.7227272727273" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94">
+              <point x="52.0" y="12.799999999999955" />
+              <point x="800.0" y="903.8965443388523" />
+              <point x="880.0" y="1003.001333851334" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="36.0" y="-0.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9">
+              <point x="56.0" y="-8.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9" target="com.suny.taotao:taotao-manager-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0">
+              <point x="36.0" y="-8.0" />
+              <point x="800.0" y="152.0" />
+              <point x="880.0" y="124.0" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-service:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="104.0" y="-4.923076923076906" />
+              <point x="288.0" y="701.5965443388524" />
+              <point x="800.0" y="701.5965443388524" />
+              <point x="-64.0" y="12.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE">
+              <point x="68.0" y="6.400000000000091" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="60.0" y="10.666666666666742" />
+              <point x="1536.0" y="1395.0560606060608" />
+              <point x="-60.0" y="11.63636363636374" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3">
+              <point x="64.0" y="-2.0" />
+              <point x="1104.0" y="595.0965443388524" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4959758551307847" x="984.0" y="687.0425963488844" />
+          <SelectedNodes>
+            <node>com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.suny.taotao:taotao-content-interface:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.suny.taotao:taotao-content-interface:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="252.0">com.suny.taotao:taotao-content-interface:1.0-SNAPSHOT</node>
+            <node x="304.0" y="265.25">com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT</node>
+            <node x="568.0" y="252.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT</node>
+            <node x="804.0" y="0.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5</node>
+            <node x="788.0" y="72.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="800.0" y="144.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2</node>
+            <node x="796.0" y="216.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3</node>
+            <node x="776.0" y="288.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="1016.0" y="252.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="1044.0" y="324.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="800.0" y="432.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="1060.0" y="396.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="1040.0" y="468.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
+            <node x="816.0" y="540.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2</node>
+            <node x="1076.0" y="540.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="788.0" y="612.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="1072.0" y="612.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6">
+              <point x="56.0" y="8.0" />
+              <point x="936.0" y="456.0" />
+              <point x="1016.0" y="484.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1">
+              <point x="40.0" y="-0.0" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2">
+              <point x="56.0" y="-8.0" />
+              <point x="936.0" y="440.0" />
+              <point x="1016.0" y="412.0" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-interface:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="8.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5">
+              <point x="64.0" y="-14.0" />
+              <point x="776.0" y="16.0" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2">
+              <point x="64.0" y="10.0" />
+              <point x="776.0" y="556.0" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0">
+              <point x="80.0" y="-8.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="92.0" y="-0.0" />
+              <point x="-64.0" y="8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2">
+              <point x="64.0" y="-6.0" />
+              <point x="776.0" y="160.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2">
+              <point x="80.0" y="8.0" />
+              <point x="1016.0" y="340.0" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-interface:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="-8.0" />
+              <point x="304.0" y="254.75" />
+              <point x="488.0" y="254.75" />
+              <point x="-64.0" y="-8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5">
+              <point x="64.0" y="6.0" />
+              <point x="776.0" y="448.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2">
+              <point x="64.0" y="2.0" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="64.0" y="-10.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16">
+              <point x="68.0" y="-0.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="64.0" y="14.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3">
+              <point x="64.0" y="-2.0" />
+              <point x="776.0" y="232.0" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8081967213114755" x="600.0" y="322.0" />
+          <SelectedNodes>
+            <node>com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
+            <node>com.suny.taotao:taotao-content-interface:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.suny.taotao:taotao-content:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.suny.taotao:taotao-content:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="252.0">com.suny.taotao:taotao-content:1.0-SNAPSHOT</node>
+            <node x="224.0" y="252.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT</node>
+            <node x="460.0" y="0.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5</node>
+            <node x="444.0" y="72.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="456.0" y="144.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2</node>
+            <node x="452.0" y="216.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3</node>
+            <node x="432.0" y="288.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="672.0" y="252.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="700.0" y="324.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="456.0" y="432.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="716.0" y="396.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="696.0" y="468.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
+            <node x="472.0" y="540.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2</node>
+            <node x="732.0" y="540.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="444.0" y="612.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="728.0" y="612.0">com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6">
+              <point x="56.0" y="8.0" />
+              <point x="592.0" y="456.0" />
+              <point x="672.0" y="484.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1">
+              <point x="40.0" y="-0.0" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2">
+              <point x="56.0" y="-8.0" />
+              <point x="592.0" y="440.0" />
+              <point x="672.0" y="412.0" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="72.0" y="-0.0" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5">
+              <point x="64.0" y="-14.0" />
+              <point x="432.0" y="16.0" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2">
+              <point x="64.0" y="10.0" />
+              <point x="432.0" y="556.0" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0">
+              <point x="80.0" y="-8.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:1.3.2">
+              <point x="64.0" y="-6.0" />
+              <point x="432.0" y="160.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2">
+              <point x="80.0" y="8.0" />
+              <point x="672.0" y="340.0" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5">
+              <point x="64.0" y="6.0" />
+              <point x="432.0" y="448.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2">
+              <point x="64.0" y="2.0" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="64.0" y="-10.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16">
+              <point x="68.0" y="-0.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="64.0" y="14.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3">
+              <point x="64.0" y="-2.0" />
+              <point x="432.0" y="232.0" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="428.0" y="322.0" />
+          <SelectedNodes>
+            <node>com.suny.taotao:taotao-content:1.0-SNAPSHOT</node>
+            <node>com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="485.00000000000006">com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT</node>
+            <node x="256.0" y="570.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT</node>
+            <node x="572.0" y="606.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT</node>
+            <node x="856.0" y="606.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT</node>
+            <node x="1104.0" y="678.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5</node>
+            <node x="1088.0" y="606.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="1096.0" y="750.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3</node>
+            <node x="1076.0" y="822.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="1320.0" y="858.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="1348.0" y="786.25">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="1100.0" y="514.8736166863442">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="1364.0" y="465.16666666666674">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="1344.0" y="537.1666666666667">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
+            <node x="1116.0" y="393.16666666666674">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2</node>
+            <node x="1380.0" y="393.16666666666674">com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="256.0" y="642.25">com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT</node>
+            <node x="848.0" y="989.9166666666667">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="1100.0" y="1069.4166666666667">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="1352.0" y="1042.9166666666667">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="1584.0" y="1072.4649842581666">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="1784.0" y="1072.4649842581666">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1072.0" y="959.4166666666667">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="1348.0" y="1118.9333333333334">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="300.0" y="995.8651770956321">org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
+            <node x="608.0" y="1043.0998071625347">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="860.0" y="1222.4833333333333">org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="1104.0" y="1214.4833333333333">org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="296.0" y="72.0">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="596.0" y="72.0">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="312.0" y="1119.2947153351702">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="584.0" y="1141.95">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="560.0" y="895.4166666666667">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="336.0" y="216.0">jstl:jstl:jar:1.2</node>
+            <node x="604.0" y="458.50000000000006">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="324.0" y="445.25000000000006">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="332.0" y="0.0">com.alibaba:dubbo:jar:2.5.3</node>
+            <node x="612.0" y="0.0">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
+            <node x="612.0" y="301.25">org.apache.zookeeper:zookeeper:jar:3.4.7</node>
+            <node x="868.0" y="301.25">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="1088.0" y="268.4569500196776">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="884.0" y="233.9569500196776">org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16</node>
+            <node x="884.0" y="466.01138200183686">org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94</node>
+            <node x="884.0" y="394.01138200183686">org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="320.0" y="288.0">com.github.sgroschupf:zkclient:jar:0.1</node>
+            <node x="296.0" y="498.25000000000006">fastdfs-client:fastdfs-client:jar:1.25</node>
+            <node x="280.0" y="144.0">commons-fileupload:commons-fileupload:jar:1.3.2</node>
+            <node x="608.0" y="144.0">commons-fileupload:commons-fileupload:jar:1.3.2/commons-io:commons-io:jar:2.2</node>
+            <node x="332.0" y="373.25000000000006">junit:junit:jar:4.12</node>
+            <node x="596.0" y="373.25000000000006">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16">
+              <point x="52.0" y="-12.800000000000011" />
+              <point x="768.0" y="304.45000000000005" />
+              <point x="848.0" y="249.9569500196776" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0">
+              <point x="80.0" y="8.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-8.0" />
+              <point x="992.0" y="1126.1166666666668" />
+              <point x="1072.0" y="1096.0833333333335" />
+              <point x="-56.0" y="10.666666666666742" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2">
+              <point x="56.0" y="-8.0" />
+              <point x="1240.0" y="522.8736166863442" />
+              <point x="1320.0" y="481.16666666666674" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="36.0" y="-0.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="com.github.sgroschupf:zkclient:jar:0.1">
+              <point x="88.0" y="-8.0" />
+              <point x="256.0" y="304.0" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="javax.servlet:jsp-api:jar:2.0">
+              <point x="88.0" y="-2.6666666666666856" />
+              <point x="256.0" y="461.25000000000006" />
+              <point x="-44.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
+              <point x="60.0" y="-0.0" />
+              <point x="-52.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
+              <point x="72.0" y="-12.0" />
+              <point x="-84.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="80.0" y="10.666666666666742" />
+              <point x="768.0" y="1168.6166666666668" />
+              <point x="848.0" y="1175.0787878787878" />
+              <point x="1504.0" y="1175.0787878787878" />
+              <point x="-60.0" y="5.818181818181756" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="64.0" y="-0.0" />
+              <point x="1504.0" y="1134.9333333333334" />
+              <point x="-60.0" y="2.9090909090909918" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="56.0" y="8.0" />
+              <point x="480.0" y="1143.2947153351702" />
+              <point x="560.0" y="1184.45" />
+              <point x="1504.0" y="1184.45" />
+              <point x="-60.0" y="8.727272727272748" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.2.4.RELEASE">
+              <point x="88.0" y="6.2222222222222285" />
+              <point x="256.0" y="911.4166666666667" />
+              <point x="-104.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-2.6666666666667425" />
+              <point x="1240.0" y="1131.45" />
+              <point x="1320.0" y="1136.5333333333333" />
+              <point x="-64.0" y="1.599999999999909" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="80.0" y="-0.0" />
+              <point x="1240.0" y="1157.95" />
+              <point x="1320.0" y="1139.7333333333333" />
+              <point x="-64.0" y="4.7999999999999545" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE">
+              <point x="88.0" y="-13.333333333333314" />
+              <point x="256.0" y="88.0" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="84.0" y="-0.0" />
+              <point x="1504.0" y="975.4166666666667" />
+              <point x="-60.0" y="-8.727272727272748" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="60.0" y="-10.666666666666742" />
+              <point x="1072.0" y="1203.9833333333333" />
+              <point x="1240.0" y="1203.9833333333333" />
+              <point x="1320.0" y="1146.1333333333334" />
+              <point x="-64.0" y="11.200000000000045" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final">
+              <point x="52.0" y="6.399999999999977" />
+              <point x="768.0" y="323.65" />
+              <point x="848.0" y="410.01138200183686" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE">
+              <point x="88.0" y="15.111111111111086" />
+              <point x="256.0" y="1238.4833333333333" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT">
+              <point x="88.0" y="4.444444444444457" />
+              <point x="-112.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="88.0" y="13.333333333333371" />
+              <point x="256.0" y="1200.7833333333333" />
+              <point x="1240.0" y="1200.7833333333333" />
+              <point x="1320.0" y="1142.9333333333334" />
+              <point x="-64.0" y="8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="8.0" />
+              <point x="768.0" y="667.5" />
+              <point x="-64.0" y="10.666666666666629" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="88.0" y="-0.8888888888889142" />
+              <point x="256.0" y="487.75000000000006" />
+              <point x="480.0" y="487.75000000000006" />
+              <point x="560.0" y="482.50000000000006" />
+              <point x="-60.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-aspects:jar:4.2.4.RELEASE" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7">
+              <point x="72.0" y="-0.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="60.0" y="-0.0" />
+              <point x="-76.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="104.0" y="-0.0" />
+              <point x="1240.0" y="911.4166666666667" />
+              <point x="1320.0" y="1120.5333333333333" />
+              <point x="-64.0" y="-14.400000000000091" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE">
+              <point x="56.0" y="2.6666666666667425" />
+              <point x="480.0" y="1137.961382001837" />
+              <point x="560.0" y="1157.95" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="88.0" y="-6.2222222222222285" />
+              <point x="256.0" y="330.5" />
+              <point x="480.0" y="330.5" />
+              <point x="560.0" y="325.25" />
+              <point x="-52.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="52.0" y="8.0" />
+              <point x="1504.0" y="1238.4833333333333" />
+              <point x="-60.0" y="11.63636363636374" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2">
+              <point x="64.0" y="13.71428571428578" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE">
+              <point x="88.0" y="9.777777777777771" />
+              <point x="256.0" y="1011.8651770956321" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
+              <point x="56.0" y="13.333333333333258" />
+              <point x="480.0" y="1148.6280486685034" />
+              <point x="560.0" y="1189.7833333333333" />
+              <point x="992.0" y="1189.7833333333333" />
+              <point x="1072.0" y="1222.4833333333333" />
+              <point x="-52.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="56.0" y="4.0" />
+              <point x="768.0" y="1063.0998071625347" />
+              <point x="848.0" y="1085.4166666666667" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="56.0" y="-10.666666666666742" />
+              <point x="1240.0" y="1074.75" />
+              <point x="1320.0" y="1058.9166666666667" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="92.0" y="-0.0" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="88.0" y="-4.444444444444457" />
+              <point x="256.0" y="389.25000000000006" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2">
+              <point x="64.0" y="-9.14285714285711" />
+              <point x="1072.0" y="409.16666666666674" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="104.0" y="10.666666666666629" />
+              <point x="-72.0" y="-13.333333333333371" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.2.4.RELEASE">
+              <point x="88.0" y="11.555555555555543" />
+              <point x="256.0" y="1135.2947153351702" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="72.0" y="4.0" />
+              <point x="1240.0" y="1009.9166666666667" />
+              <point x="1320.0" y="1123.7333333333333" />
+              <point x="-64.0" y="-11.200000000000045" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA">
+              <point x="36.0" y="-0.0" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
+              <point x="68.0" y="-6.399999999999977" />
+              <point x="480.0" y="1005.465177095632" />
+              <point x="560.0" y="967.4166666666667" />
+              <point x="-84.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-4.0" />
+              <point x="768.0" y="1055.0998071625347" />
+              <point x="848.0" y="1032.4166666666667" />
+              <point x="1504.0" y="1032.4166666666667" />
+              <point x="-60.0" y="-2.9090909090909918" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-0.0" />
+              <point x="1504.0" y="1085.4166666666667" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com.github.sgroschupf:zkclient:jar:0.1" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="48.0" y="-0.0" />
+              <point x="480.0" y="304.0" />
+              <point x="560.0" y="309.25" />
+              <point x="-52.0" y="-8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="fastdfs-client:fastdfs-client:jar:1.25">
+              <point x="88.0" y="0.8888888888889142" />
+              <point x="256.0" y="514.25" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="64.0" y="-13.714285714285666" />
+              <point x="1072.0" y="292.4569500196776" />
+              <point x="-68.0" y="8.0" />
+            </edge>
+            <edge source="commons-fileupload:commons-fileupload:jar:1.3.2" target="commons-fileupload:commons-fileupload:jar:1.3.2/commons-io:commons-io:jar:2.2">
+              <point x="88.0" y="-0.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.3">
+              <point x="88.0" y="-15.111111111111086" />
+              <point x="256.0" y="16.0" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.5">
+              <point x="64.0" y="4.571428571428555" />
+              <point x="1072.0" y="694.25" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/commons-net:commons-net:jar:3.3">
+              <point x="64.0" y="9.14285714285711" />
+              <point x="1072.0" y="766.25" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="68.0" y="12.799999999999955" />
+              <point x="480.0" y="1024.665177095632" />
+              <point x="560.0" y="1115.1166666666668" />
+              <point x="1240.0" y="1115.1166666666668" />
+              <point x="1320.0" y="1133.3333333333335" />
+              <point x="-64.0" y="-1.599999999999909" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1">
+              <point x="40.0" y="-0.0" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="64.0" y="-0.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="104.0" y="-10.666666666666629" />
+              <point x="1504.0" y="900.75" />
+              <point x="-60.0" y="-14.545454545454504" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="-8.0" />
+              <point x="768.0" y="577.0" />
+              <point x="-64.0" y="-10.666666666666629" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5">
+              <point x="64.0" y="-4.571428571428555" />
+              <point x="1072.0" y="530.8736166863442" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="56.0" y="12.0" />
+              <point x="768.0" y="1071.0998071625347" />
+              <point x="848.0" y="1111.9166666666667" />
+              <point x="1240.0" y="1111.9166666666667" />
+              <point x="1320.0" y="1130.1333333333334" />
+              <point x="-64.0" y="-4.7999999999999545" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="88.0" y="8.0" />
+              <point x="256.0" y="937.9166666666667" />
+              <point x="768.0" y="937.9166666666667" />
+              <point x="-72.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="56.0" y="10.666666666666742" />
+              <point x="1240.0" y="1096.0833333333335" />
+              <point x="1320.0" y="1126.9333333333334" />
+              <point x="-64.0" y="-8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2">
+              <point x="80.0" y="-8.0" />
+              <point x="1320.0" y="802.25" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="72.0" y="-4.0" />
+              <point x="1504.0" y="1001.9166666666667" />
+              <point x="-60.0" y="-5.818181818181756" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="52.0" y="-0.0" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="52.0" y="-6.399999999999977" />
+              <point x="768.0" y="310.85" />
+              <point x="848.0" y="276.4569500196776" />
+              <point x="-68.0" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="68.0" y="-12.799999999999955" />
+              <point x="480.0" y="999.0651770956322" />
+              <point x="560.0" y="948.9166666666667" />
+              <point x="1504.0" y="948.9166666666667" />
+              <point x="-60.0" y="-11.63636363636374" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="52.0" y="-8.0" />
+              <point x="1240.0" y="1222.4833333333333" />
+              <point x="1320.0" y="1149.3333333333335" />
+              <point x="-64.0" y="14.400000000000091" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.2">
+              <point x="88.0" y="-11.555555555555543" />
+              <point x="256.0" y="160.0" />
+              <point x="-88.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="80.0" y="-10.666666666666742" />
+              <point x="768.0" y="1147.2833333333333" />
+              <point x="-72.0" y="13.333333333333371" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-12.0" />
+              <point x="768.0" y="1047.0998071625347" />
+              <point x="-72.0" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="72.0" y="12.0" />
+              <point x="1072.0" y="1074.75" />
+              <point x="-56.0" y="-10.666666666666742" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT">
+              <point x="88.0" y="2.6666666666666856" />
+              <point x="-112.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="56.0" y="-13.333333333333258" />
+              <point x="480.0" y="1121.961382001837" />
+              <point x="560.0" y="1008.5833333333333" />
+              <point x="-72.0" y="2.6666666666666288" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="68.0" y="-0.0" />
+              <point x="480.0" y="1011.8651770956321" />
+              <point x="560.0" y="1003.25" />
+              <point x="-72.0" y="-2.6666666666666288" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotaoCommon:jar:1.0-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6">
+              <point x="56.0" y="8.0" />
+              <point x="1240.0" y="538.8736166863442" />
+              <point x="1320.0" y="553.1666666666667" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94">
+              <point x="52.0" y="12.800000000000011" />
+              <point x="768.0" y="330.04999999999995" />
+              <point x="848.0" y="482.01138200183686" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE">
+              <point x="68.0" y="6.399999999999977" />
+              <point x="480.0" y="1018.265177095632" />
+              <point x="560.0" y="1059.0998071625347" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="60.0" y="10.666666666666742" />
+              <point x="1072.0" y="1256.9833333333333" />
+              <point x="1504.0" y="1256.9833333333333" />
+              <point x="-60.0" y="14.545454545454504" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-content-interface:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="-8.0" />
+              <point x="-92.0" y="8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT" target="com.suny.taotao:taotao-manager-interface:jar:1.0-SNAPSHOT/com.suny.taotao:taotao-manager-pojo:jar:1.0-SNAPSHOT">
+              <point x="112.0" y="8.0" />
+              <point x="-92.0" y="-8.0" />
+            </edge>
+            <edge source="com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
+              <point x="88.0" y="-9.777777777777771" />
+              <point x="256.0" y="232.0" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="javax.servlet:jsp-api:jar:2.0" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="44.0" y="-0.0" />
+              <point x="480.0" y="461.25000000000006" />
+              <point x="560.0" y="466.50000000000006" />
+              <point x="-60.0" y="-8.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5040899795501023" x="968.0" y="628.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="113" lean-forward="false" selection-start-line="20" selection-start-column="113" selection-end-line="20" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="191">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2180,7 +3023,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Detection</last-edited>
+          <last-edited>Spring (taotao-manager-service)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2215,11 +3058,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>taotaoManagerWeb</last-edited>
+          <last-edited>taotaoContentInterface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.28410077" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

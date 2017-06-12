@@ -14,11 +14,16 @@ import java.util.List;
  * 内容管理Controller
  * Created by 孙建荣 on 17-6-11.下午9:50
  */
+@RequestMapping("/content/category")
 @Controller
 public class ContentCategoryController {
 
+    private final ContentCategoryService contentCategoryService;
+
     @Autowired
-    private ContentCategoryService contentCategoryService;
+    public ContentCategoryController(ContentCategoryService contentCategoryService) {
+        this.contentCategoryService = contentCategoryService;
+    }
 
 
     @RequestMapping(value = "/list")

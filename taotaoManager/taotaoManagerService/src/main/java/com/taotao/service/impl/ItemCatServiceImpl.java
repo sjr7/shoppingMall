@@ -16,8 +16,12 @@ import java.util.List;
  */
 @Service
 public class ItemCatServiceImpl implements ItemCatService {
+    private final TbItemCatMapper tbItemCatMapper;
+
     @Autowired
-    private TbItemCatMapper tbItemCatMapper;
+    public ItemCatServiceImpl(TbItemCatMapper tbItemCatMapper) {
+        this.tbItemCatMapper = tbItemCatMapper;
+    }
 
     @Override
     public List<EasyUITreeNode> getCatList(long parentId) {
