@@ -26,18 +26,36 @@ public class ContentCategoryController {
         this.contentCategoryServiceImpl = contentCategoryServiceImpl;
     }
 
+    /**
+     * 创建一个新的分类内容
+     *
+     * @param parentId 父节点的ID
+     * @param name     内容名字
+     * @return json结果数据
+     */
     @RequestMapping("/create")
     @ResponseBody
     public TaotaoResult createCategory(Long parentId, String name) {
         return contentCategoryServiceImpl.addContentCategory(parentId, name);
     }
 
+    /**
+     * 展现内容列表
+     *
+     * @param parentId 父节点的ID
+     * @return 节点列表
+     */
     @RequestMapping(value = "/list")
     @ResponseBody
     public List<EasyUITreeNode> getContentCatList(@RequestParam(value = "id", defaultValue = "0") long parentId) {
         return contentCategoryServiceImpl.getContentCategroyList(parentId);
     }
 
+    /**
+     * 进入内容管理页面
+     *
+     * @return 内容管理页面
+     */
     @RequestMapping("/content-category")
     public String contentCategory() {
         return "content-category";
