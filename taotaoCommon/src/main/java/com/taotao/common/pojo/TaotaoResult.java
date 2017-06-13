@@ -3,13 +3,14 @@ package com.taotao.common.pojo;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * 商城自定义响应的数据结构
  * Created by 孙建荣 on 17-6-11.下午2:14
  */
-public class TaotaoResult {
+public class TaotaoResult implements Serializable{
     // 定义jack对象
     private static final ObjectMapper MAPPER = new ObjectMapper();
     // 响应数据业务状态

@@ -1,6 +1,7 @@
 package com.taotao.controller;
 
 import com.taotao.common.pojo.EasyUITreeNode;
+import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.content.service.ContentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,13 +15,24 @@ import java.util.List;
  * 内容管理Controller
  * Created by 孙建荣 on 17-6-11.下午9:50
  */
+@RequestMapping("/content/category")
 @Controller
 public class ContentCategoryController {
 
-    @Autowired
-    private ContentCategoryService contentCategoryServiceImpl;
+    private final ContentCategoryService contentCategoryServiceImpl;
 
-    @RequestMapping(value = "/content/category/list")
+    @Autowired
+    public ContentCategoryController(ContentCategoryService contentCategoryServiceImpl) {
+        this.contentCategoryServiceImpl = contentCategoryServiceImpl;
+    }
+
+    @RequestMapping("/create")
+    @ResponseBody
+    public TaotaoResult createCategory(Long parentId, String name) {
+        return contentCategoryServiceImpl.addContentCategory(parentId, name);
+    }
+
+    @RequestMapping(value = "/list")
     @ResponseBody
     public List<EasyUITreeNode> getContentCatList(@RequestParam(value = "id", defaultValue = "0") long parentId) {
         return contentCategoryServiceImpl.getContentCategroyList(parentId);
