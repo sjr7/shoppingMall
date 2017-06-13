@@ -89,11 +89,11 @@
             </exclusions>
         </dependency>
         <!--FastDfs文件服务器依赖-->
-       <!-- <dependency>
-            <groupId>fastdfs-client</groupId>
-            <artifactId>fastdfs-client</artifactId>
-            <version>1.25</version>
-        </dependency>-->
+        <dependency>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27-SNAPSHOT</version>
+        </dependency>
         <!--文件上传工具类-->
         <dependency>
             <groupId>commons-fileupload</groupId>

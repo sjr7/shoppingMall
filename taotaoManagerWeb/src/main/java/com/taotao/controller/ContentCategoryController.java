@@ -17,18 +17,13 @@ import java.util.List;
 @Controller
 public class ContentCategoryController {
 
-    private final ContentCategoryService contentCategoryService;
-
     @Autowired
-    public ContentCategoryController(ContentCategoryService contentCategoryService) {
-        this.contentCategoryService = contentCategoryService;
-    }
-
+    private ContentCategoryService contentCategoryServiceImpl;
 
     @RequestMapping(value = "/content/category/list")
     @ResponseBody
     public List<EasyUITreeNode> getContentCatList(@RequestParam(value = "id", defaultValue = "0") long parentId) {
-        return contentCategoryService.getContentCategroyList(parentId);
+        return contentCategoryServiceImpl.getContentCategroyList(parentId);
     }
 
     @RequestMapping("/content-category")

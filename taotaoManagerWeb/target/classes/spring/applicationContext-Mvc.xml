@@ -2,12 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
-          http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
-        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--加载配置文件-->
     <context:property-placeholder location="classpath:resource/resource.properties"/>
@@ -38,11 +37,11 @@
         <property name="maxUploadSize" value="5242880"/>
     </bean>
     <!--引用dubbo服务-->
-    <!--<dubbo:application name="taotao-manager-web"/>
+    <dubbo:application name="taotao-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
     <dubbo:reference interface="com.taotao.service.ItemService" id="itemService"/>
     <dubbo:reference interface="com.taotao.service.ItemCatService" id="itemCatService"/>
-    <dubbo:reference interface="com.taotao.content.service.ContentCategoryService" id="contentCategoryService"/>-->
+    <dubbo:reference interface="com.taotao.content.service.ContentCategoryService" id="contentCategoryService"/>
 
 </beans>
 

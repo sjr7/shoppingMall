@@ -20,6 +20,7 @@
         <module name="taotaoManagerMapper" />
         <module name="taotaoManagerPojo" />
         <module name="taotaoManagerService" />
+        <module name="taotaoManagerWeb" />
         <module name="taotaoPortalWeb" />
       </profile>
     </annotationProcessing>

@@ -14,10 +14,15 @@
 
     <artifactId>taotao-manager-web</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.suny.taotao</groupId>
+            <artifactId>taotaoCommon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.suny.taotao</groupId>
             <artifactId>taotao-manager-interface</artifactId>
@@ -34,16 +39,12 @@
             <artifactId>taotao-content-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-       <!-- <dependency>
+        <dependency>
             <groupId>com.suny.taotao</groupId>
             <artifactId>taotao-content-service</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>-->
-        <!-- <dependency>
-             <groupId>com.suny.taotao</groupId>
-             <artifactId>taotaoCommon</artifactId>
-             <version>1.0-SNAPSHOT</version>
-         </dependency>-->
+        </dependency>
+
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -119,9 +120,9 @@
         </dependency>
         <!--FastDfs文件服务器依赖-->
         <dependency>
-            <groupId>fastdfs-client</groupId>
-            <artifactId>fastdfs-client</artifactId>
-            <version>1.25</version>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27-SNAPSHOT</version>
         </dependency>
         <!--文件上传工具类-->
         <dependency>

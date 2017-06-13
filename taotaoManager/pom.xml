@@ -27,9 +27,9 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-<!--
-        &lt;!&ndash; dubbo相关 &ndash;&gt;
-        <dependency>
+
+        <!--dubbo相关-->
+        <!--<dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <exclusions>
