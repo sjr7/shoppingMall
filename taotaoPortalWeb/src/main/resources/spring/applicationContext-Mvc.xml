@@ -40,7 +40,7 @@
     <!--引用dubbo服务-->
     <dubbo:application name="taotao-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <!--<dubbo:reference interface="com.taotao.service.ItemService" id="itemService"/>-->
+    <dubbo:reference interface="com.taotao.content.service.ContentService" id="contentService"/>
     <!--<dubbo:reference interface="com.taotao.service.ItemCatService" id="itemCatService"/>-->
 
 </beans>

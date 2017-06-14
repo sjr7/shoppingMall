@@ -35,6 +35,14 @@ public class ContentController {
     }
 
     /**
+     * 增加内容页面
+     */
+    @RequestMapping("/content-add")
+    public String addContentPage() {
+        return "content-add";
+    }
+
+    /**
      * 进入内容管理主页面
      */
     @RequestMapping("/content")
