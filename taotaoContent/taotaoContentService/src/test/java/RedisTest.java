@@ -1,12 +1,35 @@
 import org.junit.Test;
+import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisCluster;
 import redis.clients.jedis.JedisPool;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 测试redis
  * Created by 孙建荣 on 17-6-14.下午10:05
  */
 public class RedisTest {
+    @Test
+    public void testJedisCluster() {
+        Set<HostAndPort> nodes = new HashSet<>();
+        nodes.add(new HostAndPort("127.0.0.1", 6379));
+        nodes.add(new HostAndPort("127.0.0.1", 7000));
+        nodes.add(new HostAndPort("127.0.0.1", 7001));
+        nodes.add(new HostAndPort("127.0.0.1", 7002));
+        nodes.add(new HostAndPort("127.0.0.1", 7003));
+        nodes.add(new HostAndPort("127.0.0.1", 7004));
+        JedisCluster jedisCluster = new JedisCluster(nodes);
+        // 第二部使用jedisCluster对象操作redis
+        jedisCluster.set("hello", "100");
+        String result = jedisCluster.get("hello");
+        System.out.println(result);
+        // 关闭jedisCluster对象
+        jedisCluster.close();
+    }
+
     @Test
     public void testJedisPool() {
         // 第一步创建一个jedisPool对象

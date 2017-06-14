@@ -148,16 +148,31 @@
       <file leaf-file-name="RedisTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="364">
+              <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#259#314#1" expanded="true" />
-                <element signature="e#347#385#1" expanded="true" />
-                <element signature="e#361#384#0" expanded="true" />
-                <element signature="e#459#494#1" expanded="true" />
-                <element signature="e#717#760#1" expanded="true" />
-                <element signature="e#794#829#1" expanded="true" />
+                <element signature="e#362#403#1" expanded="true" />
+                <element signature="e#412#457#0" expanded="true" />
+                <element signature="e#412#457#0" expanded="true" />
+                <element signature="e#467#512#0" expanded="true" />
+                <element signature="e#467#512#0" expanded="true" />
+                <element signature="e#522#567#0" expanded="true" />
+                <element signature="e#522#567#0" expanded="true" />
+                <element signature="e#577#622#0" expanded="true" />
+                <element signature="e#577#622#0" expanded="true" />
+                <element signature="e#632#677#0" expanded="true" />
+                <element signature="e#632#677#0" expanded="true" />
+                <element signature="e#687#732#0" expanded="true" />
+                <element signature="e#687#732#0" expanded="true" />
+                <element signature="e#742#794#1" expanded="true" />
+                <element signature="e#883#925#1" expanded="true" />
+                <element signature="e#1109#1164#1" expanded="true" />
+                <element signature="e#1197#1235#1" expanded="true" />
+                <element signature="e#1211#1234#0" expanded="true" />
+                <element signature="e#1309#1344#1" expanded="true" />
+                <element signature="e#1567#1610#1" expanded="true" />
+                <element signature="e#1644#1679#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -347,8 +362,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="24" />
+    <option name="x" value="314" />
+    <option name="y" value="72" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
   </component>
@@ -684,7 +699,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest.testJedisPool">
+  <component name="RunManager" selected="JUnit.RedisTest.testJedisCluster">
     <configuration default="false" name="FastDFSTest.testFastFds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="taotaoManagerWeb" />
@@ -756,6 +771,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RedisTest" />
       <option name="METHOD_NAME" value="testJedisPool" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RedisTest.testJedisCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="taotaoContentService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RedisTest" />
+      <option name="METHOD_NAME" value="testJedisCluster" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1377,7 +1413,7 @@
       </MavenSettings>
       <method />
     </configuration>
-    <list size="9">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
       <item index="1" class="java.lang.String" itemvalue="Maven.taotao-content 8085" />
       <item index="2" class="java.lang.String" itemvalue="Maven.taotaoProtalWeb 8084" />
@@ -1387,13 +1423,15 @@
       <item index="6" class="java.lang.String" itemvalue="JUnit.FastDFSTest.test" />
       <item index="7" class="java.lang.String" itemvalue="JUnit.RedisTest.testRedis" />
       <item index="8" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisPool" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisCluster" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisPool" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RedisTest.testRedis" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FastDFSTest.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testFastFds" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisCluster" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisPool" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RedisTest.testRedis" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testFastFds" />
       </list>
     </recent_temporary>
   </component>
@@ -1439,7 +1477,7 @@
       <workItem from="1497328771446" duration="122000" />
       <workItem from="1497328912186" duration="10031000" />
       <workItem from="1497361663427" duration="6164000" />
-      <workItem from="1497415713025" duration="17220000" />
+      <workItem from="1497415713025" duration="17489000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1560,7 +1598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497449410611</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="完成对Redis单机版的测试">
+      <created>1497449740342</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1497449740342</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1582,6 +1627,9 @@
     <history-entry file="PageHelperTest_test - 2017.06.01 at 23h 00m 39s.xml">
       <configuration name="PageHelperTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedisTest_testJedisCluster - 2017.06.14 at 22h 19m 21s.xml">
+      <configuration name="RedisTest.testJedisCluster" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="RedisTest_testJedisPool - 2017.06.14 at 22h 15m 24s.xml">
       <configuration name="RedisTest.testJedisPool" configurationId="JUnit" />
     </history-entry>
@@ -1590,7 +1638,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157896000" />
+    <option name="totallyTimeSpent" value="158165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1602,7 +1650,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="24" width="1920" height="1056" extended-state="0" />
+    <frame x="314" y="72" width="1920" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1623,11 +1671,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4626219" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31419286" sideWeight="0.49785638" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3131991" sideWeight="0.49785638" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73378074" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.73378074" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1713,7 +1761,8 @@
     <MESSAGE value="完成添加内容功能" />
     <MESSAGE value="写完首页图片广告位的展示" />
     <MESSAGE value="完成对Redis的测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成对Redis的测试" />
+    <MESSAGE value="完成对Redis单机版的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成对Redis单机版的测试" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2360,16 +2409,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="364">
+          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#259#314#1" expanded="true" />
-            <element signature="e#347#385#1" expanded="true" />
-            <element signature="e#361#384#0" expanded="true" />
-            <element signature="e#459#494#1" expanded="true" />
-            <element signature="e#717#760#1" expanded="true" />
-            <element signature="e#794#829#1" expanded="true" />
+            <element signature="e#362#403#1" expanded="true" />
+            <element signature="e#412#457#0" expanded="true" />
+            <element signature="e#412#457#0" expanded="true" />
+            <element signature="e#467#512#0" expanded="true" />
+            <element signature="e#467#512#0" expanded="true" />
+            <element signature="e#522#567#0" expanded="true" />
+            <element signature="e#522#567#0" expanded="true" />
+            <element signature="e#577#622#0" expanded="true" />
+            <element signature="e#577#622#0" expanded="true" />
+            <element signature="e#632#677#0" expanded="true" />
+            <element signature="e#632#677#0" expanded="true" />
+            <element signature="e#687#732#0" expanded="true" />
+            <element signature="e#687#732#0" expanded="true" />
+            <element signature="e#742#794#1" expanded="true" />
+            <element signature="e#883#925#1" expanded="true" />
+            <element signature="e#1109#1164#1" expanded="true" />
+            <element signature="e#1197#1235#1" expanded="true" />
+            <element signature="e#1211#1234#0" expanded="true" />
+            <element signature="e#1309#1344#1" expanded="true" />
+            <element signature="e#1567#1610#1" expanded="true" />
+            <element signature="e#1644#1679#1" expanded="true" />
           </folding>
         </state>
       </provider>
