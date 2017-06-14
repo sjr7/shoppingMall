@@ -1,5 +1,4 @@
 import org.csource.fastdfs.*;
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -8,9 +7,10 @@ import org.slf4j.LoggerFactory;
  */
 public class FastDFSTest {
 
+
+
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Test
     public void testFastFds() throws Exception {
 
         //       1、加载配置文件，配置文件中的内容就是tracker服务的地址。
@@ -31,6 +31,9 @@ public class FastDFSTest {
             System.out.println(s);
         }
     }
+
+
+
 }
 
 
