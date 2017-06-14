@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Jun/2017:14:06:13 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 983 http-bio-8081-exec-1 53
+127.0.0.1 - - [14/Jun/2017:14:06:25 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 983 http-bio-8081-exec-2 1
+127.0.0.1 - - [14/Jun/2017:14:33:25 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 983 http-bio-8081-exec-4 2
+127.0.0.1 - - [14/Jun/2017:14:34:58 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 983 http-bio-8081-exec-6 1

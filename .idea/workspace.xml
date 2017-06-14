@@ -1576,7 +1576,7 @@
       <workItem from="1497328771446" duration="122000" />
       <workItem from="1497328912186" duration="10031000" />
       <workItem from="1497361663427" duration="6164000" />
-      <workItem from="1497415713025" duration="19373000" />
+      <workItem from="1497415713025" duration="19385000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1725,7 +1725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497452649256</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="完成封装代码测试">
+      <created>1497452702102</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1497452702102</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1761,7 +1768,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160049000" />
+    <option name="totallyTimeSpent" value="160061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
