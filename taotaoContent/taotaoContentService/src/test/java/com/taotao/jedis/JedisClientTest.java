@@ -1,6 +1,5 @@
 package com.taotao.jedis;
 
-import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -9,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class JedisClientTest {
 
-    @Test
+//    @Test
     public void JedisClientTest() {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext*.xml");
         // 从容器中获取jedisCLient对象

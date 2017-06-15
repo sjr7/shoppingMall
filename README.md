@@ -69,6 +69,10 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
 ```
 这个错误的原因就是跟`redis`集群有关系，`redis`把这个key分配到了`127.0.0.1:7001`节点上去了，然后并没有找到这个节点，所以报错了.查看`applicationContext-redis.xml`文件  
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
     <!--单机版跟集群版只能选其中一个-->
     <!-- 1.配置单机版的连接 -->
      <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
@@ -109,9 +113,14 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
         </constructor-arg>
     </bean>
     <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>    -->
+ </beans>
 ```
 可以发现这里其实是配置一个`单机版`跟`集群版`的两个配置,然后这里是使用了`单机版`的，所以的话集群是使用不了的,然后就会出现这个错误了，把`单机版`的配置注释掉，再把`集群版`的**取消注释**就可以了,如下:
 ````xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
      <!--单机版跟集群版只能选其中一个-->
     <!-- 1.配置单机版的连接 -->
     <!--    <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
@@ -152,6 +161,7 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
         </constructor-arg>
     </bean>
     <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>   
+</beans>
 ````
 
 
