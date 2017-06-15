@@ -26,7 +26,7 @@
 
     <!--配置mapper代理对象地址-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.taotao.mapper"/>
+        <property name="basePackage" value="com.taotao.mapper,com.taotao.search.mapper"/>
     </bean>
 
 

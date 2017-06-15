@@ -2,7 +2,6 @@ import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.impl.HttpSolrServer;
 import org.apache.solr.common.SolrInputDocument;
-import org.junit.Test;
 
 import java.io.IOException;
 
@@ -11,8 +10,8 @@ import java.io.IOException;
  */
 public class TestSolrJ {
 
-    @Test
-    public void test() throws IOException, SolrServerException {
+//    @Test
+    public void testAddDocument() throws IOException, SolrServerException {
         // 创建SolrServer对象连接，创建一个HttpSolrServer
         SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
         // 需要指定solr服务的url
@@ -27,4 +26,19 @@ public class TestSolrJ {
         // 提交
         solrServer.commit();
     }
+
+//    @Test
+    public void testDelDocument() throws IOException, SolrServerException {
+        SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
+        solrServer.deleteById("test001");
+        solrServer.commit();
+    }
+
+//    @Test
+    public void testDelByQuery() throws IOException, SolrServerException {
+        SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
+        solrServer.deleteByQuery("");
+        solrServer.commit();
+    }
+
 }
