@@ -7,5 +7,5 @@ import com.taotao.common.pojo.TaotaoResult;
  * Created by 孙建荣 on 17-6-15.下午8:44
  */
 public interface SearchItemService {
-    TaotaoResult importItemTOIndex();
+    TaotaoResult importItemToIndex();
 }

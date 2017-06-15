@@ -21,6 +21,7 @@
         <module name="taotaoManagerPojo" />
         <module name="taotaoManagerService" />
         <module name="taotaoManagerWeb" />
+        <module name="taotaoPortalWeb" />
         <module name="taotaoSearchInterface" />
         <module name="taotaoSearchService" />
         <module name="taotaoSearchWeb" />

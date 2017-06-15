@@ -35,6 +35,12 @@
                 <li data-options="attributes:{'url':'content'}">内容管理</li>
             </ul>
         </li>
+        <li>
+            <span>索引库管理</span>
+            <ul>
+                <li data-options="attributes:{'url':'import-index'}">导入索引库</li>
+            </ul>
+        </li>
     </ul>
 </div>
 <div data-options="region:'center',title:''">

@@ -46,7 +46,7 @@
         </dependency>
         <dependency>
             <groupId>com.suny.taotao</groupId>
-            <artifactId>taotao-search-service</artifactId>
+            <artifactId>taotao-search-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
