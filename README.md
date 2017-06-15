@@ -54,3 +54,115 @@ ERROR:  Could not find a valid gem 'redis-3.0.0.gem' (>= 0) in any repository
 ```
 gem install redis -v 3.0.0
 ```
+
+#### 　操作redis集群出现异常
+部分异常出错代码:  
+```
+redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:7001
+
+	at redis.clients.jedis.Protocol.processError(Protocol.java:108)
+	at redis.clients.jedis.Protocol.process(Protocol.java:142)
+	at redis.clients.jedis.Protocol.read(Protocol.java:196)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:288)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:187)
+
+```
+这个错误的原因就是跟`redis`集群有关系，`redis`把这个key分配到了`127.0.0.1:7001`节点上去了，然后并没有找到这个节点，所以报错了.查看`applicationContext-redis.xml`文件  
+```xml
+    <!--单机版跟集群版只能选其中一个-->
+    <!-- 1.配置单机版的连接 -->
+     <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+         <constructor-arg name="host" value="127.0.0.1"/>
+         <constructor-arg name="port" value="6379"/>
+     </bean>
+     <bean id="jedisClientPool" class="com.taotao.jedis.JedisClientPool"/>
+
+    <!-- 2.集群版的配置 -->
+    <!-- <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+        <constructor-arg>
+            <set>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="6379"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7000"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7001"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7002"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7003"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7004"/>
+                </bean>
+            </set>
+        </constructor-arg>
+    </bean>
+    <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>    -->
+```
+可以发现这里其实是配置一个`单机版`跟`集群版`的两个配置,然后这里是使用了`单机版`的，所以的话集群是使用不了的,然后就会出现这个错误了，把`单机版`的配置注释掉，再把`集群版`的**取消注释**就可以了,如下:
+````xml
+     <!--单机版跟集群版只能选其中一个-->
+    <!-- 1.配置单机版的连接 -->
+    <!--    <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+         <constructor-arg name="host" value="127.0.0.1"/>
+         <constructor-arg name="port" value="6379"/>
+     </bean>
+     <bean id="jedisClientPool" class="com.taotao.jedis.JedisClientPool"/>    -->
+
+    <!-- 2.集群版的配置 -->
+     <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+        <constructor-arg>
+            <set>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="6379"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7000"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7001"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7002"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7003"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7004"/>
+                </bean>
+            </set>
+        </constructor-arg>
+    </bean>
+    <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>   
+````
+
+
+
+
+
+
+
+
+
+
+
+
+

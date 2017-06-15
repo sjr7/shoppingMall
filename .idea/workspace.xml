@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/mybatis/MyBatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/classes/spring/applicationContext-trans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/taotao-content-service/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/tomcat/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/tomcat/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/tomcat/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/tomcat/logs/access_log.2017-06-13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/tomcat/logs/access_log.2017-06-14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -50,11 +73,23 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <first_editor relative-caret-position="285">
+                <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
                 <folding>
-                  <marker date="1497448463585" expanded="true" signature="1019:1194" ph="..." />
-                  <marker date="1497448463585" expanded="true" signature="1350:1525" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="1019:1194" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="1350:1525" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="2612:2736" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="2844:4416" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="4599:4865" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="4961:6383" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="4987:6371" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="5005:6344" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="5068:5225" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="5288:5445" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="5508:5665" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="5728:5885" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="5948:6105" ph="..." />
+                  <marker date="1497504064134" expanded="true" signature="6168:6325" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -62,93 +97,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/java/com/taotao/portal/controller/IndexController.java">
+      <file leaf-file-name="JedisClientTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1225#1306#1" expanded="true" />
-                <element signature="e#1336#1382#1" expanded="true" />
-                <element signature="e#1364#1381#0" expanded="true" />
-                <element signature="e#1396#1415#0" expanded="true" />
-                <element signature="e#1445#1474#1" expanded="true" />
-                <element signature="e#1487#1513#0" expanded="true" />
-                <element signature="e#1487#1513#0" expanded="true" />
-                <element signature="e#1527#1556#0" expanded="true" />
-                <element signature="e#1527#1556#0" expanded="true" />
-                <element signature="e#1570#1594#0" expanded="true" />
-                <element signature="e#1570#1594#0" expanded="true" />
-                <element signature="e#1608#1635#0" expanded="true" />
-                <element signature="e#1608#1635#0" expanded="true" />
-                <element signature="e#1649#1681#0" expanded="true" />
-                <element signature="e#1662#1680#0" expanded="true" />
-                <element signature="e#1649#1681#0" expanded="true" />
-                <element signature="e#1695#1726#0" expanded="true" />
-                <element signature="e#1707#1725#0" expanded="true" />
-                <element signature="e#1695#1726#0" expanded="true" />
-                <element signature="e#1740#1773#0" expanded="true" />
-                <element signature="e#1753#1772#0" expanded="true" />
-                <element signature="e#1740#1773#0" expanded="true" />
-                <element signature="e#1857#1878#0" expanded="true" />
-                <element signature="e#1857#1878#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#431#1" expanded="true" />
+                <element signature="e#471#543#1" expanded="true" />
+                <element signature="e#593#633#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FastDFSTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/test/java/FastDFSTest.java">
+      <file leaf-file-name="applicationContext-redis.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+            <state relative-caret-position="1230">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java">
+      <file leaf-file-name="JedisClientCluster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientCluster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="30">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#362#403#1" expanded="true" />
-                <element signature="e#412#457#0" expanded="true" />
-                <element signature="e#412#457#0" expanded="true" />
-                <element signature="e#467#512#0" expanded="true" />
-                <element signature="e#467#512#0" expanded="true" />
-                <element signature="e#522#567#0" expanded="true" />
-                <element signature="e#522#567#0" expanded="true" />
-                <element signature="e#577#622#0" expanded="true" />
-                <element signature="e#577#622#0" expanded="true" />
-                <element signature="e#632#677#0" expanded="true" />
-                <element signature="e#632#677#0" expanded="true" />
-                <element signature="e#687#732#0" expanded="true" />
-                <element signature="e#687#732#0" expanded="true" />
-                <element signature="e#742#794#1" expanded="true" />
-                <element signature="e#883#925#1" expanded="true" />
-                <element signature="e#1109#1164#1" expanded="true" />
-                <element signature="e#1197#1235#1" expanded="true" />
-                <element signature="e#1211#1234#0" expanded="true" />
-                <element signature="e#1309#1344#1" expanded="true" />
-                <element signature="e#1567#1610#1" expanded="true" />
-                <element signature="e#1644#1679#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisClientPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#497#520#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,105 +152,7 @@
         <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisClientTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#312#436#1" expanded="true" />
-                <element signature="e#476#548#1" expanded="true" />
-                <element signature="e#598#638#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisClientCluster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientCluster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisClientPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#483#521#1" expanded="true" />
-                <element signature="e#497#520#0" expanded="true" />
-                <element signature="e#530#568#1" expanded="true" />
-                <element signature="e#680#718#1" expanded="true" />
-                <element signature="e#694#717#0" expanded="true" />
-                <element signature="e#727#758#1" expanded="true" />
-                <element signature="e#874#912#1" expanded="true" />
-                <element signature="e#888#911#0" expanded="true" />
-                <element signature="e#921#956#1" expanded="true" />
-                <element signature="e#1082#1120#1" expanded="true" />
-                <element signature="e#1096#1119#0" expanded="true" />
-                <element signature="e#1129#1170#1" expanded="true" />
-                <element signature="e#1280#1318#1" expanded="true" />
-                <element signature="e#1294#1317#0" expanded="true" />
-                <element signature="e#1327#1356#1" expanded="true" />
-                <element signature="e#1467#1505#1" expanded="true" />
-                <element signature="e#1481#1504#0" expanded="true" />
-                <element signature="e#1514#1544#1" expanded="true" />
-                <element signature="e#1683#1721#1" expanded="true" />
-                <element signature="e#1697#1720#0" expanded="true" />
-                <element signature="e#1730#1774#1" expanded="true" />
-                <element signature="e#1901#1939#1" expanded="true" />
-                <element signature="e#1915#1938#0" expanded="true" />
-                <element signature="e#1948#1987#1" expanded="true" />
-                <element signature="e#2115#2153#1" expanded="true" />
-                <element signature="e#2129#2152#0" expanded="true" />
-                <element signature="e#2162#2199#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-redis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -346,15 +242,15 @@
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
         <option value="$PROJECT_DIR$/taotaoManagerWeb/src/test/java/FastDFSTest.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/src/main/java/com/taotao/jedis/JedisClient.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/src/main/java/com/taotao/jedis/JedisClientPool.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/jedis/JedisClientPool.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientPool.java" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientCluster.java" />
-        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java" />
+        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -395,7 +291,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="taotao-manager-web" />
+          <option name="myItemId" value="taotao-manager-service" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -405,7 +301,17 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="taotao-manager-web" />
+          <option name="myItemId" value="taotao-content-service" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="taotao-content-service" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -420,9 +326,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="y" value="-4" />
+    <option name="y" value="-11" />
     <option name="width" value="1922" />
-    <option name="height" value="1085" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -442,6 +348,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -498,6 +405,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,11 +637,14 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1527,9 +1441,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.JedisClientTest.JedisClientTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisCluster" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RedisTest.testRedis" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisPool" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RedisTest.testRedis" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RedisTest.testJedisCluster" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.FastDFSTest.test" />
       </list>
     </recent_temporary>
@@ -1576,7 +1490,8 @@
       <workItem from="1497328771446" duration="122000" />
       <workItem from="1497328912186" duration="10031000" />
       <workItem from="1497361663427" duration="6164000" />
-      <workItem from="1497415713025" duration="19385000" />
+      <workItem from="1497415713025" duration="19494000" />
+      <workItem from="1497501455231" duration="2609000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1736,22 +1651,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FastDFSTest_test - 2017.06.14 at 18h 17m 52s.xml">
-      <configuration name="FastDFSTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastDFSTest_testFastFds - 2017.06.11 at 10h 29m 29s.xml">
-      <configuration name="FastDFSTest.testFastFds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastDFSTest_testFastFds - 2017.06.13 at 13h 45m 52s.xml">
-      <configuration name="FastDFSTest.testFastFds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastDFSTest_testFastFds - 2017.06.13 at 13h 47m 30s.xml">
-      <configuration name="FastDFSTest.testFastFds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest_JedisClientTest - 2017.06.14 at 23h 01m 01s.xml">
+    <history-entry file="JedisClientTest_JedisClientTest - 2017.06.15 at 12h 46m 18s.xml">
       <configuration name="JedisClientTest.JedisClientTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_JedisClientTest - 2017.06.14 at 23h 02m 09s.xml">
+    <history-entry file="JedisClientTest_JedisClientTest - 2017.06.15 at 13h 08m 06s.xml">
+      <configuration name="JedisClientTest.JedisClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_JedisClientTest - 2017.06.15 at 13h 12m 12s.xml">
       <configuration name="JedisClientTest.JedisClientTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PageHelperTest_test - 2017.06.01 at 23h 00m 39s.xml">
@@ -1760,15 +1666,24 @@
     <history-entry file="RedisTest_testJedisCluster - 2017.06.14 at 22h 19m 21s.xml">
       <configuration name="RedisTest.testJedisCluster" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedisTest_testJedisCluster - 2017.06.15 at 12h 43m 27s.xml">
+      <configuration name="RedisTest.testJedisCluster" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="RedisTest_testJedisPool - 2017.06.14 at 22h 15m 24s.xml">
+      <configuration name="RedisTest.testJedisPool" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_testJedisPool - 2017.06.15 at 12h 43m 35s.xml">
       <configuration name="RedisTest.testJedisPool" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RedisTest_testRedis - 2017.06.14 at 22h 09m 38s.xml">
       <configuration name="RedisTest.testRedis" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedisTest_testRedis - 2017.06.15 at 12h 43m 42s.xml">
+      <configuration name="RedisTest.testRedis" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160061000" />
+    <option name="totallyTimeSpent" value="162779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1780,7 +1695,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1805,11 +1720,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7107259" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7107259" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19358289" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19337606" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19893049" sideWeight="0.50840336" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.687974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1932,12 +1847,6 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/taotaoPortalWeb/src/main/java/com/taotao/portal/controller/IndexController.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/taotaoManagerWeb/src/main/java/com/taotao/controller/PictureController.java</url>
           <line>52</line>
           <properties />
@@ -1967,7 +1876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-727">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2006,7 +1914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2048,7 +1955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2080,10 +1986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#1712#1713#0" expanded="false" />
-            <element signature="e#1753#1754#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2126,7 +2028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2134,13 +2035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2148,7 +2042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2172,7 +2065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2180,7 +2072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2188,10 +2079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2213,45 +2100,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="db://[Connection] TABLE - taotao.tb_content_category">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="id" position="0" visible="true" />
-            <column name="parent_id" position="1" visible="true" />
-            <column name="name" position="2" visible="true" />
-            <column name="status" position="3" visible="true" />
-            <column name="sort_order" position="4" visible="true" />
-            <column name="is_parent" position="5" visible="true" />
-            <column name="created" position="6" visible="true" />
-            <column name="updated" position="7" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - taotao.tb_content">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="4" readonly="true">
-          <columns>
-            <column name="id" position="0" visible="true" />
-            <column name="category_id" position="1" visible="true" />
-            <column name="title" position="2" visible="true" />
-            <column name="sub_title" position="3" visible="true" />
-            <column name="title_desc" position="4" visible="true" />
-            <column name="url" position="5" visible="true" />
-            <column name="pic" position="6" visible="true" />
-            <column name="pic2" position="7" visible="true" />
-            <column name="content" position="8" visible="true" />
-            <column name="created" position="9" visible="true" />
-            <column name="updated" position="10" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
+    <entry file="db://[Connection] TABLE - taotao.tb_content_category" />
+    <entry file="db://[Connection] TABLE - taotao.tb_content" />
     <entry file="uml://MAVEN/com.suny.taotao:taotao-manager-web:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -2325,6 +2175,7 @@
           <settings layout="Hierarchic Group" zoom="0.2785204991087344" x="1112.0" y="830.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -2333,7 +2184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2341,9 +2191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3332">
           <caret line="57" column="67" lean-forward="true" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2351,7 +2198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1477">
           <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2367,7 +2213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="168" column="92" lean-forward="false" selection-start-line="168" selection-start-column="92" selection-end-line="168" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2399,7 +2244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2435,42 +2279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/java/com/taotao/portal/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1225#1306#1" expanded="true" />
-            <element signature="e#1336#1382#1" expanded="true" />
-            <element signature="e#1364#1381#0" expanded="true" />
-            <element signature="e#1396#1415#0" expanded="true" />
-            <element signature="e#1445#1474#1" expanded="true" />
-            <element signature="e#1487#1513#0" expanded="true" />
-            <element signature="e#1487#1513#0" expanded="true" />
-            <element signature="e#1527#1556#0" expanded="true" />
-            <element signature="e#1527#1556#0" expanded="true" />
-            <element signature="e#1570#1594#0" expanded="true" />
-            <element signature="e#1570#1594#0" expanded="true" />
-            <element signature="e#1608#1635#0" expanded="true" />
-            <element signature="e#1608#1635#0" expanded="true" />
-            <element signature="e#1649#1681#0" expanded="true" />
-            <element signature="e#1662#1680#0" expanded="true" />
-            <element signature="e#1649#1681#0" expanded="true" />
-            <element signature="e#1695#1726#0" expanded="true" />
-            <element signature="e#1707#1725#0" expanded="true" />
-            <element signature="e#1695#1726#0" expanded="true" />
-            <element signature="e#1740#1773#0" expanded="true" />
-            <element signature="e#1753#1772#0" expanded="true" />
-            <element signature="e#1740#1773#0" expanded="true" />
-            <element signature="e#1857#1878#0" expanded="true" />
-            <element signature="e#1857#1878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2482,111 +2290,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-            <folding>
-              <marker date="1497448463585" expanded="true" signature="1019:1194" ph="..." />
-              <marker date="1497448463585" expanded="true" signature="1350:1525" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#622#0" expanded="true" />
+            <element signature="e#577#622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManagerWeb/src/test/java/FastDFSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#214#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/pom.xml">
+    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/java/com/taotao/portal/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#483#521#1" expanded="true" />
-            <element signature="e#497#520#0" expanded="true" />
-            <element signature="e#530#568#1" expanded="true" />
-            <element signature="e#680#718#1" expanded="true" />
-            <element signature="e#694#717#0" expanded="true" />
-            <element signature="e#727#758#1" expanded="true" />
-            <element signature="e#874#912#1" expanded="true" />
-            <element signature="e#888#911#0" expanded="true" />
-            <element signature="e#921#956#1" expanded="true" />
-            <element signature="e#1082#1120#1" expanded="true" />
-            <element signature="e#1096#1119#0" expanded="true" />
-            <element signature="e#1129#1170#1" expanded="true" />
-            <element signature="e#1280#1318#1" expanded="true" />
-            <element signature="e#1294#1317#0" expanded="true" />
-            <element signature="e#1327#1356#1" expanded="true" />
-            <element signature="e#1467#1505#1" expanded="true" />
-            <element signature="e#1481#1504#0" expanded="true" />
-            <element signature="e#1514#1544#1" expanded="true" />
-            <element signature="e#1683#1721#1" expanded="true" />
-            <element signature="e#1697#1720#0" expanded="true" />
-            <element signature="e#1730#1774#1" expanded="true" />
-            <element signature="e#1901#1939#1" expanded="true" />
-            <element signature="e#1915#1938#0" expanded="true" />
-            <element signature="e#1948#1987#1" expanded="true" />
-            <element signature="e#2115#2153#1" expanded="true" />
-            <element signature="e#2129#2152#0" expanded="true" />
-            <element signature="e#2162#2199#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientCluster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#497#520#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2594,52 +2353,55 @@
     <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#403#1" expanded="true" />
-            <element signature="e#412#457#0" expanded="true" />
-            <element signature="e#412#457#0" expanded="true" />
-            <element signature="e#467#512#0" expanded="true" />
-            <element signature="e#467#512#0" expanded="true" />
-            <element signature="e#522#567#0" expanded="true" />
-            <element signature="e#522#567#0" expanded="true" />
-            <element signature="e#577#622#0" expanded="true" />
-            <element signature="e#577#622#0" expanded="true" />
-            <element signature="e#632#677#0" expanded="true" />
-            <element signature="e#632#677#0" expanded="true" />
-            <element signature="e#687#732#0" expanded="true" />
-            <element signature="e#687#732#0" expanded="true" />
-            <element signature="e#742#794#1" expanded="true" />
-            <element signature="e#883#925#1" expanded="true" />
-            <element signature="e#1109#1164#1" expanded="true" />
-            <element signature="e#1197#1235#1" expanded="true" />
-            <element signature="e#1211#1234#0" expanded="true" />
-            <element signature="e#1309#1344#1" expanded="true" />
-            <element signature="e#1567#1610#1" expanded="true" />
-            <element signature="e#1644#1679#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#312#436#1" expanded="true" />
-            <element signature="e#476#548#1" expanded="true" />
-            <element signature="e#598#638#1" expanded="true" />
+            <element signature="e#312#431#1" expanded="true" />
+            <element signature="e#471#543#1" expanded="true" />
+            <element signature="e#593#633#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+            <folding>
+              <marker date="1497504064134" expanded="true" signature="1019:1194" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="1350:1525" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="2612:2736" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="2844:4416" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="4599:4865" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="4961:6383" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="4987:6371" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="5005:6344" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="5068:5225" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="5288:5445" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="5508:5665" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="5728:5885" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="5948:6105" ph="..." />
+              <marker date="1497504064134" expanded="true" signature="6168:6325" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

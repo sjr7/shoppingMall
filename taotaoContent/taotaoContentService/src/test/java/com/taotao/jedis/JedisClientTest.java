@@ -11,8 +11,8 @@ public class JedisClientTest {
 
     @Test
     public void JedisClientTest() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-redis.xml");
-        // 从容器中获取ｊｅｄｉｓＣｌｉｅｎｔ对象
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext*.xml");
+        // 从容器中获取jedisCLient对象
         JedisClient jedisClient = applicationContext.getBean(JedisClient.class);
         jedisClient.set("first", "100");
         String result = jedisClient.get("list");
