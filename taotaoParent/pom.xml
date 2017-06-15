@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../taotaoPortalWeb</module>
+        <module>../taotaoSearch</module>
+        <module>../taotaoSearchWeb</module>
     </modules>
     <packaging>pom</packaging>
 

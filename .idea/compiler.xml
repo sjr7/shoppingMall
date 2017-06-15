@@ -21,7 +21,9 @@
         <module name="taotaoManagerPojo" />
         <module name="taotaoManagerService" />
         <module name="taotaoManagerWeb" />
-        <module name="taotaoPortalWeb" />
+        <module name="taotaoSearchInterface" />
+        <module name="taotaoSearchService" />
+        <module name="taotaoSearchWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +48,10 @@
       <module name="taotaoManagerWeb" target="1.7" />
       <module name="taotaoParent" target="1.7" />
       <module name="taotaoPortalWeb" target="1.7" />
+      <module name="taotaoSearch" target="1.7" />
+      <module name="taotaoSearchInterface" target="1.7" />
+      <module name="taotaoSearchService" target="1.7" />
+      <module name="taotaoSearchWeb" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
