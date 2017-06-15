@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/properties/resource.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/target/tomcat/logs/access_log.2017-06-14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/tomcat/logs/access_log.2017-06-14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dadd_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/logs/access_log.2017-06-14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/properties/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentServiceImpl.java" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-redis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManagerWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoManagerWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoPortalWeb/target/classes/spring/applicationContext-Mvc.xml" afterPath="$PROJECT_DIR$/taotaoPortalWeb/target/classes/spring/applicationContext-Mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -111,18 +94,19 @@
       <file leaf-file-name="ContentServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="205">
+              <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
-                <element signature="e#1519#1575#1" expanded="true" />
-                <element signature="e#1565#1573#0" expanded="true" />
-                <element signature="e#1565#1573#0" expanded="true" />
-                <element signature="e#1671#1738#1" expanded="true" />
-                <element signature="e#1908#1958#1" expanded="true" />
-                <element signature="e#1985#2047#1" expanded="true" />
-                <element signature="e#2116#2180#1" expanded="true" />
-                <element signature="e#2259#2267#0" expanded="true" />
-                <element signature="e#2259#2267#0" expanded="true" />
+                <element signature="e#1364#1389#0" expanded="true" />
+                <element signature="e#1575#1631#1" expanded="true" />
+                <element signature="e#1621#1629#0" expanded="true" />
+                <element signature="e#1621#1629#0" expanded="true" />
+                <element signature="e#1727#1794#1" expanded="true" />
+                <element signature="e#1964#2014#1" expanded="true" />
+                <element signature="e#2041#2103#1" expanded="true" />
+                <element signature="e#2172#2236#1" expanded="true" />
+                <element signature="e#2315#2323#0" expanded="true" />
+                <element signature="e#2315#2323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1452,7 +1436,7 @@
       <workItem from="1497328912186" duration="10031000" />
       <workItem from="1497361663427" duration="6164000" />
       <workItem from="1497415713025" duration="19494000" />
-      <workItem from="1497501455231" duration="4931000" />
+      <workItem from="1497501455231" duration="5175000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1615,7 +1599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497504098312</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="完成首页缓存改成优先Redis查询">
+      <created>1497506420585</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1497506420585</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1651,7 +1642,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165101000" />
+    <option name="totallyTimeSpent" value="165345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1779,7 +1770,8 @@
     <MESSAGE value="完成单机版redis的工具类" />
     <MESSAGE value="完成封装代码测试" />
     <MESSAGE value="解决一个由于配置redis集群不当导致的小bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决一个由于配置redis集群不当导致的小bug" />
+    <MESSAGE value="完成首页缓存改成优先Redis查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成首页缓存改成优先Redis查询" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2375,18 +2367,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="205">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
-            <element signature="e#1519#1575#1" expanded="true" />
-            <element signature="e#1565#1573#0" expanded="true" />
-            <element signature="e#1565#1573#0" expanded="true" />
-            <element signature="e#1671#1738#1" expanded="true" />
-            <element signature="e#1908#1958#1" expanded="true" />
-            <element signature="e#1985#2047#1" expanded="true" />
-            <element signature="e#2116#2180#1" expanded="true" />
-            <element signature="e#2259#2267#0" expanded="true" />
-            <element signature="e#2259#2267#0" expanded="true" />
+            <element signature="e#1364#1389#0" expanded="true" />
+            <element signature="e#1575#1631#1" expanded="true" />
+            <element signature="e#1621#1629#0" expanded="true" />
+            <element signature="e#1621#1629#0" expanded="true" />
+            <element signature="e#1727#1794#1" expanded="true" />
+            <element signature="e#1964#2014#1" expanded="true" />
+            <element signature="e#2041#2103#1" expanded="true" />
+            <element signature="e#2172#2236#1" expanded="true" />
+            <element signature="e#2315#2323#0" expanded="true" />
+            <element signature="e#2315#2323#0" expanded="true" />
           </folding>
         </state>
       </provider>
