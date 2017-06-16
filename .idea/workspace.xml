@@ -64,29 +64,35 @@
       <file leaf-file-name="TestActivemq.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+            <state relative-caret-position="362">
+              <caret line="91" column="27" lean-forward="true" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#386#479#1" expanded="true" />
-                <element signature="e#539#600#1" expanded="true" />
-                <element signature="e#801#877#1" expanded="true" />
-                <element signature="e#954#1002#1" expanded="true" />
-                <element signature="e#1050#1107#1" expanded="true" />
-                <element signature="e#1258#1328#1" expanded="true" />
-                <element signature="e#1588#1681#1" expanded="true" />
-                <element signature="e#1746#1807#1" expanded="true" />
-                <element signature="e#1936#2018#1" expanded="true" />
-                <element signature="e#2098#2146#1" expanded="true" />
-                <element signature="e#2199#2256#1" expanded="true" />
-                <element signature="e#2288#2814#0" expanded="true" />
-                <element signature="e#2316#2813#0" expanded="true" />
-                <element signature="e#2431#2479#1" expanded="true" />
-                <element signature="e#2457#2478#0" expanded="true" />
-                <element signature="e#2496#2515#1" expanded="true" />
-                <element signature="e#2591#2612#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#2288#2814#0" expanded="true" />
+                <element signature="e#392#485#1" expanded="true" />
+                <element signature="e#545#606#1" expanded="true" />
+                <element signature="e#807#883#1" expanded="true" />
+                <element signature="e#960#1008#1" expanded="true" />
+                <element signature="e#1056#1113#1" expanded="true" />
+                <element signature="e#1264#1334#1" expanded="true" />
+                <element signature="e#1609#1702#1" expanded="true" />
+                <element signature="e#1767#1828#1" expanded="true" />
+                <element signature="e#1957#2039#1" expanded="true" />
+                <element signature="e#2119#2167#1" expanded="true" />
+                <element signature="e#2220#2277#1" expanded="true" />
+                <element signature="e#2309#2835#0" expanded="true" />
+                <element signature="e#2337#2834#0" expanded="true" />
+                <element signature="e#2452#2500#1" expanded="true" />
+                <element signature="e#2478#2499#0" expanded="true" />
+                <element signature="e#2517#2536#1" expanded="true" />
+                <element signature="e#2612#2633#0" expanded="true" />
+                <element signature="e#2833#2834#0" expanded="true" />
+                <element signature="e#2309#2835#0" expanded="true" />
+                <element signature="e#3211#3304#1" expanded="true" />
+                <element signature="e#3367#3428#1" expanded="true" />
+                <element signature="e#3553#3629#1" expanded="true" />
+                <element signature="e#3710#3758#1" expanded="true" />
+                <element signature="e#3809#3866#1" expanded="true" />
+                <element signature="e#3923#4014#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,8 +237,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="910" />
-    <option name="y" value="64" />
+    <option name="x" value="913" />
+    <option name="y" value="59" />
     <option name="width" value="1708" />
     <option name="height" value="950" />
   </component>
@@ -396,49 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestActivemq.testQueueProducer">
-    <configuration default="false" name="TestSolrJ.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="taotaoSearchService" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSolrJ" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSolrJ.testDelDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="taotaoSearchService" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSolrJ" />
-      <option name="METHOD_NAME" value="testDelDocument" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestActivemq.testTopicProduce">
     <configuration default="false" name="TestSolrJ.searchDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="taotaoSearchService" />
@@ -494,6 +458,58 @@
       <option name="PACKAGE_NAME" value="com.taotao.activemq" />
       <option name="MAIN_CLASS_NAME" value="com.taotao.activemq.TestActivemq" />
       <option name="METHOD_NAME" value="testQueueProducer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestActivemq.testQueueConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.taotao.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="taotao-manager-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.taotao.activemq" />
+      <option name="MAIN_CLASS_NAME" value="com.taotao.activemq.TestActivemq" />
+      <option name="METHOD_NAME" value="testQueueConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestActivemq.testTopicProduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.taotao.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="taotao-manager-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.taotao.activemq" />
+      <option name="MAIN_CLASS_NAME" value="com.taotao.activemq.TestActivemq" />
+      <option name="METHOD_NAME" value="testTopicProduce" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1213,19 +1229,19 @@
       <item index="4" class="java.lang.String" itemvalue="Maven.taotao-search-web 8087" />
       <item index="5" class="java.lang.String" itemvalue="Maven.taotao-search 8086" />
       <item index="6" class="java.lang.String" itemvalue="Maven.taotaoProtalWeb 8084" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TestSolrJ.test" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.TestSolrJ.testDelDocument" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.TestSolrJ.searchDocument" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.TestSolrCloud.testSolrCloundAdDocument" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueProducer" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.TestSolrJ.searchDocument" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestSolrCloud.testSolrCloundAdDocument" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueProducer" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueConsumer" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicProduce" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueProducer" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSolrCloud.testSolrCloundAdDocument" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSolrJ.searchDocument" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSolrJ.testDelDocument" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSolrJ.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicProduce" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueConsumer" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueProducer" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSolrCloud.testSolrCloundAdDocument" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSolrJ.searchDocument" />
       </list>
     </recent_temporary>
   </component>
@@ -1273,7 +1289,7 @@
       <workItem from="1497361663427" duration="6164000" />
       <workItem from="1497415713025" duration="19494000" />
       <workItem from="1497501455231" duration="17032000" />
-      <workItem from="1497579154877" duration="16826000" />
+      <workItem from="1497579154877" duration="17162000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1534,13 +1550,17 @@
       <option name="project" value="LOCAL" />
       <updated>1497623606642</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="完成测试ActiveMQ Consumer">
+      <created>1497623996892</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1497623996892</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisClientTest_JedisClientTest - 2017.06.15 at 13h 12m 12s.xml">
-      <configuration name="JedisClientTest.JedisClientTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RedisTest_testJedisCluster - 2017.06.15 at 12h 43m 27s.xml">
       <configuration name="RedisTest.testJedisCluster" configurationId="JUnit" />
     </history-entry>
@@ -1552,6 +1572,9 @@
     </history-entry>
     <history-entry file="TestActivemq_testQueueProducer - 2017.06.16 at 22h 31m 59s.xml">
       <configuration name="TestActivemq.testQueueProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestActivemq_testTopicProduce - 2017.06.16 at 22h 45m 04s.xml">
+      <configuration name="TestActivemq.testTopicProduce" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSolrCloud_testSolrCloundAdDocument - 2017.06.16 at 17h 55m 45s.xml">
       <configuration name="TestSolrCloud.testSolrCloundAdDocument" configurationId="JUnit" />
@@ -1570,7 +1593,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194028000" />
+    <option name="totallyTimeSpent" value="194364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1582,7 +1605,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="910" y="64" width="1708" height="950" extended-state="0" />
+    <frame x="913" y="59" width="1708" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1591,7 +1614,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5021436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22557297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22557297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5167785" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1676,7 +1699,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="由于未能解决的问题,撤销dubbo" />
     <MESSAGE value="修复重大bug，导致不能Spring不能扫描bean组件" />
     <MESSAGE value="完成添加内容分类管理功能" />
     <MESSAGE value="完成添加内容功能" />
@@ -1701,7 +1723,8 @@
     <MESSAGE value="将搜索功能切换到集群版" />
     <MESSAGE value="完成搜索模块全局异常处理器GlobalExceptionReslover" />
     <MESSAGE value="完成测试ActiveMQ基本的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成测试ActiveMQ基本的方法" />
+    <MESSAGE value="完成测试ActiveMQ Consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成测试ActiveMQ Consumer" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2377,29 +2400,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+        <state relative-caret-position="362">
+          <caret line="91" column="27" lean-forward="true" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#386#479#1" expanded="true" />
-            <element signature="e#539#600#1" expanded="true" />
-            <element signature="e#801#877#1" expanded="true" />
-            <element signature="e#954#1002#1" expanded="true" />
-            <element signature="e#1050#1107#1" expanded="true" />
-            <element signature="e#1258#1328#1" expanded="true" />
-            <element signature="e#1588#1681#1" expanded="true" />
-            <element signature="e#1746#1807#1" expanded="true" />
-            <element signature="e#1936#2018#1" expanded="true" />
-            <element signature="e#2098#2146#1" expanded="true" />
-            <element signature="e#2199#2256#1" expanded="true" />
-            <element signature="e#2288#2814#0" expanded="true" />
-            <element signature="e#2316#2813#0" expanded="true" />
-            <element signature="e#2431#2479#1" expanded="true" />
-            <element signature="e#2457#2478#0" expanded="true" />
-            <element signature="e#2496#2515#1" expanded="true" />
-            <element signature="e#2591#2612#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2288#2814#0" expanded="true" />
+            <element signature="e#392#485#1" expanded="true" />
+            <element signature="e#545#606#1" expanded="true" />
+            <element signature="e#807#883#1" expanded="true" />
+            <element signature="e#960#1008#1" expanded="true" />
+            <element signature="e#1056#1113#1" expanded="true" />
+            <element signature="e#1264#1334#1" expanded="true" />
+            <element signature="e#1609#1702#1" expanded="true" />
+            <element signature="e#1767#1828#1" expanded="true" />
+            <element signature="e#1957#2039#1" expanded="true" />
+            <element signature="e#2119#2167#1" expanded="true" />
+            <element signature="e#2220#2277#1" expanded="true" />
+            <element signature="e#2309#2835#0" expanded="true" />
+            <element signature="e#2337#2834#0" expanded="true" />
+            <element signature="e#2452#2500#1" expanded="true" />
+            <element signature="e#2478#2499#0" expanded="true" />
+            <element signature="e#2517#2536#1" expanded="true" />
+            <element signature="e#2612#2633#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
+            <element signature="e#2309#2835#0" expanded="true" />
+            <element signature="e#3211#3304#1" expanded="true" />
+            <element signature="e#3367#3428#1" expanded="true" />
+            <element signature="e#3553#3629#1" expanded="true" />
+            <element signature="e#3710#3758#1" expanded="true" />
+            <element signature="e#3809#3866#1" expanded="true" />
+            <element signature="e#3923#4014#1" expanded="true" />
           </folding>
         </state>
       </provider>
