@@ -9,6 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.io.UnsupportedEncodingException;
+
 /**
  * 搜索服务Controller
  * Created by 孙建荣 on 17-6-16.上午11:31
@@ -35,9 +37,10 @@ public class SearchController {
      * @return 带查询条件的搜索页面
      */
     @RequestMapping("/search.html")
-    public String search(@RequestParam("q") String queryString, @RequestParam(defaultValue = "1") Integer page, Model model) {
+    public String search(@RequestParam("q") String queryString, @RequestParam(defaultValue = "1") Integer page, Model model) throws UnsupportedEncodingException {
         // 解决前端页面乱码问题
-        queryString = new String(queryString.getBytes("iso-8859-1"), "utf-8");
+        queryString = new String(queryString.getBytes("iso8859-1"), "utf-8");
+//        queryString = new String(queryString.getBytes("iso8859-1"), "utf-8");
         SearchResult result = searchServiceImpl.search(queryString, page, ITEM_ROWS);
         // 传递给页面
         model.addAttribute("query", queryString);
