@@ -82,6 +82,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--消息队列ActiveMQ-->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
