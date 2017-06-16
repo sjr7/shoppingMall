@@ -39,11 +39,11 @@
             <artifactId>taotao-content-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>com.suny.taotao</groupId>
             <artifactId>taotao-content-service</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.suny.taotao</groupId>
             <artifactId>taotao-search-interface</artifactId>

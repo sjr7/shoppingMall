@@ -1,4 +1,3 @@
-import org.junit.Test;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisCluster;
@@ -12,7 +11,7 @@ import java.util.Set;
  * Created by 孙建荣 on 17-6-14.下午10:05
  */
 public class RedisTest {
-    @Test
+//    @Test
     public void testJedisCluster() {
         Set<HostAndPort> nodes = new HashSet<>();
         nodes.add(new HostAndPort("127.0.0.1", 6379));
@@ -30,7 +29,7 @@ public class RedisTest {
         jedisCluster.close();
     }
 
-    @Test
+//    @Test
     public void testJedisPool() {
         // 第一步创建一个jedisPool对象
         JedisPool jedisPool = new JedisPool("127.0.0.1", 6379);
@@ -46,7 +45,7 @@ public class RedisTest {
         jedisPool.close();
     }
 
-    @Test
+//    @Test
     public void testRedis() {
         // 第一步创建一个jredis对象，需要指定服务器的端口ip
         Jedis jedis = new Jedis("127.0.0.1", 6379);

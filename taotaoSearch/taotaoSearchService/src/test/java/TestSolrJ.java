@@ -6,7 +6,6 @@ import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
-import org.junit.Test;
 
 import java.io.IOException;
 import java.util.List;
@@ -48,7 +47,7 @@ public class TestSolrJ {
         solrServer.commit();
     }
 
-    @Test
+//    @Test
     public void searchDocument() throws SolrServerException {
         // 创建SOlrServer对象
         SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");

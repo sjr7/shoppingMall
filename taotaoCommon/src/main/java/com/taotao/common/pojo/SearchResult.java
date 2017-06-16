@@ -10,23 +10,29 @@ import java.util.List;
 public class SearchResult implements Serializable {
 
     private static final long serialVersionUID = -618502655573468798L;
-    private int totalPages;
+    private long  recordCount;
     private List<SearchItem> itemList;
+    private long pageCount;
 
     public SearchResult() {
     }
 
-    public SearchResult(int totalPages, List<SearchItem> itemList) {
-        this.totalPages = totalPages;
+    public SearchResult(long recordCount, List<SearchItem> itemList, long pageCount) {
+        this.recordCount = recordCount;
         this.itemList = itemList;
+        this.pageCount = pageCount;
     }
 
-    public int getTotalPages() {
-        return totalPages;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
-    public void setTotalPages(int totalPages) {
-        this.totalPages = totalPages;
+    public long getRecordCount() {
+        return recordCount;
+    }
+
+    public void setRecordCount(long recordCount) {
+        this.recordCount = recordCount;
     }
 
     public List<SearchItem> getItemList() {
@@ -35,5 +41,22 @@ public class SearchResult implements Serializable {
 
     public void setItemList(List<SearchItem> itemList) {
         this.itemList = itemList;
+    }
+
+    public long getPageCount() {
+        return pageCount;
+    }
+
+    public void setPageCount(long pageCount) {
+        this.pageCount = pageCount;
+    }
+
+    @Override
+    public String toString() {
+        return "SearchResult{" +
+                "recordCount=" + recordCount +
+                ", itemList=" + itemList +
+                ", pageCount=" + pageCount +
+                '}';
     }
 }
