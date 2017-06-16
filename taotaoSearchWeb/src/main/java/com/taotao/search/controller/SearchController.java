@@ -36,6 +36,8 @@ public class SearchController {
      */
     @RequestMapping("/search.html")
     public String search(@RequestParam("q") String queryString, @RequestParam(defaultValue = "1") Integer page, Model model) {
+        // 解决前端页面乱码问题
+        queryString = new String(queryString.getBytes("iso-8859-1"), "utf-8");
         SearchResult result = searchServiceImpl.search(queryString, page, ITEM_ROWS);
         // 传递给页面
         model.addAttribute("query", queryString);
