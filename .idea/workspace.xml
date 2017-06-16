@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_11_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotao_manager_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotao_manager_service_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -67,16 +64,29 @@
       <file leaf-file-name="TestActivemq.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="242">
+              <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#511#1" expanded="true" />
-                <element signature="e#571#632#1" expanded="true" />
-                <element signature="e#833#909#1" expanded="true" />
-                <element signature="e#986#1034#1" expanded="true" />
-                <element signature="e#1082#1139#1" expanded="true" />
-                <element signature="e#1290#1360#1" expanded="true" />
+                <element signature="e#386#479#1" expanded="true" />
+                <element signature="e#539#600#1" expanded="true" />
+                <element signature="e#801#877#1" expanded="true" />
+                <element signature="e#954#1002#1" expanded="true" />
+                <element signature="e#1050#1107#1" expanded="true" />
+                <element signature="e#1258#1328#1" expanded="true" />
+                <element signature="e#1588#1681#1" expanded="true" />
+                <element signature="e#1746#1807#1" expanded="true" />
+                <element signature="e#1936#2018#1" expanded="true" />
+                <element signature="e#2098#2146#1" expanded="true" />
+                <element signature="e#2199#2256#1" expanded="true" />
+                <element signature="e#2288#2814#0" expanded="true" />
+                <element signature="e#2316#2813#0" expanded="true" />
+                <element signature="e#2431#2479#1" expanded="true" />
+                <element signature="e#2457#2478#0" expanded="true" />
+                <element signature="e#2496#2515#1" expanded="true" />
+                <element signature="e#2591#2612#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#2288#2814#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,8 +231,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="704" />
-    <option name="y" value="48" />
+    <option name="x" value="910" />
+    <option name="y" value="64" />
     <option name="width" value="1708" />
     <option name="height" value="950" />
   </component>
@@ -1263,7 +1273,7 @@
       <workItem from="1497361663427" duration="6164000" />
       <workItem from="1497415713025" duration="19494000" />
       <workItem from="1497501455231" duration="17032000" />
-      <workItem from="1497579154877" duration="16417000" />
+      <workItem from="1497579154877" duration="16826000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1517,7 +1527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497608704937</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="完成测试ActiveMQ基本的方法">
+      <created>1497623606642</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1497623606642</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1553,7 +1570,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193619000" />
+    <option name="totallyTimeSpent" value="194028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1565,7 +1582,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="48" width="1708" height="950" extended-state="0" />
+    <frame x="910" y="64" width="1708" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1659,7 +1676,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="配置dubbo消费者check为false，让其不检查是否注册" />
     <MESSAGE value="由于未能解决的问题,撤销dubbo" />
     <MESSAGE value="修复重大bug，导致不能Spring不能扫描bean组件" />
     <MESSAGE value="完成添加内容分类管理功能" />
@@ -1684,7 +1700,8 @@
     <MESSAGE value="完成对集群版Solr的测试" />
     <MESSAGE value="将搜索功能切换到集群版" />
     <MESSAGE value="完成搜索模块全局异常处理器GlobalExceptionReslover" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成搜索模块全局异常处理器GlobalExceptionReslover" />
+    <MESSAGE value="完成测试ActiveMQ基本的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成测试ActiveMQ基本的方法" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2360,16 +2377,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="242">
+          <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#511#1" expanded="true" />
-            <element signature="e#571#632#1" expanded="true" />
-            <element signature="e#833#909#1" expanded="true" />
-            <element signature="e#986#1034#1" expanded="true" />
-            <element signature="e#1082#1139#1" expanded="true" />
-            <element signature="e#1290#1360#1" expanded="true" />
+            <element signature="e#386#479#1" expanded="true" />
+            <element signature="e#539#600#1" expanded="true" />
+            <element signature="e#801#877#1" expanded="true" />
+            <element signature="e#954#1002#1" expanded="true" />
+            <element signature="e#1050#1107#1" expanded="true" />
+            <element signature="e#1258#1328#1" expanded="true" />
+            <element signature="e#1588#1681#1" expanded="true" />
+            <element signature="e#1746#1807#1" expanded="true" />
+            <element signature="e#1936#2018#1" expanded="true" />
+            <element signature="e#2098#2146#1" expanded="true" />
+            <element signature="e#2199#2256#1" expanded="true" />
+            <element signature="e#2288#2814#0" expanded="true" />
+            <element signature="e#2316#2813#0" expanded="true" />
+            <element signature="e#2431#2479#1" expanded="true" />
+            <element signature="e#2457#2478#0" expanded="true" />
+            <element signature="e#2496#2515#1" expanded="true" />
+            <element signature="e#2591#2612#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2288#2814#0" expanded="true" />
           </folding>
         </state>
       </provider>
