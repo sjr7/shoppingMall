@@ -87,6 +87,12 @@
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-all</artifactId>
         </dependency>
+
+        <!--操作redis-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

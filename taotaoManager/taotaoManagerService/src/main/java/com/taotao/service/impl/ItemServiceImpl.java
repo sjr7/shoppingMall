@@ -5,13 +5,17 @@ import com.github.pagehelper.PageInfo;
 import com.taotao.common.pojo.EasyUIDataGridResult;
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.IDUtils;
+import com.taotao.common.utils.JsonUtils;
+import com.taotao.jedis.JedisClient;
 import com.taotao.mapper.TbItemDescMapper;
 import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemDesc;
 import com.taotao.pojo.TbItemExample;
 import com.taotao.service.ItemService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
@@ -29,24 +33,48 @@ import java.util.List;
  */
 @Service
 public class ItemServiceImpl implements ItemService {
-
     @Resource(name = "itemAddItem")
     private Destination destination;
-
+    @Value("${ITEM_INFO}")
+    private String ITEM_INFO;
+    @Value("${TIME_EXPIRE}")
+    private Integer TIME_EXPIRE;
+    private final JedisClient jedisClient;
     private final JmsTemplate jmsTemplate;
     private final TbItemMapper itemMapper;
     private final TbItemDescMapper tbItemDescMapper;
 
     @Autowired
-    public ItemServiceImpl(TbItemMapper itemMapper, TbItemDescMapper tbItemDescMapper, JmsTemplate jmsTemplate) {
+    public ItemServiceImpl(TbItemMapper itemMapper, TbItemDescMapper tbItemDescMapper, JmsTemplate jmsTemplate, JedisClient jedisClient) {
         this.itemMapper = itemMapper;
         this.tbItemDescMapper = tbItemDescMapper;
         this.jmsTemplate = jmsTemplate;
+        this.jedisClient = jedisClient;
     }
 
     @Override
     public TbItemDesc getItemDescById(long itemId) {
-        return tbItemDescMapper.selectByPrimaryKey(itemId);
+        // 先查询缓存
+        try {
+            String json = jedisClient.get(ITEM_INFO + ":" + itemId + ":DESC");
+            if (StringUtils.isNoneBlank(json)) {
+                // 把json数据转成实体类
+                return JsonUtils.jsonToPojo(json, TbItemDesc.class);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        TbItemDesc tbItemDesc = tbItemDescMapper.selectByPrimaryKey(itemId);
+        // 缓存中没有就查询数据库
+        // 把查询结果添加到缓存
+        try {
+            jedisClient.set("ITEM_INFO:" + itemId + ":DESC", JsonUtils.objectToJson(tbItemDesc));
+            // 设置过期时间,提高缓存的命中
+            jedisClient.expire(ITEM_INFO + ":" + itemId + ":DESC", TIME_EXPIRE);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return tbItemDesc;
     }
 
     /**
@@ -57,7 +85,26 @@ public class ItemServiceImpl implements ItemService {
      */
     @Override
     public TbItem getItemById(long itemId) {
-        return itemMapper.selectByPrimaryKey(itemId);
+        // 先查询缓存
+        try {
+            String json = jedisClient.get(ITEM_INFO + ":" + itemId + ":BASE");
+            if (StringUtils.isNoneBlank(json)) {
+                // 把json数据转成实体类
+                return JsonUtils.jsonToPojo(json, TbItem.class);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        TbItem tbItem = itemMapper.selectByPrimaryKey(itemId);
+        // 把查询结果添加到缓存中
+        try {
+            jedisClient.set(ITEM_INFO + ":" + itemId + ":BASE", JsonUtils.objectToJson(tbItem));
+            // 设置过期时间,提高缓存的命中
+            jedisClient.expire(ITEM_INFO + ":" + itemId + ":BASE", TIME_EXPIRE);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return tbItem;
     }
 
     @Override
