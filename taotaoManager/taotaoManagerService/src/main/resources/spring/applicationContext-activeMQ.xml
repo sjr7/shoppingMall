@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+    <!--JMS服务厂商提供的ConnectionFactory-->
+    <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://127.0.0.1:61616"/>
+    </bean>
+    <!--Spring用于管理真正的ConnectionFactory的ConnectionFactory-->
+    <bean id="connectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <!--目标ConnectionFactory对应真实的可以产生JMS ConnectionFactory-->
+        <property name="targetConnectionFactory" ref="targetConnectionFactory"/>
+    </bean>
+
+    <!--生产者    配置JMS Template-->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+    </bean>
+
+    <!--队列目的地   配置消息的Destination对象-->
+    <bean id="activeMQQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg name="name" value="test-queue"/>
+    </bean>
+
+    <!--配置主题目的地，一对多的-->
+    <bean id="activeMQTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="topic"/>
+    </bean>
+
+</beans>
+
+
+
+
+
+
+
+
+
+

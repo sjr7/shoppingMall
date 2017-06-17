@@ -1,7 +1,6 @@
 package com.taotao.activemq;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.junit.Test;
 
 import javax.jms.*;
 import java.io.IOException;
@@ -40,7 +39,7 @@ public class TestActivemq {
         connection.close();
     }
 
-    @Test
+//    @Test
     public void testQueueConsumer() throws JMSException {
         //   第一步：创建一个ConnectionFactory对象。
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://127.0.0.1:61616");
@@ -82,7 +81,7 @@ public class TestActivemq {
         connection.close();
     }
 
-    @Test
+//    @Test
     public void testTopicProduce() throws JMSException {
         // 第一步：创建ConnectionFactory对象，需要指定服务端ip及端口号。
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://127.0.0.1:61616");
@@ -107,7 +106,7 @@ public class TestActivemq {
     }
 
 
-    @Test
+//    @Test
     public void testTopicConsumer() throws JMSException, IOException {
         // 消费者：接收消息。
         // 第一步：创建一个ConnectionFactory对象。
