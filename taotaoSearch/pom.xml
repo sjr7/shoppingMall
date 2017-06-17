@@ -22,6 +22,11 @@
             <artifactId>taotaoCommon</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--消息队列ActiveMQ-->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

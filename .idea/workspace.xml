@@ -4,11 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/taotaoContent/pom.xml" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="完成测试ActiveMQ Topic Consumer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-activeMQ.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/SpringActiveMQ.java" />
+    <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/java/com/taotao/search/listener/MyMessageListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/spring/applicationContext-activeMQ.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/test/java/testQueueConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoManagerWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoManagerWeb_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoSearchService_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoSearchService_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoSearchWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoSearchWeb_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java" afterPath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSearch/pom.xml" afterPath="$PROJECT_DIR$/taotaoSearch/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -53,72 +57,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestActivemq.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="45" column="98" lean-forward="false" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="98" />
+            <state relative-caret-position="270">
+              <caret line="42" column="16" lean-forward="false" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#392#485#1" expanded="true" />
-                <element signature="e#545#606#1" expanded="true" />
-                <element signature="e#807#883#1" expanded="true" />
-                <element signature="e#960#1008#1" expanded="true" />
-                <element signature="e#1056#1113#1" expanded="true" />
-                <element signature="e#1264#1334#1" expanded="true" />
-                <element signature="e#1611#1704#1" expanded="true" />
-                <element signature="e#1769#1830#1" expanded="true" />
-                <element signature="e#1959#2041#1" expanded="true" />
-                <element signature="e#2121#2169#1" expanded="true" />
-                <element signature="e#2222#2279#1" expanded="true" />
-                <element signature="e#2311#2837#0" expanded="true" />
-                <element signature="e#2339#2836#0" expanded="true" />
-                <element signature="e#2454#2502#1" expanded="true" />
-                <element signature="e#2480#2501#0" expanded="true" />
-                <element signature="e#2519#2538#1" expanded="true" />
-                <element signature="e#2614#2635#0" expanded="true" />
-                <element signature="e#2835#2836#0" expanded="true" />
-                <element signature="e#2311#2837#0" expanded="true" />
-                <element signature="e#3215#3308#1" expanded="true" />
-                <element signature="e#3371#3432#1" expanded="true" />
-                <element signature="e#3557#3633#1" expanded="true" />
-                <element signature="e#3714#3762#1" expanded="true" />
-                <element signature="e#3813#3870#1" expanded="true" />
-                <element signature="e#3927#4018#1" expanded="true" />
-                <element signature="e#4348#4441#1" expanded="true" />
-                <element signature="e#4504#4565#1" expanded="true" />
-                <element signature="e#4690#4766#1" expanded="true" />
-                <element signature="e#4844#4892#1" expanded="true" />
-                <element signature="e#4943#5000#1" expanded="true" />
-                <element signature="e#5030#5561#0" expanded="true" />
-                <element signature="e#5058#5560#0" expanded="true" />
-                <element signature="e#5173#5221#1" expanded="true" />
-                <element signature="e#5199#5220#0" expanded="true" />
-                <element signature="e#5238#5257#1" expanded="true" />
-                <element signature="e#5333#5354#0" expanded="true" />
-                <element signature="e#5559#5560#0" expanded="true" />
-                <element signature="e#5030#5561#0" expanded="true" />
+                <element signature="e#369#462#1" expanded="true" />
+                <element signature="e#522#583#1" expanded="true" />
+                <element signature="e#784#860#1" expanded="true" />
+                <element signature="e#937#985#1" expanded="true" />
+                <element signature="e#1033#1090#1" expanded="true" />
+                <element signature="e#1241#1311#1" expanded="true" />
+                <element signature="e#1588#1681#1" expanded="true" />
+                <element signature="e#1746#1807#1" expanded="true" />
+                <element signature="e#1936#2018#1" expanded="true" />
+                <element signature="e#2098#2146#1" expanded="true" />
+                <element signature="e#2199#2256#1" expanded="true" />
+                <element signature="e#2288#2814#0" expanded="true" />
+                <element signature="e#2316#2813#0" expanded="true" />
+                <element signature="e#2431#2479#1" expanded="true" />
+                <element signature="e#2457#2478#0" expanded="true" />
+                <element signature="e#2496#2515#1" expanded="true" />
+                <element signature="e#2591#2612#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#2288#2814#0" expanded="true" />
+                <element signature="e#3192#3285#1" expanded="true" />
+                <element signature="e#3348#3409#1" expanded="true" />
+                <element signature="e#3534#3610#1" expanded="true" />
+                <element signature="e#3691#3739#1" expanded="true" />
+                <element signature="e#3790#3847#1" expanded="true" />
+                <element signature="e#3904#3995#1" expanded="true" />
+                <element signature="e#4325#4418#1" expanded="true" />
+                <element signature="e#4481#4542#1" expanded="true" />
+                <element signature="e#4667#4743#1" expanded="true" />
+                <element signature="e#4821#4869#1" expanded="true" />
+                <element signature="e#4920#4977#1" expanded="true" />
+                <element signature="e#5007#5538#0" expanded="true" />
+                <element signature="e#5035#5537#0" expanded="true" />
+                <element signature="e#5150#5198#1" expanded="true" />
+                <element signature="e#5176#5197#0" expanded="true" />
+                <element signature="e#5215#5234#1" expanded="true" />
+                <element signature="e#5310#5331#0" expanded="true" />
+                <element signature="e#5536#5537#0" expanded="true" />
+                <element signature="e#5007#5538#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="applicationContext-activeMQ.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-activeMQ.xml">
+        <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/spring/applicationContext-activeMQ.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="27" />
+              <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testQueueConsumer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/test/java/testQueueConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#338#463#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultMessageListenerContainer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/4.2.4.RELEASE/spring-jms-4.2.4.RELEASE-sources.jar!/org/springframework/jms/listener/DefaultMessageListenerContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="123" column="38" lean-forward="false" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMessageListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/java/com/taotao/search/listener/MyMessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#388#436#1" expanded="true" />
+                <element signature="e#414#435#0" expanded="true" />
+                <element signature="e#449#468#1" expanded="true" />
+                <element signature="e#488#509#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +169,7 @@
       <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoSearchWeb/src/main/java/com/taotao/search/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="160">
               <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,19 +178,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringActiveMQ.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringActiveMQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/SpringActiveMQ.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#491#618#1" expanded="true" />
-                <element signature="e#662#734#1" expanded="true" />
-                <element signature="e#758#824#1" expanded="true" />
-                <element signature="e#772#823#0" expanded="true" />
-                <element signature="e#906#1126#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#555#682#1" expanded="true" />
+                <element signature="e#726#798#1" expanded="true" />
+                <element signature="e#822#888#1" expanded="true" />
+                <element signature="e#836#887#0" expanded="true" />
+                <element signature="e#970#1190#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,13 +245,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/com/taotao/jedis/JedisClientTest.java" />
-        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/properties/resource.properties" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/service/impl/ContentServiceImpl.java" />
         <option value="$PROJECT_DIR$/taotaoParent/pom.xml" />
-        <option value="$PROJECT_DIR$/taotaoSearch/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoSearch/taotaoSearchInterface/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/properties/resource.properties" />
         <option value="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/webapp/index.jsp" />
@@ -253,6 +292,10 @@
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-activeMQ.xml" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/SpringActiveMQ.java" />
+        <option value="$PROJECT_DIR$/taotaoSearch/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/java/com/taotao/search/listener/MyMessageListener.java" />
+        <option value="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/spring/applicationContext-activeMQ.xml" />
+        <option value="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/test/java/testQueueConsumer.java" />
       </list>
     </option>
   </component>
@@ -292,8 +335,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="24" />
+    <option name="x" value="372" />
+    <option name="y" value="397" />
     <option name="width" value="1708" />
     <option name="height" value="950" />
   </component>
@@ -320,6 +363,198 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSearchService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="shoppingMall" />
@@ -530,7 +765,7 @@
     <property name="project.structure.side.proportion" value="0.28410077" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/taotaoSearch/taotaoSearchService" />
     <property name="add_unversioned_files" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ActiveMQTopic&#9;PSI&#9;JAVA://org.apache.activemq.command.ActiveMQTopic&#10;ActiveMQQueue&#9;PSI&#9;JAVA://org.apache.activemq.command.ActiveMQQueue&#10;jmsTemplate&#9;PSI&#9;JAVA://org.springframework.jms.core.JmsTemplate&#10;JMStEMPLATE&#9;null&#9;null&#10;SingleConnectionFac&#9;PSI&#9;JAVA://org.springframework.jms.connection.SingleConnectionFactory&#10;pom&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManager/taotaoManagerService/pom.xml&#10;FileItemFactory&#9;PSI&#9;JAVA://org.apache.commons.fileupload.FileItemFactory&#10;mvc.x&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml&#10;manager&#9;FILE&#9;uml://MAVEN/com.suny.taotao:taotao-manager:1.0-SNAPSHOT&#10;web&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManager/taotaoManagerService/src/main/webapp/WEB-INF/web.xml&#10;appl&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-service.xml&#10;MapperScanConfi&#9;PSI&#9;JAVA://org.mybatis.spring.mapper.MapperScannerConfigurer&#10;SqlSessionFactoryBea&#9;PSI&#9;JAVA://org.mybatis.spring.SqlSessionFactoryBean" />
+    <property name="SearchEverywhereHistoryKey" value="DefaultMessageListenerC&#9;PSI&#9;JAVA://org.springframework.jms.listener.DefaultMessageListenerContainer&#10;ActiveMQTopic&#9;PSI&#9;JAVA://org.apache.activemq.command.ActiveMQTopic&#10;ActiveMQQueue&#9;PSI&#9;JAVA://org.apache.activemq.command.ActiveMQQueue&#10;jmsTemplate&#9;PSI&#9;JAVA://org.springframework.jms.core.JmsTemplate&#10;JMStEMPLATE&#9;null&#9;null&#10;SingleConnectionFac&#9;PSI&#9;JAVA://org.springframework.jms.connection.SingleConnectionFactory&#10;pom&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManager/taotaoManagerService/pom.xml&#10;FileItemFactory&#9;PSI&#9;JAVA://org.apache.commons.fileupload.FileItemFactory&#10;mvc.x&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/resources/spring/applicationContext-Mvc.xml&#10;manager&#9;FILE&#9;uml://MAVEN/com.suny.taotao:taotao-manager:1.0-SNAPSHOT&#10;web&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManager/taotaoManagerService/src/main/webapp/WEB-INF/web.xml&#10;appl&#9;FILE&#9;file:///home/sunjianrong/IdeaProjects/shoppingMall/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-service.xml&#10;MapperScanConfi&#9;PSI&#9;JAVA://org.mybatis.spring.mapper.MapperScannerConfigurer&#10;SqlSessionFactoryBea&#9;PSI&#9;JAVA://org.mybatis.spring.SqlSessionFactoryBean" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
@@ -556,11 +791,11 @@
       <recent name="$PROJECT_DIR$/taotaoManager/taotaoManagerDao/src/main/java/com/suny/mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/taotaoSearchWeb/src/main/resources" />
       <recent name="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/taotaoManagerWeb/src/main/webapp/WEB-INF/jsp" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.taotao.search.service.impl" />
@@ -581,33 +816,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringActiveMQ.testQueueProduce">
-    <configuration default="false" name="TestActivemq.testQueueProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.taotao.activemq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="taotao-manager-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.taotao.activemq" />
-      <option name="MAIN_CLASS_NAME" value="com.taotao.activemq.TestActivemq" />
-      <option name="METHOD_NAME" value="testQueueProducer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.testQueueConsumer.testQueueConsumer">
     <configuration default="false" name="TestActivemq.testQueueConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -699,6 +908,27 @@
       <option name="PACKAGE_NAME" value="com.taotao.activemq" />
       <option name="MAIN_CLASS_NAME" value="com.taotao.activemq.SpringActiveMQ" />
       <option name="METHOD_NAME" value="testQueueProduce" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="testQueueConsumer.testQueueConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="taotaoSearchService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testQueueConsumer" />
+      <option name="METHOD_NAME" value="testQueueConsumer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1418,19 +1648,19 @@
       <item index="4" class="java.lang.String" itemvalue="Maven.taotao-search-web 8087" />
       <item index="5" class="java.lang.String" itemvalue="Maven.taotao-search 8086" />
       <item index="6" class="java.lang.String" itemvalue="Maven.taotaoProtalWeb 8084" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueProducer" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueConsumer" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicProduce" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicConsumer" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.SpringActiveMQ.testQueueProduce" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueConsumer" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicProduce" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicConsumer" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.SpringActiveMQ.testQueueProduce" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.testQueueConsumer.testQueueConsumer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringActiveMQ.testQueueProduce" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicConsumer" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicProduce" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueConsumer" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueProducer" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.testQueueConsumer.testQueueConsumer" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringActiveMQ.testQueueProduce" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicConsumer" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestActivemq.testTopicProduce" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestActivemq.testQueueConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -1480,7 +1710,7 @@
       <workItem from="1497501455231" duration="17032000" />
       <workItem from="1497579154877" duration="18172000" />
       <workItem from="1497657283772" duration="2250000" />
-      <workItem from="1497660346946" duration="1269000" />
+      <workItem from="1497660346946" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="配置完dubbo相关的设置，并开启dubbo后台">
       <created>1496310515166</created>
@@ -1762,7 +1992,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497624663104</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="完成Spring整合ActiveMQ的初步测试">
+      <created>1497661639709</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1497661639709</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1798,7 +2035,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198893000" />
+    <option name="totallyTimeSpent" value="199884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1810,8 +2047,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="24" width="1708" height="950" extended-state="0" />
-    <editor active="true" />
+    <frame x="372" y="397" width="1708" height="950" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1835,7 +2071,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26522842" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26522842" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1904,7 +2140,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成添加内容功能" />
     <MESSAGE value="写完首页图片广告位的展示" />
     <MESSAGE value="完成对Redis的测试" />
     <MESSAGE value="完成对Redis单机版的测试" />
@@ -1929,7 +2164,8 @@
     <MESSAGE value="完成测试ActiveMQ Consumer" />
     <MESSAGE value="完成测试ActiveMQ Topic Producer" />
     <MESSAGE value="完成测试ActiveMQ Topic Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成测试ActiveMQ Topic Consumer" />
+    <MESSAGE value="完成Spring整合ActiveMQ的初步测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Spring整合ActiveMQ的初步测试" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2001,48 +2237,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/test/java/TestSolrJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-772">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoCommon/src/main/java/com/taotao/common/pojo/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/java/com/taotao/search/dao/SearchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSearchWeb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSearchWeb/src/main/resources/resource/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/test/java/RedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/search_main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="853">
@@ -2061,6 +2255,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2068,6 +2263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2179,6 +2375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2290,66 +2487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.11.2/activemq-all-5.11.2.jar!/javax/jms/Queue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="45" column="98" lean-forward="false" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#485#1" expanded="true" />
-            <element signature="e#545#606#1" expanded="true" />
-            <element signature="e#807#883#1" expanded="true" />
-            <element signature="e#960#1008#1" expanded="true" />
-            <element signature="e#1056#1113#1" expanded="true" />
-            <element signature="e#1264#1334#1" expanded="true" />
-            <element signature="e#1611#1704#1" expanded="true" />
-            <element signature="e#1769#1830#1" expanded="true" />
-            <element signature="e#1959#2041#1" expanded="true" />
-            <element signature="e#2121#2169#1" expanded="true" />
-            <element signature="e#2222#2279#1" expanded="true" />
-            <element signature="e#2311#2837#0" expanded="true" />
-            <element signature="e#2339#2836#0" expanded="true" />
-            <element signature="e#2454#2502#1" expanded="true" />
-            <element signature="e#2480#2501#0" expanded="true" />
-            <element signature="e#2519#2538#1" expanded="true" />
-            <element signature="e#2614#2635#0" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2311#2837#0" expanded="true" />
-            <element signature="e#3215#3308#1" expanded="true" />
-            <element signature="e#3371#3432#1" expanded="true" />
-            <element signature="e#3557#3633#1" expanded="true" />
-            <element signature="e#3714#3762#1" expanded="true" />
-            <element signature="e#3813#3870#1" expanded="true" />
-            <element signature="e#3927#4018#1" expanded="true" />
-            <element signature="e#4348#4441#1" expanded="true" />
-            <element signature="e#4504#4565#1" expanded="true" />
-            <element signature="e#4690#4766#1" expanded="true" />
-            <element signature="e#4844#4892#1" expanded="true" />
-            <element signature="e#4943#5000#1" expanded="true" />
-            <element signature="e#5030#5561#0" expanded="true" />
-            <element signature="e#5058#5560#0" expanded="true" />
-            <element signature="e#5173#5221#1" expanded="true" />
-            <element signature="e#5199#5220#0" expanded="true" />
-            <element signature="e#5238#5257#1" expanded="true" />
-            <element signature="e#5333#5354#0" expanded="true" />
-            <element signature="e#5559#5560#0" expanded="true" />
-            <element signature="e#5030#5561#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2395,7 +2536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoSearchWeb/src/main/java/com/taotao/search/controller/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="160">
           <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2403,26 +2544,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-activeMQ.xml">
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/SpringActiveMQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="338">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#682#1" expanded="true" />
+            <element signature="e#726#798#1" expanded="true" />
+            <element signature="e#822#888#1" expanded="true" />
+            <element signature="e#836#887#0" expanded="true" />
+            <element signature="e#970#1190#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="88" column="21" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="88" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/SpringActiveMQ.java">
+    <entry file="file://$PROJECT_DIR$/taotaoSearch/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-activeMQ.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/activemq/TestActivemq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#491#618#1" expanded="true" />
-            <element signature="e#662#734#1" expanded="true" />
-            <element signature="e#758#824#1" expanded="true" />
-            <element signature="e#772#823#0" expanded="true" />
-            <element signature="e#906#1126#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#369#462#1" expanded="true" />
+            <element signature="e#522#583#1" expanded="true" />
+            <element signature="e#784#860#1" expanded="true" />
+            <element signature="e#937#985#1" expanded="true" />
+            <element signature="e#1033#1090#1" expanded="true" />
+            <element signature="e#1241#1311#1" expanded="true" />
+            <element signature="e#1588#1681#1" expanded="true" />
+            <element signature="e#1746#1807#1" expanded="true" />
+            <element signature="e#1936#2018#1" expanded="true" />
+            <element signature="e#2098#2146#1" expanded="true" />
+            <element signature="e#2199#2256#1" expanded="true" />
+            <element signature="e#2288#2814#0" expanded="true" />
+            <element signature="e#2316#2813#0" expanded="true" />
+            <element signature="e#2431#2479#1" expanded="true" />
+            <element signature="e#2457#2478#0" expanded="true" />
+            <element signature="e#2496#2515#1" expanded="true" />
+            <element signature="e#2591#2612#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2288#2814#0" expanded="true" />
+            <element signature="e#3192#3285#1" expanded="true" />
+            <element signature="e#3348#3409#1" expanded="true" />
+            <element signature="e#3534#3610#1" expanded="true" />
+            <element signature="e#3691#3739#1" expanded="true" />
+            <element signature="e#3790#3847#1" expanded="true" />
+            <element signature="e#3904#3995#1" expanded="true" />
+            <element signature="e#4325#4418#1" expanded="true" />
+            <element signature="e#4481#4542#1" expanded="true" />
+            <element signature="e#4667#4743#1" expanded="true" />
+            <element signature="e#4821#4869#1" expanded="true" />
+            <element signature="e#4920#4977#1" expanded="true" />
+            <element signature="e#5007#5538#0" expanded="true" />
+            <element signature="e#5035#5537#0" expanded="true" />
+            <element signature="e#5150#5198#1" expanded="true" />
+            <element signature="e#5176#5197#0" expanded="true" />
+            <element signature="e#5215#5234#1" expanded="true" />
+            <element signature="e#5310#5331#0" expanded="true" />
+            <element signature="e#5536#5537#0" expanded="true" />
+            <element signature="e#5007#5538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/java/com/taotao/search/listener/MyMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#436#1" expanded="true" />
+            <element signature="e#414#435#0" expanded="true" />
+            <element signature="e#449#468#1" expanded="true" />
+            <element signature="e#488#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/4.2.4.RELEASE/spring-jms-4.2.4.RELEASE-sources.jar!/org/springframework/jms/listener/DefaultMessageListenerContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="123" column="38" lean-forward="false" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/main/resources/spring/applicationContext-activeMQ.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/src/test/java/testQueueConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#463#1" expanded="true" />
           </folding>
         </state>
       </provider>
