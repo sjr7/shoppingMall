@@ -44,6 +44,11 @@ public class ItemServiceImpl implements ItemService {
         this.jmsTemplate = jmsTemplate;
     }
 
+    @Override
+    public TbItemDesc getItemDescById(long itemId) {
+        return tbItemDescMapper.selectByPrimaryKey(itemId);
+    }
+
     /**
      * 根据商品Id查询商品
      *
@@ -91,13 +96,13 @@ public class ItemServiceImpl implements ItemService {
         tbItemDescMapper.insert(tbItemDesc);
         // 向ActiveMq发送商品添加信息
         // 返回结果
-       jmsTemplate.send(destination, new MessageCreator() {
-           @Override
-           public Message createMessage(Session session) throws JMSException {
-               // 发送商品的ID
-               return session.createTextMessage(itemId+"");
-           }
-       });
+        jmsTemplate.send(destination, new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                // 发送商品的ID
+                return session.createTextMessage(itemId + "");
+            }
+        });
         return TaotaoResult.ok();
     }
 }
