@@ -33,7 +33,7 @@ public class ItemController {
         // 把数据传递给页面
         model.addAttribute("item", item);
         model.addAttribute("itemDesc", itemDesc);
-        return "item";
+        return "/WEB-INF/jsp/item.ftl";
     }
 
 

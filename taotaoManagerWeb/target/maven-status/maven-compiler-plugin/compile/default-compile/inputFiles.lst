@@ -1,8 +1,8 @@
-/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentController.java
-/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java
-/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/utils/FastDFSClient.java
-/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ItemCatController.java
 /home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/PictureController.java
+/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentController.java
 /home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ItemController.java
-/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/IndexManagerController.java
 /home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/PageController.java
+/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/utils/FastDFSClient.java
+/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ContentCategoryController.java
+/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/IndexManagerController.java
+/home/sunjianrong/IdeaProjects/shoppingMall/taotaoManagerWeb/src/main/java/com/taotao/controller/ItemCatController.java
