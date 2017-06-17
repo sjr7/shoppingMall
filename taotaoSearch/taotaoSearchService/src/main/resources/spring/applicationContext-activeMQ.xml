@@ -20,8 +20,8 @@
     </bean>
 
     <!--配置主题目的地，一对多的-->
-    <bean id="activeMQTopic" class="org.apache.activemq.command.ActiveMQTopic">
-        <constructor-arg value="topic"/>
+    <bean id="itemAddTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg name="name" value="item-add-topic"/>
     </bean>
 
     <!--配置消息的接受者-->
@@ -32,6 +32,15 @@
         <property name="connectionFactory" ref="connectionFactory"/>
         <property name="destination" ref="activeMQQueue"/>
         <property name="messageListener" ref="myMessageListener"/>
+    </bean>
+
+    <!--配置监听器-->
+    <bean id="itemMessageListener" class="com.taotao.search.listener.ItemMessageListener"/>
+    <!--消息监听容器-->
+    <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="itemAddTopic"/>
+        <property name="messageListener" ref="itemMessageListener"/>
     </bean>
 </beans>
 

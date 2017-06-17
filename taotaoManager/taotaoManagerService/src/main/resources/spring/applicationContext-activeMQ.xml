@@ -24,8 +24,8 @@
     </bean>
 
     <!--配置主题目的地，一对多的-->
-    <bean id="activeMQTopic" class="org.apache.activemq.command.ActiveMQTopic">
-        <constructor-arg value="topic"/>
+    <bean id="itemAddItem" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg name="name" value="item-add-topic"/>
     </bean>
 
 </beans>
