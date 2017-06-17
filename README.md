@@ -3,7 +3,7 @@
 
 ## 项目中碰到的一些问题的总结  
 
-###  java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "http-bio-8083-exec-1"  内存溢出
+###  ① java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "http-bio-8083-exec-1"  内存溢出
 ```html
 java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "http-bio-8083-exec-1"
 ```
@@ -19,7 +19,7 @@ java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "h
    + `-XX:MaxPermSize=512m ` 持久去最大的内存大小
   
 
-###  SpringMvc文件上传失败问题
+###  ② SpringMvc文件上传失败问题
 在进行文件上传的时候出现一个这样的问题  
 ![SpringMvcFileUPloadError](note/images/SpringMvcFileUPloadError.png)  
 仔细一看,我猜测是Spring文件上传的配置没有配置,然后去``applicationContext-Mvc.xml``中看了下我的配置文件
@@ -40,11 +40,11 @@ java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "h
         <property name="maxUploadSize" value="5242880"/>
     </bean>
 ```
-原理``DispatcherServlet`
+原理`DispatcherServlet`
 ![DispatcherServlet](note/images/DispatcherServlet.png)
 这里把bean的名字固定了的
 
-#### 搭建redis集群的时候无法安装Ruby搭建集群脚本
+### ③ 搭建redis集群的时候无法安装Ruby搭建集群脚本
 执行`gem install redis-3.0.0.gem`是报错的，找不到这个东西
 ```
 ERROR:  Could not find a valid gem 'redis-3.0.0.gem' (>= 0) in any repository
@@ -54,7 +54,7 @@ ERROR:  Could not find a valid gem 'redis-3.0.0.gem' (>= 0) in any repository
 gem install redis -v 3.0.0
 ```
 
-### 　操作redis集群出现异常
+### 　④ 操作redis集群出现异常
 部分异常出错代码:  
 ```
 redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:7001
@@ -162,7 +162,7 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
     <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>   
 </beans>
 ````
-### 页面EL表达式无效问题
+### ⑤ 页面EL表达式无效问题
 在搜索模块这个页面上,`EL`表达式一直是直接显示文字的，没有显示出解析出来的值,看到这个话根据以前的经验，根本就没有解析表达式,直接去查看`web.xml`,我这个文件是`IDEA`生成`Maven webapp`那个骨架自动生成的,有点坑呀
 ````xml
 <!DOCTYPE web-app PUBLIC

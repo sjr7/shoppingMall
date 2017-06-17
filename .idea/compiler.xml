@@ -15,6 +15,7 @@
         <module name="taotaoCommon" />
         <module name="taotaoContentInterface" />
         <module name="taotaoContentService" />
+        <module name="taotaoItemWeb" />
         <module name="taotaoManagerDao" />
         <module name="taotaoManagerInterface" />
         <module name="taotaoManagerMapper" />
@@ -40,6 +41,7 @@
       <module name="taotaoContent" target="1.7" />
       <module name="taotaoContentInterface" target="1.7" />
       <module name="taotaoContentService" target="1.7" />
+      <module name="taotaoItemWeb" target="1.7" />
       <module name="taotaoManager" target="1.7" />
       <module name="taotaoManagerDao" target="1.7" />
       <module name="taotaoManagerInterface" target="1.7" />
