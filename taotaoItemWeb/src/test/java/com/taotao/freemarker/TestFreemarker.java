@@ -3,7 +3,6 @@ package com.taotao.freemarker;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
-import org.junit.Test;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -17,7 +16,7 @@ import java.util.*;
 public class TestFreemarker {
 
 
-    @Test
+//    @Test
     public void testFreeMarker() throws IOException {
         // 创建一个模板文件
         // 创建一个Configuration对象
