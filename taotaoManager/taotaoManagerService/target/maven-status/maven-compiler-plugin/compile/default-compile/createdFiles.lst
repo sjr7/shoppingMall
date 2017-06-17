@@ -1,3 +1,6 @@
 com/taotao/service/impl/ItemCatServiceImpl.class
+com/taotao/jedis/JedisClientCluster.class
 com/taotao/service/impl/ItemServiceImpl.class
+com/taotao/jedis/JedisClientPool.class
 com/taotao/service/impl/ItemServiceImpl$1.class
+com/taotao/jedis/JedisClient.class
