@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page trimDirectiveWhitespaces="true" %>
+<%--<%@ page isELIgnored="false" %>--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -55,7 +56,7 @@
                     <div class="p-price">
                         <i>淘淘价：</i>
                         <strong>￥<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2"
-                                                   value="${item.price / 100 }"/></strong>
+                                                   value="${item.price /100 }"/></strong>
                     </div>
                     <div class="service">由 淘淘 发货</div>
                     <div class="extra">
