@@ -1,6 +1,7 @@
 package com.taotao.sso.service;
 
 import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.pojo.TbUser;
 
 /**
  * 用户处理接口
@@ -8,4 +9,5 @@ import com.taotao.common.pojo.TaotaoResult;
  */
 public interface UserService {
     TaotaoResult checkDate(String param,int type);
+    TaotaoResult createUser(TbUser user);
 }

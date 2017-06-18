@@ -5,7 +5,6 @@ import com.github.pagehelper.PageInfo;
 import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
-import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
@@ -15,7 +14,7 @@ import java.util.List;
  */
 public class PageHelperTest {
 
-    @Test
+//    @Test
     public void test() {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-dao.xml");
         // 获取mapper代理对象

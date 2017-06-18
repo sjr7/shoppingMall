@@ -8,7 +8,7 @@
          <constructor-arg name="host" value="127.0.0.1"/>
          <constructor-arg name="port" value="6379"/>
      </bean>
-     <bean id="jedisClientPool" class="com.taotao.JedisClientPool"/>
+     <bean id="jedisClientPool" class="com.taotao.jedis.JedisClientPool"/>
 
     <!-- 集群版的配置 -->
     <!--<bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
