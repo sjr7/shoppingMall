@@ -1,17 +1,21 @@
 package com.taotao.sso.service.impl;
 
 import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.common.utils.JsonUtils;
 import com.taotao.mapper.TbUserMapper;
 import com.taotao.pojo.TbUser;
 import com.taotao.pojo.TbUserExample;
+import com.taotao.sso.jedis.JedisClient;
 import com.taotao.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * 用户处理Service实现类
@@ -19,11 +23,19 @@ import java.util.List;
  */
 @Service
 public class UserServiceImpl implements UserService {
+    private final JedisClient jedisClient;
     private final TbUserMapper tbUserMapper;
 
+    @Value("${USER_SESSION}")
+    private String USER_SESSION;
+
+    @Value("${SESSION_EXPIRE}")
+    private Integer SESSION_EXPIRE;
+
     @Autowired
-    public UserServiceImpl(TbUserMapper tbUserMapper) {
+    public UserServiceImpl(TbUserMapper tbUserMapper, JedisClient jedisClient) {
         this.tbUserMapper = tbUserMapper;
+        this.jedisClient = jedisClient;
     }
 
     @Override
@@ -93,6 +105,34 @@ public class UserServiceImpl implements UserService {
         tbUserMapper.insert(user);
         // 返回TaotaoResult
         return TaotaoResult.ok();
+    }
+
+    @Override
+    public TaotaoResult login(String username, String password) {
+        // 首先判断用户密码是否正确
+        TbUserExample tbUserExample = new TbUserExample();
+        TbUserExample.Criteria criteria = tbUserExample.createCriteria();
+        criteria.andUsernameEqualTo(username);
+        // 查询用户信息
+        List<TbUser> list = tbUserMapper.selectByExample(tbUserExample);
+        if (list == null || list.size() == 0) {
+            return TaotaoResult.build(400, "用户名或者面膜错误");
+        }
+        TbUser user = list.get(0);
+        // 效验密码
+        if (!user.getPassword().equals(DigestUtils.md5DigestAsHex(password.getBytes()))) {
+            return TaotaoResult.build(400, "用户名或者密码错误");
+        }
+        // 登录成功后把生成token,Token相当于jsessionid,字符串，可以使用uuid
+        String token = UUID.randomUUID().toString();
+        // 把用户信息保存到redis,Key就是token,value就是Tbuser对象转成json
+        // 使用String类型保存session信息,可以使用 "前缀:token"为key
+        user.setPassword(null);
+        jedisClient.set(USER_SESSION + ":" + token, JsonUtils.objectToJson(user));
+        // 设置key的过期时间,模拟Session的过期时间,一般为半个小时
+        jedisClient.expire(USER_SESSION + ":" + token, SESSION_EXPIRE);
+        // 返回TaotaoResult包装token
+        return TaotaoResult.ok(token);
     }
 }
 

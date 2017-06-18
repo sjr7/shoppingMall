@@ -1,14 +1,19 @@
 package com.taotao.sso.controller;
 
 import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.common.utils.CookieUtils;
 import com.taotao.pojo.TbUser;
 import com.taotao.sso.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * 用户处理控制器
@@ -17,10 +22,25 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class UserController {
     private final UserService userService;
+    @Value("${TOKEN_KEY}")
+    private String TOKEN_KEY;
 
     @Autowired
     public UserController(UserService userService) {
         this.userService = userService;
+    }
+
+    @RequestMapping(value = "/user/login", method = RequestMethod.POST)
+    @ResponseBody
+    public TaotaoResult login(String username, String password, HttpServletRequest request, HttpServletResponse response) {
+        // 接收两个参数
+        TaotaoResult result = userService.login(username, password);
+        // 调用service进行登录
+        String token = result.getData().toString();
+        CookieUtils.setCookie(request, response, TOKEN_KEY, token);
+        // 从返回的结果中取出token,写入cookie,Cookie要跨
+        //响应json数据,包含token
+        return result;
     }
 
     /**
