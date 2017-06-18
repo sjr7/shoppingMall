@@ -27,6 +27,10 @@
       <module fileurl="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchInterface/taotaoSearchInterface.iml" filepath="$PROJECT_DIR$/taotaoSearch/taotaoSearchInterface/taotaoSearchInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/taotaoSearchService.iml" filepath="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/taotaoSearchService.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoSearchWeb/taotaoSearchWeb.iml" filepath="$PROJECT_DIR$/taotaoSearchWeb/taotaoSearchWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaoSso/taotaoSso.iml" filepath="$PROJECT_DIR$/taotaoSso/taotaoSso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/taotaoSsoInterface.iml" filepath="$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/taotaoSsoInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/taotaoSsoService.iml" filepath="$PROJECT_DIR$/taotaoSso/taotaoSsoService/taotaoSsoService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaoSsoWeb/taotaoSsoWeb.iml" filepath="$PROJECT_DIR$/taotaoSsoWeb/taotaoSsoWeb.iml" />
     </modules>
   </component>
 </project>
