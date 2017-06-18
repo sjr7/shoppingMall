@@ -5,11 +5,181 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20111221C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20120112B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20120209D.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130330A.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130330A_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130330B_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130330C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130415i.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130606B (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130606B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/20130725.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/2013100701.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/2013100702.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/360_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/360_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/537b084eN94336622.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/541f893aN662da9bc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/541fdd63Nab1b3c63.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/54238aaaN17189794.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/543b4d75N686689d7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/5440b1e4N8ff6d0fd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/5440b1e7N1ade375b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/5440ce68Na00d019e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/544a11d3Na5a3d566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/547e6a57N75c2f016.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/549d03d0N59b1f026.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/backpanel20140708.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/bg20110922.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/bg_hotsale.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/bg_prompt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/bg_thickbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/btn-again.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/btn-bg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/btn-check-20140627.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/btn-submit-new.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/btn-submit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/cart_corner_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/checkout-title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/cicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/commstar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/control-icon-20140521.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/defaultImgs/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/error-3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/error-jd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/errordog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/floor-sort20131202.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/flow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/footprint-arr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/hover-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/icon48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/iconadd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/im20131028.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/index-jd-wx-qrcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/index.showcase.tg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/layer-credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/loading-jd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/login-all-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/logo-201305.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/m-buy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/more-slide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/my_cart_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/myjd-bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/myjd-common-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/myjd-new-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/newicon20140417.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/one4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/one5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/one6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/order-icon-20140811.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/p-btns-20140611.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/perfect_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/phone-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/promise20141021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/purchase-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/pwdstrength.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/qr-code-sao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/qr-code-sao02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/rank-sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/rank2014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/regist-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/regist-word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/step1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/step2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/sucess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/taotao-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/thickbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/tip-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/tip-cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/toggler-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/user_purchase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/vip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/virtuals-20140606.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/virtuals-cat-ico20140826.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/wait-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/images/yzm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/myjd.commentImg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/myjd.common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/myjd.info.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/myjd.order.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/order-commons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/passport.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/pop_compare.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/psearch.onebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/psearch20131008.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/pshow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/purchase.2012.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/purchase.base.2012.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/purchase.checkout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/purchase.sop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/regist.personal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/taotao.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/CommentStar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base-2011.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base-v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/iplocation_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jTips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jquery-1.6.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jquery-extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jquery.checkout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jquery.hashchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/jquery.price_format.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/lib-v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/order.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/search_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/taotao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/commons/footer-links.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/error/exception.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/register.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/taotaoCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/src/main/java/com/taotao/sso/service/UserService.java" afterPath="$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/src/main/java/com/taotao/sso/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -59,11 +229,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#976#977#0" expanded="true" />
@@ -83,8 +253,8 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding>
                 <element signature="e#2236#2254#0" expanded="true" />
                 <element signature="e#2353#2408#1" expanded="true" />
@@ -148,11 +318,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-Mvc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="33" column="108" lean-forward="true" selection-start-line="33" selection-start-column="108" selection-end-line="33" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/src/main/java/com/taotao/sso/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,7 +417,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/WEB-INF/jsp/search.jsp" />
         <option value="$PROJECT_DIR$/taotaoItemWeb/src/main/java/com/taotao/item/pojo/Item.java" />
@@ -261,7 +456,6 @@
         <option value="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/jedis/JedisClient.java" />
         <option value="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/spring/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/pom.xml" />
-        <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/test/java/com/taotao/pagehelper/PageHelperTest.java" />
         <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/spring/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/spring/applicationContext-service.xml" />
@@ -272,6 +466,8 @@
         <option value="$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/src/main/java/com/taotao/sso/service/UserService.java" />
         <option value="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
       </list>
     </option>
   </component>
@@ -311,8 +507,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="618" />
-    <option name="y" value="24" />
+    <option name="x" value="531" />
+    <option name="y" value="25" />
     <option name="width" value="1476" />
     <option name="height" value="1056" />
   </component>
@@ -386,6 +582,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSsoWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -820,18 +1046,18 @@
       <recent name="com.taotao.pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/ftl" />
       <recent name="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/resources/resource" />
       <recent name="$PROJECT_DIR$/taotaoItemWeb/src/test/resources/freeMarkerOut" />
       <recent name="$PROJECT_DIR$/taotaoItemWeb/src/test/resources/ftl" />
-      <recent name="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/properties" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/taotaoCommon/src/main/java/com/taotao/common/utils" />
+      <recent name="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp" />
       <recent name="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/taotaoCommon/src/main/java/com/taotao/common/utils" />
       <recent name="$PROJECT_DIR$/taotaoSsoWeb/src/main/resources" />
       <recent name="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main" />
-      <recent name="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.taotao.sso.service.impl" />
@@ -1719,14 +1945,7 @@
       <workItem from="1497660346946" duration="16975000" />
       <workItem from="1497683858292" duration="11119000" />
       <workItem from="1497742977760" duration="471000" />
-      <workItem from="1497762831782" duration="13371000" />
-    </task>
-    <task id="LOCAL-00007" summary="完成使用FastDFS图片上传功能">
-      <created>1497161539271</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1497161539271</updated>
+      <workItem from="1497762831782" duration="14447000" />
     </task>
     <task id="LOCAL-00008" summary="完成商品添加功能各层的编写">
       <created>1497162878753</created>
@@ -2064,7 +2283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497794579107</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="完成通过token查询用户功能">
+      <created>1497795464211</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1497795464211</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2100,7 +2326,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239560000" />
+    <option name="totallyTimeSpent" value="240636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2112,8 +2338,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="24" width="1476" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="531" y="25" width="1476" height="1056" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2129,16 +2354,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5092091" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50894856" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25568798" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25503355" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22493766" sideWeight="0.49111676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22440393" sideWeight="0.49111676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19893049" sideWeight="0.50840336" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19240049" sideWeight="0.50888324" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.687974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2165,8 +2390,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成首页搜索框数据来源于Solr索引库" />
-    <MESSAGE value="解决搜索框乱码bug" />
     <MESSAGE value="解决对搜索出来的图片处理" />
     <MESSAGE value="完成对集群版Solr的测试" />
     <MESSAGE value="将搜索功能切换到集群版" />
@@ -2190,7 +2413,9 @@
     <MESSAGE value="完成用户注册数据验证功能" />
     <MESSAGE value="完成用户注册数据功能" />
     <MESSAGE value="完成用户登录功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成用户登录功能" />
+    <MESSAGE value="完成通过token查询用户功能" />
+    <MESSAGE value="完成注册以及登录页面的展现功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成注册以及登录页面的展现功能" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2394,6 +2619,8 @@
       <configuration name="MavenRunConfiguration">
         <watch expression="searchServiceImpl.search(queryString, page, ITEM_ROWS)" />
         <watch expression="searchServiceImpl" language="JAVA" />
+        <watch expression="DigestUtils.md5DigestAsHex(password.getBytes())" />
+        <watch expression="user.getPassword()" />
       </configuration>
     </watches-manager>
   </component>
@@ -2402,27 +2629,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/ftl/commons/footer-links.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/ftl/commons/header.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5070">
-          <caret line="169" column="31" lean-forward="false" selection-start-line="169" selection-start-column="31" selection-end-line="169" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/resources/resource/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2687,14 +2893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -2795,17 +2993,36 @@
     <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/src/main/java/com/taotao/sso/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1576#1636#1" expanded="true" />
+            <element signature="e#1670#1713#1" expanded="true" />
+            <element signature="e#1685#1701#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding>
             <element signature="e#2236#2254#0" expanded="true" />
             <element signature="e#2353#2408#1" expanded="true" />
@@ -2868,22 +3085,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1576#1636#1" expanded="true" />
-            <element signature="e#1670#1713#1" expanded="true" />
-            <element signature="e#1685#1701#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="33" column="108" lean-forward="true" selection-start-line="33" selection-start-column="108" selection-end-line="33" selection-end-column="108" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -25,8 +25,9 @@
     </bean>
 
     <!--资源配置-->
-    <!--<mvc:resources mapping="/css/**" location="/css"/>-->
-    <!--<mvc:resources mapping="/js/**" location="/js"/>-->
+    <mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
+    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
+    <mvc:resources location="/WEB-INF/images/" mapping="/js/**"/>
     <mvc:default-servlet-handler/>
 
     <!--配置文件上传-->
