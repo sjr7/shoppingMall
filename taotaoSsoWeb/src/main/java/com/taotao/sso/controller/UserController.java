@@ -49,7 +49,9 @@ public class UserController {
         TaotaoResult result = userService.login(username, password);
         // 调用service进行登录
         String token = result.getData().toString();
-        CookieUtils.setCookie(request, response, TOKEN_KEY, token);
+        if (result.getStatus() == 200) {
+            CookieUtils.setCookie(request, response, TOKEN_KEY, token);
+        }
         // 从返回的结果中取出token,写入cookie,Cookie要跨
         //响应json数据,包含token
         return result;
