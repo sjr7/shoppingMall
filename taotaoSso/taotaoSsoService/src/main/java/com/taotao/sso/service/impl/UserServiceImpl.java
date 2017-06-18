@@ -134,6 +134,27 @@ public class UserServiceImpl implements UserService {
         // 返回TaotaoResult包装token
         return TaotaoResult.ok(token);
     }
+
+    /**
+     * 通过token查询用户信息
+     * @param token  token令牌值
+     * @return   用户信息
+     */
+    @Override
+    public TaotaoResult getUserByToken(String token) {
+        // 根据token查询redis
+        String json = jedisClient.get(USER_SESSION + ":" + token);
+        if (StringUtils.isBlank(json)) {
+            // 如果查询不到数据,就说明用户已经过期
+            return TaotaoResult.build(400, "用户登录已经过期,请重新登录");
+        }
+        // 如果查询到数据,说明用户已经登录了
+        // 如要需要重置key的过期时间
+        jedisClient.expire(USER_SESSION + ":" + token, SESSION_EXPIRE);
+        // 把json数据转为TbUser对象,然后使用TaotaoResult包装返回
+        TbUser user = JsonUtils.jsonToPojo(json, TbUser.class);
+        return TaotaoResult.ok(user);
+    }
 }
 
 

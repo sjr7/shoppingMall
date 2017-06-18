@@ -30,6 +30,18 @@ public class UserController {
         this.userService = userService;
     }
 
+    /**
+     * 根据token查询用户信息
+     *
+     * @param token 令牌值
+     * @return 用户信息
+     */
+    @RequestMapping(value = "/user/token/{token}", method = RequestMethod.GET)
+    @ResponseBody
+    public TaotaoResult getUserByToken(@PathVariable String token) {
+        return userService.getUserByToken(token);
+    }
+
     @RequestMapping(value = "/user/login", method = RequestMethod.POST)
     @ResponseBody
     public TaotaoResult login(String username, String password, HttpServletRequest request, HttpServletResponse response) {
