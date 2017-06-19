@@ -1,13 +1,19 @@
 package com.taotao.order.controller;
 
+import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.CookieUtils;
 import com.taotao.common.utils.JsonUtils;
+import com.taotao.order.pojo.TbOrderInfo;
+import com.taotao.order.service.OrderService;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbUser;
 import org.apache.commons.lang3.StringUtils;
+import org.joda.time.DateTime;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -22,6 +28,35 @@ public class OrderCartController {
 
     @Value("${CART_KEY}")
     private String CART_KEY;
+
+    private final OrderService orderService;
+
+    @Autowired
+    public OrderCartController(OrderService orderService) {
+        this.orderService = orderService;
+    }
+
+    @RequestMapping(value = "/order/create", method = RequestMethod.POST)
+    public String createOrder(TbOrderInfo orderInfo, HttpServletRequest request) {
+        // 接收表单提交的数据OrderInfo
+        // 补全用户信息
+        TbUser tbUser = (TbUser) request.getAttribute("user");
+        orderInfo.setUserId(tbUser.getId());
+        orderInfo.setBuyerNick(tbUser.getUsername());
+        // 调用service创建订单
+        TaotaoResult result = orderService.createOrder(orderInfo);
+        // 取到订单号
+        String orderId = result.getData().toString();
+        // 使用Service返回订单号
+        request.setAttribute("orderId", orderId);
+        request.setAttribute("payment", orderInfo.getPayment());
+        // 当前日期加三天
+        DateTime dateTime = new DateTime();
+        dateTime = dateTime.plusDays(3);
+        request.setAttribute("date", dateTime.toString("yyyy-MM-dd"));
+        // 返回逻辑师徒展示成功页面
+        return "success";
+    }
 
     @RequestMapping(value = "/order/order-cart")
     public String showOrderCart(HttpServletRequest request) {
