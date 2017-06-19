@@ -2,10 +2,13 @@ package com.taotao.sso.controller;
 
 import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.CookieUtils;
+import com.taotao.common.utils.JsonUtils;
 import com.taotao.pojo.TbUser;
 import com.taotao.sso.service.UserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -36,10 +39,16 @@ public class UserController {
      * @param token 令牌值
      * @return 用户信息
      */
-    @RequestMapping(value = "/user/token/{token}", method = RequestMethod.GET)
+    @RequestMapping(value = "/user/token/{token}", method = RequestMethod.GET,
+            // 指定返回响应数据的Content-type
+            produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ResponseBody
-    public TaotaoResult getUserByToken(@PathVariable String token) {
-        return userService.getUserByToken(token);
+    public String getUserByToken(@PathVariable String token, String callback) {
+        TaotaoResult result = userService.getUserByToken(token);
+        if (StringUtils.isNoneBlank(callback)) {
+            return callback + "(" + JsonUtils.objectToJson(result) + ");";
+        }
+        return JsonUtils.objectToJson(result);
     }
 
     @RequestMapping(value = "/user/login", method = RequestMethod.POST)

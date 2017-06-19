@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13a8278-f824-4973-a692-6935b02d72ad" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientCluster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/jedis/JedisClientPool.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/base-v1.js" afterPath="$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/base-v1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/taotao.js" afterPath="$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/taotao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/base-v1.js" afterPath="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/base-v1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/taotao.js" afterPath="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/taotao.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base-v1.js" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base-v1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/taotao.js" afterPath="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/taotao.js" />
     </list>
     <ignored path="$PROJECT_DIR$/taotaoParent/target/" />
     <ignored path="$PROJECT_DIR$/taotaoCommon/target/" />
@@ -56,92 +66,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="52" column="71" lean-forward="false" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+            <state relative-caret-position="150">
+              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
-                <element signature="e#1576#1636#1" expanded="true" />
-                <element signature="e#1670#1713#1" expanded="true" />
-                <element signature="e#1685#1701#0" expanded="true" />
-                <element signature="e#1726#1744#0" expanded="true" />
-                <element signature="e#2165#2166#0" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
+                <element signature="e#1527#1583#1" expanded="true" />
+                <element signature="e#1652#1706#0" expanded="true" />
+                <element signature="e#1652#1706#0" expanded="true" />
+                <element signature="e#1652#1706#0" expanded="true" />
+                <element signature="e#1652#1706#0" expanded="true" />
+                <element signature="e#2012#2072#1" expanded="true" />
+                <element signature="e#2106#2149#1" expanded="true" />
+                <element signature="e#2121#2137#0" expanded="true" />
+                <element signature="e#2162#2180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-              <folding>
-                <element signature="e#2236#2254#0" expanded="true" />
-                <element signature="e#2353#2408#1" expanded="true" />
-                <element signature="e#2385#2403#0" expanded="true" />
-                <element signature="e#2422#2448#0" expanded="true" />
-                <element signature="e#2432#2448#0" expanded="true" />
-                <element signature="e#2552#2570#0" expanded="true" />
-                <element signature="e#2691#2706#0" expanded="true" />
-                <element signature="e#2783#2840#1" expanded="true" />
-                <element signature="e#2820#2835#0" expanded="true" />
-                <element signature="e#2854#2885#0" expanded="true" />
-                <element signature="e#2864#2885#0" expanded="true" />
-                <element signature="e#3009#3024#0" expanded="true" />
-                <element signature="e#3102#3159#1" expanded="true" />
-                <element signature="e#3139#3154#0" expanded="true" />
-                <element signature="e#3173#3204#0" expanded="true" />
-                <element signature="e#3183#3204#0" expanded="true" />
-                <element signature="e#3295#3322#0" expanded="true" />
-                <element signature="e#3295#3322#0" expanded="true" />
-                <element signature="e#3332#3359#0" expanded="true" />
-                <element signature="e#3332#3359#0" expanded="true" />
-                <element signature="e#3388#3463#1" expanded="true" />
-                <element signature="e#3432#3450#0" expanded="true" />
-                <element signature="e#3432#3461#0" expanded="true" />
-                <element signature="e#3472#3497#0" expanded="true" />
-                <element signature="e#3472#3497#0" expanded="true" />
-                <element signature="e#3731#3781#1" expanded="true" />
-                <element signature="e#3790#3855#1" expanded="true" />
-                <element signature="e#3929#3993#1" expanded="true" />
-                <element signature="e#4117#4143#1" expanded="true" />
-                <element signature="e#4131#4142#0" expanded="true" />
-                <element signature="e#4131#4142#0" expanded="true" />
-                <element signature="e#4172#4247#0" expanded="true" />
-                <element signature="e#4173#4191#0" expanded="true" />
-                <element signature="e#4172#4247#0" expanded="true" />
-                <element signature="e#4226#4245#0" expanded="true" />
-                <element signature="e#4172#4247#0" expanded="true" />
-                <element signature="e#4383#4427#1" expanded="true" />
-                <element signature="e#4547#4569#0" expanded="true" />
-                <element signature="e#4547#4569#0" expanded="true" />
-                <element signature="e#4595#4621#0" expanded="true" />
-                <element signature="e#4595#4621#0" expanded="true" />
-                <element signature="e#4595#4621#0" expanded="true" />
-                <element signature="e#4595#4621#0" expanded="true" />
-                <element signature="e#4726#4752#0" expanded="true" />
-                <element signature="e#4726#4752#0" expanded="true" />
-                <element signature="e#4726#4752#0" expanded="true" />
-                <element signature="e#4726#4752#0" expanded="true" />
-                <element signature="e#5042#5100#1" expanded="true" />
-                <element signature="e#5072#5098#0" expanded="true" />
-                <element signature="e#5072#5098#0" expanded="true" />
-                <element signature="e#5072#5098#0" expanded="true" />
-                <element signature="e#5072#5098#0" expanded="true" />
-                <element signature="e#5330#5356#0" expanded="true" />
-                <element signature="e#5330#5356#0" expanded="true" />
-                <element signature="e#5330#5356#0" expanded="true" />
-                <element signature="e#5330#5356#0" expanded="true" />
-                <element signature="e#5433#5488#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="-30">
+              <caret line="141" column="7" lean-forward="true" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,46 +100,20 @@
       <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="420">
               <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-Mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+      <file leaf-file-name="taotao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/taotao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="33" column="108" lean-forward="true" selection-start-line="33" selection-start-column="108" selection-end-line="33" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/src/main/java/com/taotao/sso/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resource.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/resource/resource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -245,14 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/WEB-INF/jsp/search.jsp" />
-        <option value="$PROJECT_DIR$/taotaoItemWeb/src/main/java/com/taotao/item/pojo/Item.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/src/main/java/com/taotao/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/pom.xml" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/com/taotao/jedis/JedisClient.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/jedis/JedisClientCluster.java" />
-        <option value="$PROJECT_DIR$/taotaoManager/taotaoManagerService/src/main/java/com/taotao/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/taotaoItemWeb/src/test/resources/hello.ftl" />
         <option value="$PROJECT_DIR$/taotaoItemWeb/src/test/java/com/taotao/freemarker/Student.java" />
         <option value="$PROJECT_DIR$/taotaoItemWeb/src/test/resources/ftl/student.ftl" />
@@ -295,7 +212,15 @@
         <option value="$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml" />
+        <option value="$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/base-v1.js" />
+        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/jedis/JedisClientPool.java" />
+        <option value="$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/taotao.js" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/base-v1.js" />
+        <option value="$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/taotao.js" />
+        <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base-v1.js" />
+        <option value="$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/taotao.js" />
       </list>
     </option>
   </component>
@@ -329,14 +254,39 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="taotao-sso-web" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="taotao-sso-web" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="446" />
-    <option name="y" value="405" />
+    <option name="x" value="662" />
+    <option name="y" value="42" />
     <option name="width" value="1476" />
     <option name="height" value="1056" />
   </component>
@@ -358,9 +308,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -440,6 +388,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoppingMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoSsoWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,306 +521,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoInterface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoInterface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoInterface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taotaoSsoInterface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1773,14 +1455,8 @@
       <workItem from="1497660346946" duration="16975000" />
       <workItem from="1497683858292" duration="11119000" />
       <workItem from="1497742977760" duration="471000" />
-      <workItem from="1497762831782" duration="14786000" />
-    </task>
-    <task id="LOCAL-00009" summary="完成商城用户页面模块的编写，并进行测试">
-      <created>1497171146792</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1497171146792</updated>
+      <workItem from="1497762831782" duration="15119000" />
+      <workItem from="1497832194502" duration="2195000" />
     </task>
     <task id="LOCAL-00010" summary="整合出新模块taotao-content,做cms系统">
       <created>1497193128596</created>
@@ -2118,7 +1794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497796542856</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="修复一个由于未进行判断导致写入Cookie为空的bug">
+      <created>1497796912900</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1497796912900</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2154,7 +1837,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240975000" />
+    <option name="totallyTimeSpent" value="243503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2166,7 +1849,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="446" y="405" width="1476" height="1056" extended-state="0" />
+    <frame x="662" y="42" width="1476" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2187,12 +1870,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25503355" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22440393" sideWeight="0.49111676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22791024" sideWeight="0.49111676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19893049" sideWeight="0.50840336" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19240049" sideWeight="0.50888324" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.687974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2219,7 +1902,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="解决对搜索出来的图片处理" />
     <MESSAGE value="完成对集群版Solr的测试" />
     <MESSAGE value="将搜索功能切换到集群版" />
     <MESSAGE value="完成搜索模块全局异常处理器GlobalExceptionReslover" />
@@ -2244,7 +1926,8 @@
     <MESSAGE value="完成用户登录功能" />
     <MESSAGE value="完成通过token查询用户功能" />
     <MESSAGE value="完成注册以及登录页面的展现功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成注册以及登录页面的展现功能" />
+    <MESSAGE value="修复一个由于未进行判断导致写入Cookie为空的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复一个由于未进行判断导致写入Cookie为空的bug" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2288,7 +1971,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java</url>
-          <line>68</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
@@ -2357,12 +2040,6 @@
           <line>95</line>
           <properties />
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java</url>
@@ -2458,99 +2135,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/webapp/WEB-INF/ftl/item.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/java/com/taotao/item/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/java/com/taotao/item/listener/ItemAddMesssageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="63" />
-          <folding>
-            <element signature="e#1731#1789#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoItemWeb/src/main/resources/spring/applicationContext-Mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/mybatis/MyBatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/jedis/JedisClientCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/jedis/JedisClientPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/spring/applicationContext-activeMQ.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/spring/applicationContext-activeMQ.xml" />
     <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/jedis/JedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2582,7 +2171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2594,19 +2182,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/rebel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/rebel.xml" />
     <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2630,7 +2210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3750">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2638,7 +2217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2646,7 +2224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2654,7 +2231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2662,7 +2238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2670,7 +2245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2678,7 +2252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2686,7 +2259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2710,7 +2282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2718,7 +2289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2734,15 +2304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/resource/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2750,7 +2311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2782,7 +2342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2801,13 +2360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#1170#1207#1" expanded="false" />
-            <element signature="e#1190#1206#0" expanded="false" />
-            <element signature="e#1216#1271#1" expanded="false" />
-            <element signature="e#1244#1270#0" expanded="false" />
-            <element signature="e#1284#1310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2815,6 +2367,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/src/main/java/com/taotao/content/jedis/JedisClientPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="33" column="108" lean-forward="false" selection-start-line="33" selection-start-column="108" selection-end-line="33" selection-end-column="108" />
           <folding />
         </state>
       </provider>
@@ -2829,83 +2420,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/resources/resource/resource.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="e#2236#2254#0" expanded="true" />
-            <element signature="e#2353#2408#1" expanded="true" />
-            <element signature="e#2385#2403#0" expanded="true" />
-            <element signature="e#2422#2448#0" expanded="true" />
-            <element signature="e#2432#2448#0" expanded="true" />
-            <element signature="e#2552#2570#0" expanded="true" />
-            <element signature="e#2691#2706#0" expanded="true" />
-            <element signature="e#2783#2840#1" expanded="true" />
-            <element signature="e#2820#2835#0" expanded="true" />
-            <element signature="e#2854#2885#0" expanded="true" />
-            <element signature="e#2864#2885#0" expanded="true" />
-            <element signature="e#3009#3024#0" expanded="true" />
-            <element signature="e#3102#3159#1" expanded="true" />
-            <element signature="e#3139#3154#0" expanded="true" />
-            <element signature="e#3173#3204#0" expanded="true" />
-            <element signature="e#3183#3204#0" expanded="true" />
-            <element signature="e#3295#3322#0" expanded="true" />
-            <element signature="e#3295#3322#0" expanded="true" />
-            <element signature="e#3332#3359#0" expanded="true" />
-            <element signature="e#3332#3359#0" expanded="true" />
-            <element signature="e#3388#3463#1" expanded="true" />
-            <element signature="e#3432#3450#0" expanded="true" />
-            <element signature="e#3432#3461#0" expanded="true" />
-            <element signature="e#3472#3497#0" expanded="true" />
-            <element signature="e#3472#3497#0" expanded="true" />
-            <element signature="e#3731#3781#1" expanded="true" />
-            <element signature="e#3790#3855#1" expanded="true" />
-            <element signature="e#3929#3993#1" expanded="true" />
-            <element signature="e#4117#4143#1" expanded="true" />
-            <element signature="e#4131#4142#0" expanded="true" />
-            <element signature="e#4131#4142#0" expanded="true" />
-            <element signature="e#4172#4247#0" expanded="true" />
-            <element signature="e#4173#4191#0" expanded="true" />
-            <element signature="e#4172#4247#0" expanded="true" />
-            <element signature="e#4226#4245#0" expanded="true" />
-            <element signature="e#4172#4247#0" expanded="true" />
-            <element signature="e#4383#4427#1" expanded="true" />
-            <element signature="e#4547#4569#0" expanded="true" />
-            <element signature="e#4547#4569#0" expanded="true" />
-            <element signature="e#4595#4621#0" expanded="true" />
-            <element signature="e#4595#4621#0" expanded="true" />
-            <element signature="e#4595#4621#0" expanded="true" />
-            <element signature="e#4595#4621#0" expanded="true" />
-            <element signature="e#4726#4752#0" expanded="true" />
-            <element signature="e#4726#4752#0" expanded="true" />
-            <element signature="e#4726#4752#0" expanded="true" />
-            <element signature="e#4726#4752#0" expanded="true" />
-            <element signature="e#5042#5100#1" expanded="true" />
-            <element signature="e#5072#5098#0" expanded="true" />
-            <element signature="e#5072#5098#0" expanded="true" />
-            <element signature="e#5072#5098#0" expanded="true" />
-            <element signature="e#5072#5098#0" expanded="true" />
-            <element signature="e#5330#5356#0" expanded="true" />
-            <element signature="e#5330#5356#0" expanded="true" />
-            <element signature="e#5330#5356#0" expanded="true" />
-            <element signature="e#5330#5356#0" expanded="true" />
-            <element signature="e#5433#5488#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/base-v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6270">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <marker date="1497832598846" expanded="true" signature="6891:6924" ph="..." />
+            <marker date="1497832598846" expanded="true" signature="7168:7182" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101240">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -2913,43 +2459,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="420">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/resources/spring/applicationContext-Mvc.xml">
+    <entry file="file://$PROJECT_DIR$/taotaoPortalWeb/src/main/webapp/js/taotao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="33" column="108" lean-forward="true" selection-start-line="33" selection-start-column="108" selection-end-line="33" selection-end-column="108" />
+        <state relative-caret-position="330">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/base-v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <marker date="1497834303322" expanded="true" signature="6807:6840" ph="..." />
+            <marker date="1497834303322" expanded="true" signature="7084:7098" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSearchWeb/src/main/webapp/js/taotao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/taotao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/webapp/WEB-INF/js/base-v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <marker date="1497834303310" expanded="true" signature="6807:6840" ph="..." />
+            <marker date="1497834303310" expanded="true" signature="7084:7098" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotaoSsoWeb/src/main/java/com/taotao/sso/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="52" column="71" lean-forward="false" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+        <state relative-caret-position="150">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1576#1636#1" expanded="true" />
-            <element signature="e#1670#1713#1" expanded="true" />
-            <element signature="e#1685#1701#0" expanded="true" />
-            <element signature="e#1726#1744#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#1527#1583#1" expanded="true" />
+            <element signature="e#1652#1706#0" expanded="true" />
+            <element signature="e#1652#1706#0" expanded="true" />
+            <element signature="e#1652#1706#0" expanded="true" />
+            <element signature="e#1652#1706#0" expanded="true" />
+            <element signature="e#2012#2072#1" expanded="true" />
+            <element signature="e#2106#2149#1" expanded="true" />
+            <element signature="e#2121#2137#0" expanded="true" />
+            <element signature="e#2162#2180#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/src/main/java/com/taotao/sso/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="141" column="7" lean-forward="true" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
