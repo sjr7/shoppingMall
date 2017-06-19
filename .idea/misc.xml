@@ -5,6 +5,7 @@
     <groovy codeStyle="LEGACY" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotaoCartWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoContent/taotaoContentService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoItemWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/taotaoItemWeb/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoSso/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaoCartWeb/pom.xml" />
       </list>
     </option>
   </component>

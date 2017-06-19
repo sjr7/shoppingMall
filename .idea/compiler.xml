@@ -12,6 +12,7 @@
         <module name="taotao-manager-interface" />
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
+        <module name="taotaoCartWeb" />
         <module name="taotaoCommon" />
         <module name="taotaoContentInterface" />
         <module name="taotaoContentService" />
@@ -40,6 +41,7 @@
       <module name="taotao-manager-pojo" target="1.7" />
       <module name="taotao-manager-service" target="1.7" />
       <module name="taotao-parent" target="1.7" />
+      <module name="taotaoCartWeb" target="1.7" />
       <module name="taotaoCommon" target="1.7" />
       <module name="taotaoContent" target="1.7" />
       <module name="taotaoContentInterface" target="1.7" />
