@@ -14,8 +14,7 @@
 				</ul>
 				<div class="form">
 					<input type="text" class="text" accesskey="s" id="key" autocomplete="off" onkeydown="javascript:if(event.keyCode==13) search('key');">
-					<input type="button" value="搜索" class="button" onclick="search('key');" clstag="homepage|keycount|home2013|03a">
-					<%--<input type="button" value="搜索" class="button" onclick="search('key');return false;" clstag="homepage|keycount|home2013|03a">--%>
+					<input type="button" value="搜索" class="button" onclick="search('key');return false;" clstag="homepage|keycount|home2013|03a">
 				</div>
 			</div>
 			<div id="hotwords" clstag="homepage|keycount|home2013|03b"></div>
