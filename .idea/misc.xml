@@ -11,6 +11,8 @@
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManagerWeb" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoOrder/taotaoOrderService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoOrderWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoPortalWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSearchWeb" />
@@ -31,6 +33,8 @@
         <option value="$PROJECT_DIR$/taotaoSso/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoSsoWeb/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoCartWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaoOrder/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaoOrderWeb/pom.xml" />
       </list>
     </option>
   </component>
