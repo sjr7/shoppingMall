@@ -71,7 +71,7 @@
 		                	<span class="promise411 promise411_11345721" id="promise411_11345721"></span>
 		                </div>    
 		            </div>
-		            <div class="cell p-price"><span class="price">¥<fmt:formatNumber groupingUsed="false" value="${cart.price / 100}" maxFractionDigits="2" minFractionDigits="2"/> </span></div>
+		            <div class="cell p-price"><span class="price">¥<fmt:formatNumber groupingUsed="false" value="${cart.price}" maxFractionDigits="2" minFractionDigits="2"/> </span></div>
 		            <div class="cell p-promotion">
 		            </div>
 		            <div class="cell p-inventory stock-11345721">有货</div>

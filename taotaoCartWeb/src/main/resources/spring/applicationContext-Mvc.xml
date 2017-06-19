@@ -12,7 +12,7 @@
     <!--加载配置文件-->
     <context:property-placeholder location="classpath:resource/resource.properties"/>
     <!--扫描包-->
-    <context:component-scan base-package="com.taotao.card.controller"/>
+    <context:component-scan base-package="com.taotao.cart.controller"/>
 
 
     <!--配置注解驱动-->
@@ -40,7 +40,7 @@
     <!--引用dubbo服务-->
     <dubbo:application name="taotao-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
-    <!--<dubbo:reference interface="com.taotao.content.service.ContentService" id="contentService"/>-->
+    <dubbo:reference interface="com.taotao.service.ItemService" id="itemService"/>
     <!--<dubbo:reference interface="com.taotao.service.ItemCatService" id="itemCatService"/>-->
 
 </beans>
