@@ -30,6 +30,13 @@
     <!--<mvc:resources location="/WEB-INF/images/" mapping="/js/**"/>-->
     <mvc:default-servlet-handler/>
 
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/order/**"/>
+            <bean class="com.taotao.order.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
     <!--配置文件上传-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <!--设置默认的编码-->
