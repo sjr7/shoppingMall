@@ -27,13 +27,13 @@
 * **版本控制工具** : Git (视频里面使用SVN,我这里使用的是Git)
 
 ## 项目概述
-  + 项目最终Maven模块数量为26个,不区分父子模块
+  + 项目最终Maven模块数量为26个,不区分父子模块  
   ![note/images/mavenCount.png](note/images/mavenCount.png)
-  + 项目最终部署Tomcat情况,前半部分为部署项目名,后面数字为端口号
+  + 项目最终部署Tomcat情况,前半部分为部署项目名,后面数字为端口号  
   ![note/images/tomcatInfo.png](note/images/tomcatInfo.png)
-  + IDEA中项目图
+  + IDEA中项目图  
   ![note/images/ideaProject.png](note/images/ideaProject.png)
-  + 系统构架图(项目给出的图)
+  + 系统构架图(项目给出的图)  
   ![note/images/taotao.png](note/images/taotao.png)
   
 ## 开发流程
