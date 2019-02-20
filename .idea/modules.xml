@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java-master/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java-master/fastdfs-client-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" filepath="$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-fix/pagehelper-fix.iml" filepath="$PROJECT_DIR$/pagehelper-fix/pagehelper-fix.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-cart-web/taotao-cart-web.iml" filepath="$PROJECT_DIR$/taotao-cart-web/taotao-cart-web.iml" />

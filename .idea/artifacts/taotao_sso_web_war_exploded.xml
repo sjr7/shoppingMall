@@ -60,7 +60,9 @@
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
-          <element id="library" level="project" name="Maven: org.csource:fastdfs-client-java:1.27-SNAPSHOT" />
+          <element id="archive" name="fastdfs-client-java-1.27-SNAPSHOT.jar">
+            <element id="module-output" name="fastdfs-client-java" />
+          </element>
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.2" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
         </element>

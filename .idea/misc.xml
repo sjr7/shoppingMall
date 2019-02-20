@@ -41,6 +41,8 @@
         <option value="$PROJECT_DIR$/taotaoOrderWeb/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoSearch/pom.xml" />
+        <option value="$PROJECT_DIR$/pagehelper-fix/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs-client-java-master/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
