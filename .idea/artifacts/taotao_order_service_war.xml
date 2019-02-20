@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="taotao-order-service:war">
-    <output-path>$PROJECT_DIR$/taotaoOrderService/target</output-path>
+    <output-path>$PROJECT_DIR$/taotao-order-service/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>taotao-order-service</module>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+    <!--单机版跟集群版只能选其中一个-->
+    <!-- 配置单机版的连接 -->
+     <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+         <constructor-arg name="host" value="127.0.0.1"/>
+         <constructor-arg name="port" value="6379"/>
+     </bean>
+     <bean id="jedisClientPool" class="com.taotao.sso.jedis.JedisClientPool"/>
+
+    <!-- 集群版的配置 -->
+    <!--<bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+        <constructor-arg>
+            <set>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="6379"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7000"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7001"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7002"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7003"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="127.0.0.1"/>
+                    <constructor-arg name="port" value="7004"/>
+                </bean>
+            </set>
+        </constructor-arg>
+    </bean>
+    <bean id="jedisClientCluster" class="com.taoJedisClientClusterster"/>-->
+
+
+</beans>
+
+
+
+
+
+
+
+
+
+

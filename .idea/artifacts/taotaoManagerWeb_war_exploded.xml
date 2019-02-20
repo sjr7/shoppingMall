@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="taotaoManagerWeb" />
+          <element id="module-output" name="taotao-manager-web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.suny.taotao:taotaoCommon:unknown" />
@@ -50,9 +50,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/taotaoManagerWeb/target/taotao-manager-web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="taotaoManagerWeb/web/Web" />
+      <element id="javaee-facet-resources" facet="taotao-manager-web/web/Web" />
     </root>
   </artifact>
 </component>

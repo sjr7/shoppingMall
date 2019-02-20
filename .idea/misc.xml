@@ -5,23 +5,23 @@
     <groovy codeStyle="LEGACY" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/taotaoCartWeb" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoContent/taotaoContentService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoContentService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoItemWeb" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoManagerService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoManagerWeb" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoOrder/taotaoOrderService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoOrderService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoOrderWeb" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoPortalWeb" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-content/taotaoContentService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-item-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager/taotaoManagerService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-order/taotaoOrderService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-sso/taotaoSsoService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoSearchService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoSearchWeb" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoSsoService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoSsoWeb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

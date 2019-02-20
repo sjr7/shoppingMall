@@ -4,46 +4,44 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" filepath="$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper-fix/pagehelper-fix.iml" filepath="$PROJECT_DIR$/pagehelper-fix/pagehelper-fix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoContentInterface/taotao-content-interface.iml" filepath="$PROJECT_DIR$/taotaoContentInterface/taotao-content-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoContentService/taotao-content-service.iml" filepath="$PROJECT_DIR$/taotaoContentService/taotao-content-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotao-manager.iml" filepath="$PROJECT_DIR$/taotaoManager/taotao-manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoManagerDao/taotao-manager-dao.iml" filepath="$PROJECT_DIR$/taotaoManagerDao/taotao-manager-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoManagerInterface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/taotaoManagerInterface/taotao-manager-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoManagerPojo/taotao-manager-pojo.iml" filepath="$PROJECT_DIR$/taotaoManagerPojo/taotao-manager-pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoManagerService/taotao-manager-service.iml" filepath="$PROJECT_DIR$/taotaoManagerService/taotao-manager-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoOrderInterface/taotao-order-interface.iml" filepath="$PROJECT_DIR$/taotaoOrderInterface/taotao-order-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoOrderService/taotao-order-service.iml" filepath="$PROJECT_DIR$/taotaoOrderService/taotao-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-cart-web/taotao-cart-web.iml" filepath="$PROJECT_DIR$/taotao-cart-web/taotao-cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-common/taotao-common.iml" filepath="$PROJECT_DIR$/taotao-common/taotao-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-content/taotao-content.iml" filepath="$PROJECT_DIR$/taotao-content/taotao-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-content-interface/taotao-content-interface.iml" filepath="$PROJECT_DIR$/taotao-content-interface/taotao-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-content-service/taotao-content-service.iml" filepath="$PROJECT_DIR$/taotao-content-service/taotao-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-item-web/taotao-item-web.iml" filepath="$PROJECT_DIR$/taotao-item-web/taotao-item-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-dao/taotao-manager-dao.iml" filepath="$PROJECT_DIR$/taotao-manager-dao/taotao-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-interface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/taotao-manager-interface/taotao-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-pojo/taotao-manager-pojo.iml" filepath="$PROJECT_DIR$/taotao-manager-pojo/taotao-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/taotao-manager-service/taotao-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-order/taotao-order.iml" filepath="$PROJECT_DIR$/taotao-order/taotao-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-order-interface/taotao-order-interface.iml" filepath="$PROJECT_DIR$/taotao-order-interface/taotao-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-order-service/taotao-order-service.iml" filepath="$PROJECT_DIR$/taotao-order-service/taotao-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-order-web/taotao-order-web.iml" filepath="$PROJECT_DIR$/taotao-order-web/taotao-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSearchInterface/taotao-search-interface.iml" filepath="$PROJECT_DIR$/taotaoSearchInterface/taotao-search-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSearchService/taotao-search-service.iml" filepath="$PROJECT_DIR$/taotaoSearchService/taotao-search-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSsoInterface/taotao-sso-interface.iml" filepath="$PROJECT_DIR$/taotaoSsoInterface/taotao-sso-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSsoService/taotao-sso-service.iml" filepath="$PROJECT_DIR$/taotaoSsoService/taotao-sso-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoCartWeb/taotaoCartWeb.iml" filepath="$PROJECT_DIR$/taotaoCartWeb/taotaoCartWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoCommon/taotaoCommon.iml" filepath="$PROJECT_DIR$/taotaoCommon/taotaoCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoContent/taotaoContent.iml" filepath="$PROJECT_DIR$/taotaoContent/taotaoContent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoContent/taotaoContentInterface/taotaoContentInterface.iml" filepath="$PROJECT_DIR$/taotaoContent/taotaoContentInterface/taotaoContentInterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoContent/taotaoContentService/taotaoContentService.iml" filepath="$PROJECT_DIR$/taotaoContent/taotaoContentService/taotaoContentService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoItemWeb/taotaoItemWeb.iml" filepath="$PROJECT_DIR$/taotaoItemWeb/taotaoItemWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-portal-web/taotao-portal-web.iml" filepath="$PROJECT_DIR$/taotao-portal-web/taotao-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search/taotao-search.iml" filepath="$PROJECT_DIR$/taotao-search/taotao-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-interface/taotao-search-interface.iml" filepath="$PROJECT_DIR$/taotao-search-interface/taotao-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-service/taotao-search-service.iml" filepath="$PROJECT_DIR$/taotao-search-service/taotao-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-search-web/taotao-search-web.iml" filepath="$PROJECT_DIR$/taotao-search-web/taotao-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sso/taotao-sso.iml" filepath="$PROJECT_DIR$/taotao-sso/taotao-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sso-interface/taotao-sso-interface.iml" filepath="$PROJECT_DIR$/taotao-sso-interface/taotao-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sso-service/taotao-sso-service.iml" filepath="$PROJECT_DIR$/taotao-sso-service/taotao-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sso-web/taotao-sso-web.iml" filepath="$PROJECT_DIR$/taotao-sso-web/taotao-sso-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-content/taotaoContentInterface/taotaoContentInterface.iml" filepath="$PROJECT_DIR$/taotao-content/taotaoContentInterface/taotaoContentInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-content/taotaoContentService/taotaoContentService.iml" filepath="$PROJECT_DIR$/taotao-content/taotaoContentService/taotaoContentService.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManager.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManagerDao/taotaoManagerDao.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManagerDao/taotaoManagerDao.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/taotaoManagerInterface.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManagerInterface/taotaoManagerInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/taotaoManagerPojo.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManagerPojo/taotaoManagerPojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService/taotaoManagerService.iml" filepath="$PROJECT_DIR$/taotaoManager/taotaoManagerService/taotaoManagerService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoManagerWeb/taotaoManagerWeb.iml" filepath="$PROJECT_DIR$/taotaoManagerWeb/taotaoManagerWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoOrder/taotaoOrder.iml" filepath="$PROJECT_DIR$/taotaoOrder/taotaoOrder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoOrder/taotaoOrderInterface/taotaoOrderInterface.iml" filepath="$PROJECT_DIR$/taotaoOrder/taotaoOrderInterface/taotaoOrderInterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoOrder/taotaoOrderService/taotaoOrderService.iml" filepath="$PROJECT_DIR$/taotaoOrder/taotaoOrderService/taotaoOrderService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoOrderWeb/taotaoOrderWeb.iml" filepath="$PROJECT_DIR$/taotaoOrderWeb/taotaoOrderWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-order/taotaoOrderInterface/taotaoOrderInterface.iml" filepath="$PROJECT_DIR$/taotao-order/taotaoOrderInterface/taotaoOrderInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-order/taotaoOrderService/taotaoOrderService.iml" filepath="$PROJECT_DIR$/taotao-order/taotaoOrderService/taotaoOrderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoParent/taotaoParent.iml" filepath="$PROJECT_DIR$/taotaoParent/taotaoParent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoPortalWeb/taotaoPortalWeb.iml" filepath="$PROJECT_DIR$/taotaoPortalWeb/taotaoPortalWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSearch/taotaoSearch.iml" filepath="$PROJECT_DIR$/taotaoSearch/taotaoSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchInterface/taotaoSearchInterface.iml" filepath="$PROJECT_DIR$/taotaoSearch/taotaoSearchInterface/taotaoSearchInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService/taotaoSearchService.iml" filepath="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/taotaoSearchService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSearchWeb/taotaoSearchWeb.iml" filepath="$PROJECT_DIR$/taotaoSearchWeb/taotaoSearchWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSso/taotaoSso.iml" filepath="$PROJECT_DIR$/taotaoSso/taotaoSso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/taotaoSsoInterface.iml" filepath="$PROJECT_DIR$/taotaoSso/taotaoSsoInterface/taotaoSsoInterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService/taotaoSsoService.iml" filepath="$PROJECT_DIR$/taotaoSso/taotaoSsoService/taotaoSsoService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoSsoWeb/taotaoSsoWeb.iml" filepath="$PROJECT_DIR$/taotaoSsoWeb/taotaoSsoWeb.iml" />
     </modules>
   </component>
 </project>

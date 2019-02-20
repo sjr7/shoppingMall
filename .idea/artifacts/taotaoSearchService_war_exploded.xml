@@ -62,7 +62,7 @@
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="archive" name="taotaoCommon-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="taotaoCommon" />
+            <element id="module-output" name="taotao-common" />
           </element>
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.5" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
@@ -76,7 +76,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/taotaoSearch/taotaoSearchService/target/taotao-search-service/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/taotao-search/taotaoSearchService/target/taotao-search-service/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="taotaoSearchService/web/Web" />
     </root>

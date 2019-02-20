@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="taotao-sso-service:war">
-    <output-path>$PROJECT_DIR$/taotaoSsoService/target</output-path>
+    <output-path>$PROJECT_DIR$/taotao-sso-service/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>taotao-sso-service</module>
