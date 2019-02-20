@@ -7,16 +7,20 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/taotaoCartWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoContent/taotaoContentService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoContentService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoItemWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
-    <file type="web" url="file://$PROJECT_DIR$/taotaoManager/taotaoManagerService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoManagerService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoManagerWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoOrder/taotaoOrderService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoOrderService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoOrderWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoPortalWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSearch/taotaoSearchService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoSearchService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSearchWeb" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSso/taotaoSsoService" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaoSsoService" />
     <file type="web" url="file://$PROJECT_DIR$/taotaoSsoWeb" />
   </component>
   <component name="MavenProjectsManager">
@@ -35,10 +39,17 @@
         <option value="$PROJECT_DIR$/taotaoCartWeb/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoOrder/pom.xml" />
         <option value="$PROJECT_DIR$/taotaoOrderWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaoSearch/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/taotaoParent/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

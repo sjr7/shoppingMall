@@ -8,10 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisGenerator" />
         <module name="pagehelper-fix" />
+        <module name="taotao-content-interface" />
+        <module name="taotao-content-service" />
         <module name="taotao-manager-dao" />
         <module name="taotao-manager-interface" />
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
+        <module name="taotao-order-interface" />
+        <module name="taotao-order-service" />
+        <module name="taotao-search-interface" />
+        <module name="taotao-search-service" />
+        <module name="taotao-sso-interface" />
+        <module name="taotao-sso-service" />
         <module name="taotaoCartWeb" />
         <module name="taotaoCommon" />
         <module name="taotaoContentInterface" />
@@ -38,12 +46,20 @@
     <bytecodeTargetLevel>
       <module name="mybatisGenerator" target="1.5" />
       <module name="pagehelper-fix" target="1.7" />
+      <module name="taotao-content-interface" target="1.7" />
+      <module name="taotao-content-service" target="1.7" />
       <module name="taotao-manager" target="1.7" />
       <module name="taotao-manager-dao" target="1.7" />
       <module name="taotao-manager-interface" target="1.7" />
       <module name="taotao-manager-pojo" target="1.7" />
       <module name="taotao-manager-service" target="1.7" />
+      <module name="taotao-order-interface" target="1.7" />
+      <module name="taotao-order-service" target="1.7" />
       <module name="taotao-parent" target="1.7" />
+      <module name="taotao-search-interface" target="1.7" />
+      <module name="taotao-search-service" target="1.7" />
+      <module name="taotao-sso-interface" target="1.7" />
+      <module name="taotao-sso-service" target="1.7" />
       <module name="taotaoCartWeb" target="1.7" />
       <module name="taotaoCommon" target="1.7" />
       <module name="taotaoContent" target="1.7" />

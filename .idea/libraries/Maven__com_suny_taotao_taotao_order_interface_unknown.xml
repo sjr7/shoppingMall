@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.suny.taotao:taotao-order-interface:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-order-interface/unknown/taotao-order-interface-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-order-interface/unknown/taotao-order-interface-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-order-interface/unknown/taotao-order-interface-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

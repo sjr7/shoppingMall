@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="taotaoSearchService:war exploded">
     <output-path>$PROJECT_DIR$/taotaoSearch/taotaoSearchService/target/taotao-search-service</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>taotaoSearchService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -17,7 +24,6 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.4.2-fix" />
-          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
           <element id="archive" name="taotao-search-interface-1.0-SNAPSHOT.jar">

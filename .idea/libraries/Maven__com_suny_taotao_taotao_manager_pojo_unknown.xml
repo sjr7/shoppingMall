@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.suny.taotao:taotao-manager-pojo:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-manager-pojo/unknown/taotao-manager-pojo-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-manager-pojo/unknown/taotao-manager-pojo-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suny/taotao/taotao-manager-pojo/unknown/taotao-manager-pojo-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
