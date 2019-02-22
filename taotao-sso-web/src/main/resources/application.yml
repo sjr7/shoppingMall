@@ -1,0 +1,8 @@
+# ±£¥ÊCookie÷–±£¥Êtoken
+JWT:
+  TOKEN_KEY: TT_TOKEN
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp

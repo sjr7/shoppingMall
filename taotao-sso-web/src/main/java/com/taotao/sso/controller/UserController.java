@@ -25,8 +25,8 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class UserController {
     private final UserService userService;
-    @Value("${TOKEN_KEY}")
-    private String TOKEN_KEY;
+    @Value("${JWT:TOKEN_KEY}")
+    private static String TOKEN_KEY;
 
     @Autowired
     public UserController(UserService userService) {

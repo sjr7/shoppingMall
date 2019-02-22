@@ -8,22 +8,6 @@
 
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <!--加载配置文件-->
-    <context:property-placeholder location="classpath:resource/resource.properties"/>
-    <!--扫描包-->
-    <context:component-scan base-package="com.taotao.sso.controller"/>
-
-
-    <!--配置注解驱动-->
-    <mvc:annotation-driven/>
-    <!--静态资源过滤-->
-    <!--<mvc:default-servlet-handler/>-->
-    <!--配置视图解析器-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/"/>
-        <property name="suffix" value=".jsp"/>
-    </bean>
-
     <!--资源配置-->
     <mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
     <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
