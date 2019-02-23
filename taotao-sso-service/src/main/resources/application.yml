@@ -1,0 +1,60 @@
+
+spring:
+  application:
+    name: taotao-sso
+  profiles:
+    active: dev
+
+#redis中用户session的前缀
+USER_SESSION: USER_SESSION
+
+#Session的过期时间
+SESSION_EXPIRE: 1800
+
+#mybatis entity scan packages
+mybatis:
+  type-aliases-package:  com.taotao.mapper
+  mapper-locations: classpath*:/*Mapper.xml
+
+
+# debug for PageHelper library
+logging:
+  level:
+    com.bswen.sbmp: debug
+    com.github.pagehelper: debug
+    org.springframework.web: debug
+    org.springframework.transaction: debug
+    org.mybatis: debug
+
+
+#pagehelper plugin configuration
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+
+# Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
+
+embedded:
+  zookeeper:
+   port : 2181
+dubbo:
+  scan:
+    base-packages: com.taotao.sso.service
+# Dubbo Protocol 用dubbo协议在20880端口暴露服务
+  protocol:
+    name: dubbo
+    port: 20883
+## Dubbo Registry
+  registry:
+    address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
+#    protocol: zookeeper
+
+
+## sso service version
+sso:
+  service:
+    version: 1.0.0

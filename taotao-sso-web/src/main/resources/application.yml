@@ -1,4 +1,3 @@
-# ����Cookie�б���token
 JWT:
   TOKEN_KEY: TT_TOKEN
 spring:
@@ -6,3 +5,29 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+  application:
+    name: taotao-sso-web
+
+
+embedded:
+  zookeeper:
+    port: 2181
+
+
+# Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
+dubbo:
+  scan:
+    base-packages: com.taotao.sso.controller
+  ## Dubbo Registry
+  registry:
+    address:  zookeeper://127.0.0.1:${embedded.zookeeper.port}
+#    protocol: zookeeper
+  consumer:
+    timeout: 1000
+    check: true                          # 服务启动时检查被调用服务是否可用
+    retries: 2                           # 服务调用重试次数
+
+## sso service version
+sso:
+  service:
+    version: 1.0.0

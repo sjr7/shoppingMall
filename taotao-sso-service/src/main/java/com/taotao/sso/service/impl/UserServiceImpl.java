@@ -21,7 +21,7 @@ import java.util.UUID;
  * 用户处理Service实现类
  * Created by 孙建荣 on 17-6-18.下午4:53
  */
-@Service
+@org.apache.dubbo.config.annotation.Service(version = "${sso.service.version}",timeout = 300000)
 public class UserServiceImpl implements UserService {
     private final JedisClient jedisClient;
     private final TbUserMapper tbUserMapper;

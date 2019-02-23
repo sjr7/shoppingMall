@@ -1,0 +1,19 @@
+## set connection database info
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/taotao
+    password: root
+    username: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    maxActive: 10
+    minIdle: 5
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+    password: secret
+    timeout: 10000
+
+

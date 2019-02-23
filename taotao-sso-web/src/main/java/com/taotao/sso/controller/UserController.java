@@ -6,6 +6,7 @@ import com.taotao.common.utils.JsonUtils;
 import com.taotao.pojo.TbUser;
 import com.taotao.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
@@ -24,14 +25,11 @@ import javax.servlet.http.HttpServletResponse;
  */
 @Controller
 public class UserController {
-    private final UserService userService;
+    @Reference(version = "${sso.service.version}")
+    private  UserService userService;
     @Value("${JWT:TOKEN_KEY}")
     private static String TOKEN_KEY;
 
-    @Autowired
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
 
     /**
      * 根据token查询用户信息
