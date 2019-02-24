@@ -10,7 +10,7 @@ import com.taotao.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
@@ -21,6 +21,7 @@ import java.util.UUID;
  * 用户处理Service实现类
  * Created by 孙建荣 on 17-6-18.下午4:53
  */
+@Component
 @org.apache.dubbo.config.annotation.Service(version = "${sso.service.version}",timeout = 300000)
 public class UserServiceImpl implements UserService {
     private final JedisClient jedisClient;

@@ -7,7 +7,6 @@ import com.taotao.pojo.TbUser;
 import com.taotao.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -26,7 +25,7 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class UserController {
     @Reference(version = "${sso.service.version}")
-    private  UserService userService;
+    private UserService userService;
     @Value("${JWT:TOKEN_KEY}")
     private static String TOKEN_KEY;
 

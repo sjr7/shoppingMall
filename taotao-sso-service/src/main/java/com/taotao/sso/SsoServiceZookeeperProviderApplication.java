@@ -1,6 +1,7 @@
 package com.taotao.sso;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
 import org.springframework.context.ApplicationListener;
@@ -11,7 +12,8 @@ import org.springframework.core.env.Environment;
  * @author sunjianrong
  * @date 19-2-23 下午3:45
  */
-@EnableAutoConfiguration
+@SpringBootApplication
+@EnableDubboConfig
 public class SsoServiceZookeeperProviderApplication {
 
     public static void main(String[] args) {
