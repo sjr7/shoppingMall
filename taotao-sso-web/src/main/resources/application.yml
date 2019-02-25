@@ -14,8 +14,8 @@ embedded:
 
 # Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
 dubbo:
-  scan:
-    base-packages: com.taotao.sso.controller
+#  scan:
+#    base-packages: com.taotao.sso.controller
   ## Dubbo Registry
   registry:
     address:  zookeeper://127.0.0.1:${embedded.zookeeper.port}

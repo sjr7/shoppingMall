@@ -45,9 +45,9 @@ dubbo:
   scan:
     base-packages: com.taotao.sso.service
 # Dubbo Protocol 用dubbo协议在20880端口暴露服务
-  protocol:
-    name: dubbo
-    port: 20883
+#  protocol:
+#    name: dubbo
+#    port: 20883
 ## Dubbo Registry
   registry:
     address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
