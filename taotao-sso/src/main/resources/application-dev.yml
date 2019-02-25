@@ -1,13 +1,12 @@
 ## set connection database info
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/taotao
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/taotao?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     password: root
     username: root
     type: com.alibaba.druid.pool.DruidDataSource
-    maxActive: 10
-    minIdle: 5
+
 
   redis:
     host: 127.0.0.1

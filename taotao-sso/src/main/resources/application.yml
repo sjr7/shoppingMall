@@ -4,6 +4,8 @@ spring:
     name: taotao-sso
   profiles:
     active: dev
+server:
+  port: 8089
 
 #redis中用户session的前缀
 USER_SESSION: USER_SESSION
@@ -13,7 +15,7 @@ SESSION_EXPIRE: 1800
 
 #mybatis entity scan packages
 mybatis:
-  type-aliases-package:  com.taotao.mapper
+  type-aliases-package:  com.taotao.pojo
   mapper-locations: classpath*:/*Mapper.xml
 
 
