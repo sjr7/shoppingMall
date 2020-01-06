@@ -6,14 +6,12 @@
         <groupId>com.suny.taotao</groupId>
         <artifactId>taotao-parent</artifactId>
         <version>2.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>taotao-manager-pojo</artifactId>
     <packaging>jar</packaging>
     <version>2.0-SNAPSHOT</version>
-
-
 
 
 </project>
