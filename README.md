@@ -119,7 +119,7 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
          <constructor-arg name="host" value="127.0.0.1"/>
          <constructor-arg name="port" value="6379"/>
      </bean>
-     <bean id="jedisClientPool" class="com.taotao.jedis.JedisClientPool"/>
+     <bean id="jedisClientPool" class="JedisClientPool"/>
 
     <!-- 2.集群版的配置 -->
     <!-- <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
@@ -152,7 +152,7 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
             </set>
         </constructor-arg>
     </bean>
-    <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>    -->
+    <bean id="jedisClientCluster" class="JedisClientCluster"/>    -->
  </beans>
 ```
 可以发现这里其实是配置一个`单机版`跟`集群版`的两个配置,然后这里是使用了`单机版`的，所以的话集群是使用不了的,然后就会出现这个错误了，把`单机版`的配置注释掉，再把`集群版`的**取消注释**就可以了,如下:
@@ -167,7 +167,7 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
          <constructor-arg name="host" value="127.0.0.1"/>
          <constructor-arg name="port" value="6379"/>
      </bean>
-     <bean id="jedisClientPool" class="com.taotao.jedis.JedisClientPool"/>    -->
+     <bean id="jedisClientPool" class="JedisClientPool"/>    -->
 
     <!-- 2.集群版的配置 -->
      <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
@@ -200,7 +200,7 @@ redis.clients.jedis.exceptions.JedisMovedDataException: MOVED 11149 127.0.0.1:70
             </set>
         </constructor-arg>
     </bean>
-    <bean id="jedisClientCluster" class="com.taotao.jedis.JedisClientCluster"/>   
+    <bean id="jedisClientCluster" class="JedisClientCluster"/>   
 </beans>
 ````
 ### ⑤ 页面EL表达式无效问题

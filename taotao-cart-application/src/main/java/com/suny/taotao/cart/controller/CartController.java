@@ -1,12 +1,12 @@
 package com.suny.taotao.cart.controller;
 
-import com.taotao.common.pojo.TaotaoResult;
-import com.taotao.common.utils.CookieUtils;
-import com.taotao.common.utils.JsonUtils;
-import com.taotao.pojo.TbItem;
-import com.taotao.service.ItemService;
+import com.suny.taotao.common.pojo.TaotaoResult;
+import com.suny.taotao.common.utils.CookieUtils;
+import com.suny.taotao.common.utils.JsonUtils;
+import com.suny.taotao.manager.pojo.TbItem;
+import com.suny.taotao.manager.service.ItemService;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,7 +31,8 @@ public class CartController {
     @Value("${CART_EXPIRE}")
     private Integer CART_EXPIRE;
 
-    private  ItemService itemService;
+    @Reference
+    private ItemService itemService;
 
 
     @RequestMapping(value = "/cart/delete/{itemId}")

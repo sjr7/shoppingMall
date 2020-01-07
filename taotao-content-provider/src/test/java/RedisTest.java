@@ -3,6 +3,7 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisCluster;
 import redis.clients.jedis.JedisPool;
 
+import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,7 +13,7 @@ import java.util.Set;
  */
 public class RedisTest {
 //    @Test
-    public void testJedisCluster() {
+    public void testJedisCluster() throws IOException {
         Set<HostAndPort> nodes = new HashSet<>();
         nodes.add(new HostAndPort("127.0.0.1", 6379));
         nodes.add(new HostAndPort("127.0.0.1", 7000));

@@ -1,7 +1,7 @@
 package com.suny.taotao.content.service;
 
-import com.taotao.common.pojo.EasyUITreeNode;
-import com.taotao.common.pojo.TaotaoResult;
+import com.suny.taotao.common.pojo.EasyUITreeNode;
+import com.suny.taotao.common.pojo.TaotaoResult;
 
 import java.util.List;
 

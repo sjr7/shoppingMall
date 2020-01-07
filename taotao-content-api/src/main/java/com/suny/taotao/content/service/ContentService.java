@@ -1,7 +1,7 @@
 package com.suny.taotao.content.service;
 
-import com.taotao.common.pojo.TaotaoResult;
-import com.taotao.pojo.TbContent;
+import com.suny.taotao.common.pojo.TaotaoResult;
+import com.suny.taotao.manager.pojo.TbContent;
 
 import java.util.List;
 

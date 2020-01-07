@@ -38,6 +38,7 @@
 
         <module>taotao-search-api</module>
         <module>taotao-search-provider</module>
+        <module>taotao-search-application</module>
 
         <module>taotao-sso-api</module>
         <module>taotao-sso-provider</module>
@@ -69,6 +70,8 @@
         <zk-client.version>0.1</zk-client.version>
 
         <dubbo.spring.boot.starter.version>2.7.4.1</dubbo.spring.boot.starter.version>
+
+        <org.apache.solr.version>8.3.1</org.apache.solr.version>
 
         <!--  poi相关-->
         <poi.version>3.15</poi.version>
@@ -120,6 +123,8 @@
 
         <!--  CXF  -->
         <cxf.version>3.1.15</cxf.version>
+
+        <org.csource.fastdfs-client-java.version>1.27-SNAPSHOT</org.csource.fastdfs-client-java.version>
     </properties>
 
     <dependencies>

@@ -1,15 +1,6 @@
-import org.apache.solr.client.solrj.SolrQuery;
-import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.HttpSolrServer;
-import org.apache.solr.client.solrj.response.QueryResponse;
-import org.apache.solr.common.SolrDocument;
-import org.apache.solr.common.SolrDocumentList;
-import org.apache.solr.common.SolrInputDocument;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by 孙建荣 on 17-6-15.下午8:26
@@ -18,7 +9,7 @@ public class TestSolrJ {
 
     //    @Test
     public void testAddDocument() throws IOException, SolrServerException {
-        // 创建SolrServer对象连接，创建一个HttpSolrServer
+      /*  // 创建SolrServer对象连接，创建一个HttpSolrServer
         SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
         // 需要指定solr服务的url
         // 创建一个文档对象SOlrInputDocument对象
@@ -30,26 +21,26 @@ public class TestSolrJ {
         // 把文档对象写入索引库
         solrServer.add(document);
         // 提交
-        solrServer.commit();
+        solrServer.commit();*/
     }
 
     //    @Test
     public void testDelDocument() throws IOException, SolrServerException {
-        SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
+       /* SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
         solrServer.deleteById("test001");
-        solrServer.commit();
+        solrServer.commit();*/
     }
 
     //    @Test
     public void testDelByQuery() throws IOException, SolrServerException {
-        SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
+       /* SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
         solrServer.deleteByQuery("");
-        solrServer.commit();
+        solrServer.commit();*/
     }
 
-//    @Test
+    //    @Test
     public void searchDocument() throws SolrServerException {
-        // 创建SOlrServer对象
+        /*// 创建SOlrServer对象
         SolrServer solrServer = new HttpSolrServer("http://127.0.0.1:9000/solr/collection1");
         // 创建SolrQuery对象
         SolrQuery solrQuery = new SolrQuery();
@@ -88,7 +79,7 @@ public class TestSolrJ {
             System.out.println(solrDocument.get("item_price"));
             System.out.println(solrDocument.get("item_image"));
             System.out.println(solrDocument.get("item_category_name"));
-        }
+        }*/
     }
 
 }

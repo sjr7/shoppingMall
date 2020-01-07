@@ -1,34 +1,28 @@
+server:
+  servlet:
+    application-display-name: taotao-sso-application
+  port: 8090
+
 spring:
+  freemarker:
+    template-loader-path: classpath:/templates
   mvc:
+    static-path-pattern: /static/**
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
-  application:
-    name: taotao-sso-web
-server:
-  port: 8090
 
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+  scan:
+    base-packages: com.suny.taotao.order
+  application:
+    name: taotao-sso-application
 embedded:
   zookeeper:
     port: 2181
-
-# Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
-dubbo:
-#  scan:
-#    base-packages: com.taotao.sso.controller
-  ## Dubbo Registry
-  registry:
-    address:  zookeeper://127.0.0.1:${embedded.zookeeper.port}
-#    protocol: zookeeper
-  consumer:
-    timeout: 1000
-    check: true                          # 服务启动时检查被调用服务是否可用
-    retries: 2                           # 服务调用重试次数
-
-## sso service version
-sso:
-  service:
-    version: 1.0.0
-
-JWT:
-  TOKEN_KEY: TT_TOKEN

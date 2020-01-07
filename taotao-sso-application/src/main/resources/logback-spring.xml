@@ -3,13 +3,12 @@
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
 
     <springProfile name="dev">
-        <logger name="com.taotao.sso" level="DEBUG">
+        <logger name="com.suny.taotao" level="DEBUG">
         </logger>
     </springProfile>
 
     <springProfile name="prod">
-        <logger name="com.taotao.sso" level="INFO">
-            <appender-ref ref="FILE"/>
+        <logger name="com.suny.taotao" level="INFO">
         </logger>
     </springProfile>
 

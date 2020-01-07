@@ -1,0 +1,36 @@
+server:
+  servlet:
+    application-display-name: taotao-portal-application
+  port: 8084
+
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+  scan:
+    base-packages: com.suny.taotao.order
+  application:
+    name: taotao-portal-application
+embedded:
+  zookeeper:
+    port: 2181
+
+IMAGE_SERVER_URL: http://0.0.0.0/
+# 首页大广告id
+AD1_CATEGORY_ID: 89
+AD1_WIDTH: 670
+AD1_WIDTH_B: 550
+AD1_HEIGHT: 240
+AD1_HEIGHT_B: 240

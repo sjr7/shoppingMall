@@ -1,6 +1,4 @@
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.CloudSolrServer;
-import org.apache.solr.common.SolrInputDocument;
 
 import java.io.IOException;
 
@@ -11,7 +9,7 @@ public class TestSolrCloud {
 
 //    @Test
     public void testSolrCloundAdDocument() throws IOException, SolrServerException {
-        // 创建一个CloudSolrServer对象，构建方法中需要指定zookeeper的地址列表
+       /* // 创建一个CloudSolrServer对象，构建方法中需要指定zookeeper的地址列表
         CloudSolrServer solrServer = new CloudSolrServer("127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183");
         // 需要配置默认的
         solrServer.setDefaultCollection("collection1");
@@ -24,7 +22,7 @@ public class TestSolrCloud {
         // 把文档对象写入索引库
         solrServer.add(solrInputDocument);
         // 提交
-        solrServer.commit();
+        solrServer.commit();*/
     }
 }
 

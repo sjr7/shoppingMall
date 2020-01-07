@@ -1,0 +1,62 @@
+server:
+  servlet:
+    application-display-name: taotao-search-provider
+
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: "yyyy-MM-dd HH:mm:ss"
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: FoNjfRQFtijmjpEI
+      url: jdbc:mysql://localhost:3307/taotao?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+  redis:
+    timeout: 5000
+    host: 127.0.0.1
+    port: 6379
+  data:
+    solr:
+      host: http://localhost:8080/solr/
+  activemq:
+    broker-url: tcp://localhost:61616
+    in-memory: false
+    pool:
+      enabled: true
+      idle-timeout: 30000
+      max-connections: 10
+
+mybatis:
+  mapper-locations: com/suny/taotao/**/mapper/**/*.xml
+  type-aliases-package: com.suny.taotao
+  configuration:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  params: count=countSql
+  support-methods-arguments: true
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+  scan:
+    base-packages: com.suny.taotao.content.service.impl.content.service
+  application:
+    name: taotao-search-provider
+embedded:
+  zookeeper:
+    port: 2181
