@@ -1,6 +1,7 @@
 package com.suny.taotao.manager;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.scheduling.annotation.EnableAsync;
 
@@ -8,7 +9,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
  * @author sunjianrong
  * @date 2020-01-07 14:03
  */
-@EnableAutoConfiguration
+@SpringBootApplication
+@EnableDubboConfig
 @EnableAsync
 public class TaotaoManagerApplication {
 

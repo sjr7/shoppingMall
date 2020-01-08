@@ -1,7 +1,7 @@
 server:
   servlet:
     application-display-name: taotao-cart-application
-  port: 8091
+  port: 8001
 
 spring:
    mvc:
@@ -10,14 +10,16 @@ spring:
      suffix: .jsp
 
 dubbo:
+  metadata-report:
+    address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
   protocol:
     name: dubbo
     port: 20881
   registry:
     address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
-    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+    file: ${user.home}/dubbo-cache/${dubbo.application.name}/dubbo.cache
   scan:
-    base-packages: com.suny.taotao.content.service.impl.content.service
+    base-packages: com.suny.taotao
   application:
     name: taotao-cart-application
 embedded:

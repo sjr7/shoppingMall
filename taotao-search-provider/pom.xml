@@ -78,6 +78,13 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${org.apache.curator.curator-recipes.version}</version>
+        </dependency>
+
+
         <!--添加solrJ的依赖-->
 
         <dependency>

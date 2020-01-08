@@ -1,7 +1,7 @@
 server:
   servlet:
     application-display-name: taotao-sso-application
-  port: 8090
+  port: 8011
 
 spring:
   freemarker:
@@ -13,12 +13,14 @@ spring:
       suffix: .jsp
 
 dubbo:
+  metadata-report:
+    address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
   protocol:
     name: dubbo
-    port: 20881
+    port: 20891
   registry:
     address: zookeeper://127.0.0.1:${embedded.zookeeper.port}
-    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+    file: ${user.home}/dubbo-cache/${dubbo.application.name}/dubbo.cache
   scan:
     base-packages: com.suny.taotao.order
   application:
